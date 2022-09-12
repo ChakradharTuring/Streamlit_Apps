@@ -9,6 +9,7 @@ lib/
 lib64/
 var/
 MANIFEST
+.DS_Store
 
 # Jupyter Notebook
 .ipynb_checkpoints
