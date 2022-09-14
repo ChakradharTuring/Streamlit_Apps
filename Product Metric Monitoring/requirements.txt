@@ -65,12 +65,13 @@ pytz-deprecation-shim==0.1.0.post0
 requests==2.28.1
 rich==12.5.1
 rsa==4.9
+rsconnect-python==1.10.0
 semver==2.13.0
 setuptools-git==1.2
 six==1.16.0
 smmap==5.0.0
 soupsieve==2.3.2.post1
-streamlit==1.12.2
+streamlit==1.10.0
 tenacity==8.0.1
 toml==0.10.2
 toolz==0.12.0

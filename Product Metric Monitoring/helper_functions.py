@@ -6,7 +6,7 @@ def get_anomalous_metrics(anomalies):
         anomalies (dict): Data predictions and the actual values by the model
 
     Returns:
-         (dict): Sorted list of metrics which are anomalous. 
+         (list): Sorted list of metrics which are anomalous. 
     """
 
     if no_anomalies(anomalies):

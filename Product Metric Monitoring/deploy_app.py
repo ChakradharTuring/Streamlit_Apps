@@ -51,37 +51,53 @@ def page_anomalies(supply_forecasts, matching_forecasts, selfserv_forecasts, sup
     anomaly_page = st.radio('Choose Product:', anomaly_options, horizontal=True)
     
     if anomaly_page == 'Supply':
-        render_anomaly(supply_metrics, supply_forecasts)
+        render_anomaly(supply_metrics, supply_forecasts, ['Manually Select', 'RoW', 'LATAM'])
     
     if anomaly_page == 'Matching':
-        render_anomaly(matching_metrics, matching_forecasts)
+        render_anomaly(matching_metrics, matching_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Platinum New', 'Platinum Existing', 'Others'])
         
     if anomaly_page == 'SefServ':
-        render_anomaly(selfserv_metrics, selfserv_forecasts)
+        render_anomaly(selfserv_metrics, selfserv_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Platinum New', 'Platinum Existing', 'Others'])
 
     
-def render_anomaly(metrics, forecasts):
+def render_anomaly(metrics, forecasts, metric_category_list):
     """
     This function shows all the available anomalies and gives the user option to select the anomaly they want to see.  
     
     Args:
         metrics (dict): Dictionary having actual values of the metrics.  
         forecasts (dict): Dictionary having predictions for the metrics.  
+        metric_category_list (list): This is the list of defined categories that we have here at Turing, such as RoW, LATAM, Platinum Existing etc. 
     """
 
     anomalous_metrics = get_anomalous_metrics(forecasts)
     
     metrics_list = []
+    for metric, _ in forecasts.items():
+        metrics_list.append(metric)
+        globals()[metric] = False
+
     if anomalous_metrics[0] == 'No Anomalies':
         st.write('No Anomalies')
     else:
-        for metric, _ in forecasts.items():
-            metrics_list.append(metric)
-            globals()[metric] = False
-
-        anomalous_metric_list = st.multiselect('Choose the anomalies you want to see:', anomalous_metrics)
-        for anomalous_metric in anomalous_metric_list:
-            globals()[anomalous_metric] = True
+        metric_category = st.radio('Choose the anomalies you want to see:', metric_category_list, horizontal=True)
+        
+        if metric_category == 'Others':
+            for anomalous_metric in anomalous_metrics:
+                globals()[anomalous_metric] = True
+                names = ['fss_new', 'fss_existing', 'platinum_new', 'platinum_existing']
+                for name in names:
+                    if name in anomalous_metric:
+                        globals()[anomalous_metric] = False
+        elif metric_category != 'Manually Select':
+            for anomalous_metric in anomalous_metrics:
+                name = metric_category.lower().replace(' ', '_')
+                if name in anomalous_metric:
+                    globals()[anomalous_metric] = True
+        else:
+            anomalous_metric_list = st.multiselect('', anomalous_metrics)
+            for anomalous_metric in anomalous_metric_list:
+                globals()[anomalous_metric] = True
         
         generate_graphs(metrics_list, forecasts, metrics)
 

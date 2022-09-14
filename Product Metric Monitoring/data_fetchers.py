@@ -37,8 +37,8 @@ def get_glossary():
       , 'seniority_assessment_drop_off_latam': 'No. of developers who dropped off after starting seniority assessment test from LATAM region'
       , 'devs_taking_mcqs_row': 'No. of developers who started taking technical MCQs from RoW region'
       , 'devs_taking_mcqs_latam': 'No. of developers who started taking technical MCQs from LATAM region'
-      , 'devs_taking_demand_forecasted_row': 'No. of developers taking mcqs which are expected to be in demand from RoW region'
-      , 'devs_taking_demand_forecasted_latam': 'No. of developers taking mcqs which are expected to be in demand from LATAM region'
+      , 'devs_taking_demand_forecasted_mcq_row': 'No. of developers taking mcqs which are expected to be in demand from RoW region'
+      , 'devs_taking_demand_forecasted_mcq_latam': 'No. of developers taking mcqs which are expected to be in demand from LATAM region'
       , 'mcq_dropoff_row': 'No. of developers who are dropping in between mcqs from RoW region'
       , 'mcq_dropoff_latam': 'No. of developers who are dropping in between mcqs from LATAM region'
       , 'devs_passing_mcqs_row': 'No. of developers who are passing in mcqs from RoW region'
@@ -116,7 +116,6 @@ def get_selfserv_data():
         (dict): Containing all the metric names and their data pairs. 
     """
 
-    self_serve_pool_row, self_serve_pool_latam = get_self_serve_pool()
     ss_interview_requests_fss_existing, ss_interview_requests_fss_new, ss_interview_requests_platinum_existing, ss_interview_requests_platinum_new = get_ss_interview_requests()
     ss_interviews_happened_fss_existing, ss_interviews_happened_fss_new, ss_interviews_happened_platinum_existing, ss_interviews_happened_platinum_new = get_ss_interviews_happened()
     ss_devs_chosen_fss_existing, ss_devs_chosen_fss_new, ss_devs_chosen_platinum_existing, ss_devs_chosen_platinum_new = get_ss_devs_chosen()
@@ -126,9 +125,7 @@ def get_selfserv_data():
     #ss_client_latency_perc50 = get_ss_client_latency()
 
     selfserv_data = {
-        'self_serve_pool_row': self_serve_pool_row
-      , 'self_serve_pool_latam': self_serve_pool_latam
-      , 'ss_interview_requests_fss_existing': ss_interview_requests_fss_existing
+        'ss_interview_requests_fss_existing': ss_interview_requests_fss_existing
       , 'ss_interview_requests_fss_new': ss_interview_requests_fss_new
       , 'ss_interview_requests_platinum_existing': ss_interview_requests_platinum_existing
       , 'ss_interview_requests_platinum_new': ss_interview_requests_platinum_new
@@ -207,7 +204,7 @@ def get_supply_data():
     seniority_assessment_taken_row, seniority_assessment_taken_latam = get_seniority_assessment_taken()
     seniority_assessment_drop_off_row, seniority_assessment_drop_off_latam = get_seniority_assessment_drop_off()
     devs_taking_mcqs_row, devs_taking_mcqs_latam = get_devs_taking_mcqs()
-    devs_taking_demand_forecasted_row, devs_taking_demand_forecasted_latam = get_devs_taking_demand_forecasted_mcqs()
+    devs_taking_demand_forecasted_mcqs_row, devs_taking_demand_forecasted_mcqs_latam = get_devs_taking_demand_forecasted_mcqs()
     mcq_dropoff_row, mcq_dropoff_latam = get_mcq_dropoff()
     devs_passing_mcqs_row, devs_passing_mcqs_latam = get_devs_passing_mcqs()
     devs_passing_demand_forecasted_mcqs_row, devs_passing_demand_forecasted_mcqs_latam = get_devs_passing_demand_forecasted_mcqs()
@@ -219,6 +216,7 @@ def get_supply_data():
     resume_updates_row, resume_updates_latam = get_resume_updates()
     p2_taking_mcq_row, p2_taking_mcq_latam = get_p2_taking_mcq()
     p2_passing_mcq_row, p2_passing_mcq_latam = get_p2_passing_mcq()
+    self_serve_pool_row, self_serve_pool_latam = get_self_serve_pool()
 
     supply_data = {
         'total_signups_row': total_signups_row
@@ -233,8 +231,8 @@ def get_supply_data():
       , 'seniority_assessment_drop_off_latam': seniority_assessment_drop_off_latam
       , 'devs_taking_mcqs_row': devs_taking_mcqs_row
       , 'devs_taking_mcqs_latam': devs_taking_mcqs_latam
-      , 'devs_taking_demand_forecasted_row': devs_taking_demand_forecasted_row
-      , 'devs_taking_demand_forecasted_latam': devs_taking_demand_forecasted_latam
+      , 'devs_taking_demand_forecasted_mcqs_row': devs_taking_demand_forecasted_mcqs_row
+      , 'devs_taking_demand_forecasted_mcqs_latam': devs_taking_demand_forecasted_mcqs_latam
       , 'mcq_dropoff_row': mcq_dropoff_row
       , 'mcq_dropoff_latam': mcq_dropoff_latam
       , 'devs_passing_mcqs_row': devs_passing_mcqs_row
@@ -257,6 +255,8 @@ def get_supply_data():
       , 'p2_taking_mcq_latam': p2_taking_mcq_latam
       , 'p2_passing_mcq_row': p2_passing_mcq_row
       , 'p2_passing_mcq_latam': p2_passing_mcq_latam
+      , 'self_serve_pool_row': self_serve_pool_row
+      , 'self_serve_pool_latam': self_serve_pool_latam
     }
     
     return supply_data
