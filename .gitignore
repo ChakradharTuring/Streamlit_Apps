@@ -11,6 +11,12 @@ var/
 MANIFEST
 .DS_Store
 
+# RStudio Data 
+.RData
+PDSA.Rproj/
+rsconnect-python/
+.Rproj.user
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -20,4 +26,3 @@ MANIFEST
 # Environments
 .venv
 .env
-
