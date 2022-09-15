@@ -1,8 +1,12 @@
 from deploy_app import make_app
-from env import API_KEY
+from dotenv import load_dotenv
 from helper_functions import change_dict_df
+import os
 import pins
 import streamlit as st
+
+
+load_dotenv()
 
 
 @st.cache(ttl=60*60*6, suppress_st_warning=True)
@@ -11,7 +15,7 @@ def read_data():
     Function to read automated dataframes.  
     """
     
-    board = pins.board_rsconnect(server_url='https://rstudio-connect.turing.com/', api_key=API_KEY, allow_pickle_read=True)
+    board = pins.board_rsconnect(server_url='https://rstudio-connect.turing.com/', api_key=os.getenv("API_KEY"), allow_pickle_read=True)
 
     supply_metrics = change_dict_df(board.pin_read('bhanu_mittal/janus_supply_data'))
     matching_metrics = change_dict_df(board.pin_read('bhanu_mittal/janus_matching_data'))
