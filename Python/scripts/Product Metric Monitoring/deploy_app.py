@@ -54,10 +54,10 @@ def page_anomalies(supply_forecasts, matching_forecasts, selfserv_forecasts, sup
         render_anomaly(supply_metrics, supply_forecasts, ['Manually Select', 'RoW', 'LATAM'])
     
     if anomaly_page == 'Matching':
-        render_anomaly(matching_metrics, matching_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Platinum New', 'Platinum Existing', 'Others'])
+        render_anomaly(matching_metrics, matching_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
         
     if anomaly_page == 'SefServ':
-        render_anomaly(selfserv_metrics, selfserv_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Platinum New', 'Platinum Existing', 'Others'])
+        render_anomaly(selfserv_metrics, selfserv_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
 
     
 def render_anomaly(metrics, forecasts, metric_category_list):
@@ -81,19 +81,25 @@ def render_anomaly(metrics, forecasts, metric_category_list):
         st.write('No Anomalies')
     else:
         metric_category = st.radio('Choose the anomalies you want to see:', metric_category_list, horizontal=True)
+        show_all = st.checkbox('Show All Metrics in this category (irrespective of it being an anomaly)?')
+        
+        if show_all:
+            concerned_metrics = metrics_list.copy()
+        else:
+            concerned_metrics = anomalous_metrics.copy() 
         
         if metric_category == 'Others':
-            for anomalous_metric in anomalous_metrics:
-                globals()[anomalous_metric] = True
-                names = ['fss_new', 'fss_existing', 'platinum_new', 'platinum_existing']
+            for metric in concerned_metrics:
+                globals()[metric] = True
+                names = ['fss_new', 'fss_existing', 'enterprise_new', 'enterprise_existing']
                 for name in names:
-                    if name in anomalous_metric:
-                        globals()[anomalous_metric] = False
+                    if name in metric:
+                        globals()[metric] = False
         elif metric_category != 'Manually Select':
-            for anomalous_metric in anomalous_metrics:
+            for metric in concerned_metrics:
                 name = metric_category.lower().replace(' ', '_')
-                if name in anomalous_metric:
-                    globals()[anomalous_metric] = True
+                if name in metric:
+                    globals()[metric] = True
         else:
             anomalous_metric_list = st.multiselect('', anomalous_metrics)
             for anomalous_metric in anomalous_metric_list:

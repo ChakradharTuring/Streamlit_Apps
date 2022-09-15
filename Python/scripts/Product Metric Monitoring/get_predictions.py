@@ -1,4 +1,5 @@
 import datetime
+import numpy as np
 import pandas as pd
 from prophet import Prophet
 
@@ -32,6 +33,7 @@ def run_prophet(data):
         model.add_country_holidays(country_name='US')
         
     model.fit(data[data['ds'] < week_ago])
+    np.random.seed(16)
     forecast = model.predict(data)
     
     performance = pd.merge(data, forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']], on='ds')

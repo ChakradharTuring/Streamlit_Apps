@@ -63,43 +63,43 @@ def get_glossary():
       , 'self_serve_pool_latam': 'No. of developers in the self serve pool from the LATAM region'
       , 'ss_interview_requests_fss_existing': 'No. of interview requests from the SS Pool by FSS Existing category'
       , 'ss_interview_requests_fss_new': 'No. of interview requests from the SS Pool by FSS New category'
-      , 'ss_interview_requests_platinum_existing': 'No. of interview requests from the SS Pool by Enterprise Existing category'
-      , 'ss_interview_requests_platinum_new': 'No. of interview requests from the SS Pool by Enterprise New category'
+      , 'ss_interview_requests_enterprise_existing': 'No. of interview requests from the SS Pool by Enterprise Existing category'
+      , 'ss_interview_requests_enterprise_new': 'No. of interview requests from the SS Pool by Enterprise New category'
       , 'ss_interviews_happened_fss_existing': 'No. of interview happened from the SS Pool by FSS Existing category'
       , 'ss_interviews_happened_fss_new': 'No. of interview happened from the SS Pool by FSS New category'
-      , 'ss_interviews_happened_platinum_existing': 'No. of interview happened from the SS Pool by Enterprise Existing category'
-      , 'ss_interviews_happened_platinum_new': 'No. of interview happened from the SS Pool by Enterprise New category'
+      , 'ss_interviews_happened_enterprise_existing': 'No. of interview happened from the SS Pool by Enterprise Existing category'
+      , 'ss_interviews_happened_enterprise_new': 'No. of interview happened from the SS Pool by Enterprise New category'
       , 'ss_devs_chosen_fss_existing': 'No. of devs chosen from the SS Pool by FSS Existing category'
       , 'ss_devs_chosen_fss_new': 'No. of devs chosen from the SS Pool by FSS New category'
-      , 'ss_devs_chosen_platinum_existing': 'No. of devs chosen from the SS Pool by Enterprise Existing category'
-      , 'ss_devs_chosen_platinum_new': 'No. of devs chosen from the SS Pool by Enterprise New category'
+      , 'ss_devs_chosen_enterprise_existing': 'No. of devs chosen from the SS Pool by Enterprise Existing category'
+      , 'ss_devs_chosen_enterprise_new': 'No. of devs chosen from the SS Pool by Enterprise New category'
       , 'ss_searches_fss': 'No. of SS Query searches by FSS category'
-      , 'ss_searches_platinum': 'No. of SS Query searches by Enterprise category'
+      , 'ss_searches_enterprise': 'No. of SS Query searches by Enterprise category'
       , 'ss_profile_viewed_fss': 'No. of SS Profile Viewed by FSS category'
-      , 'ss_profile_viewed_platinum': 'No. of SS Profile Viewed by Enterprise category'
+      , 'ss_profile_viewed_enterprise': 'No. of SS Profile Viewed by Enterprise category'
       , 'ss_signin_failure_fss': 'Percentage of SS Sign-in Failures by FSS category'
-      , 'ss_signin_failure_platinum': 'Percentage of SS Sign-in Failures by Enterprise category'
+      , 'ss_signin_failure_enterprise': 'Percentage of SS Sign-in Failures by Enterprise category'
       , 'ss_client_latency_perc50': 'SS Client Latency Percentile 50'
       , 'devs_shortlisted_fss_existing': 'No. of devs shortlisted from Matching by FSS Existing Category'
       , 'devs_shortlisted_fss_new': 'No. of devs shortlisted from Matching by FSS New Category'
-      , 'devs_shortlisted_platinum_existing': 'No. of devs shortlisted from Matching by Enterprise Existing Category'
-      , 'devs_shortlisted_platinum_new': 'No. of devs shortlisted from Matching by Enterprise New Category'
+      , 'devs_shortlisted_enterprise_existing': 'No. of devs shortlisted from Matching by Enterprise Existing Category'
+      , 'devs_shortlisted_enterprise_new': 'No. of devs shortlisted from Matching by Enterprise New Category'
       , 'packets_sent_fss_existing': 'No. of packets sent from Matching by FSS Existing Category'
       , 'packets_sent_fss_new': 'No. of packets sent from Matching by FSS New Category'
-      , 'packets_sent_platinum_existing': 'No. of packets sent from Matching by Enterprise Existing Category'
-      , 'packets_sent_platinum_new': 'No. of packets sent from Matching by Enterprise New Category'
+      , 'packets_sent_enterprise_existing': 'No. of packets sent from Matching by Enterprise Existing Category'
+      , 'packets_sent_enterprise_new': 'No. of packets sent from Matching by Enterprise New Category'
       , 'ms_interview_requests_fss_existing': 'No. of interview request from Matching by FSS Existing Category'
       , 'ms_interview_requests_fss_new': 'No. of interview request from Matching by FSS New Category'
-      , 'ms_interview_requests_platinum_existing': 'No. of interview request from Matching by Enterprise Existing Category'
-      , 'ms_interview_requests_platinum_new': 'No. of interview request from Matching by Enterprise New Category'  
+      , 'ms_interview_requests_enterprise_existing': 'No. of interview request from Matching by Enterprise Existing Category'
+      , 'ms_interview_requests_enterprise_new': 'No. of interview request from Matching by Enterprise New Category'  
       , 'ms_interviews_happened_fss_existing': 'No. of interview happened from Matching by FSS Existing Category'
       , 'ms_interviews_happened_fss_new': 'No. of interview happened from Matching by FSS New Category'
-      , 'ms_interviews_happened_platinum_existing': 'No. of interview happened from Matching by Enterprise Existing Category'
-      , 'ms_interviews_happened_platinum_new': 'No. of interview happened from Matching by Enterprise New Category'
+      , 'ms_interviews_happened_enterprise_existing': 'No. of interview happened from Matching by Enterprise Existing Category'
+      , 'ms_interviews_happened_enterprise_new': 'No. of interview happened from Matching by Enterprise New Category'
       , 'ms_devs_chosen_fss_existing': 'No. of devs chosen from Matching by FSS Existing Category'
       , 'ms_devs_chosen_fss_new': 'No. of devs chosen from Matching by FSS New Category'
-      , 'ms_devs_chosen_platinum_existing': 'No. of devs chosen from Matching by Enterprise Existing Category'
-      , 'ms_devs_chosen_platinum_new': 'No. of devs chosen from Matching by Enterprise New Category'
+      , 'ms_devs_chosen_enterprise_existing': 'No. of devs chosen from Matching by Enterprise Existing Category'
+      , 'ms_devs_chosen_enterprise_new': 'No. of devs chosen from Matching by Enterprise New Category'
       , 'ms_client_latency_perc50': 'MS Client Latency Percentile 50'
     }
     
@@ -114,31 +114,31 @@ def get_selfserv_data():
         (dict): Containing all the metric names and their data pairs. 
     """
 
-    ss_interview_requests_fss_existing, ss_interview_requests_fss_new, ss_interview_requests_platinum_existing, ss_interview_requests_platinum_new = get_ss_interview_requests()
-    ss_interviews_happened_fss_existing, ss_interviews_happened_fss_new, ss_interviews_happened_platinum_existing, ss_interviews_happened_platinum_new = get_ss_interviews_happened()
-    ss_devs_chosen_fss_existing, ss_devs_chosen_fss_new, ss_devs_chosen_platinum_existing, ss_devs_chosen_platinum_new = get_ss_devs_chosen()
-    ss_searches_fss, ss_searches_platinum = get_ss_searches()
-    ss_profile_viewed_fss, ss_profile_viewed_platinum = get_ss_profile_viewed()
+    ss_interview_requests_fss_existing, ss_interview_requests_fss_new, ss_interview_requests_enterprise_existing, ss_interview_requests_enterprise_new = get_ss_interview_requests()
+    ss_interviews_happened_fss_existing, ss_interviews_happened_fss_new, ss_interviews_happened_enterprise_existing, ss_interviews_happened_enterprise_new = get_ss_interviews_happened()
+    ss_devs_chosen_fss_existing, ss_devs_chosen_fss_new, ss_devs_chosen_enterprise_existing, ss_devs_chosen_enterprise_new = get_ss_devs_chosen()
+    ss_searches_fss, ss_searches_enterprise = get_ss_searches()
+    ss_profile_viewed_fss, ss_profile_viewed_enterprise = get_ss_profile_viewed()
     ss_signin_failure = get_ss_signin_failure()
     #ss_client_latency_perc50 = get_ss_client_latency()
 
     selfserv_data = {
         'ss_interview_requests_fss_existing': ss_interview_requests_fss_existing
       , 'ss_interview_requests_fss_new': ss_interview_requests_fss_new
-      , 'ss_interview_requests_platinum_existing': ss_interview_requests_platinum_existing
-      , 'ss_interview_requests_platinum_new': ss_interview_requests_platinum_new
+      , 'ss_interview_requests_enterprise_existing': ss_interview_requests_enterprise_existing
+      , 'ss_interview_requests_enterprise_new': ss_interview_requests_enterprise_new
       , 'ss_interviews_happened_fss_existing': ss_interviews_happened_fss_existing
       , 'ss_interviews_happened_fss_new': ss_interviews_happened_fss_new
-      , 'ss_interviews_happened_platinum_existing': ss_interviews_happened_platinum_existing
-      , 'ss_interviews_happened_platinum_new': ss_interviews_happened_platinum_new
+      , 'ss_interviews_happened_enterprise_existing': ss_interviews_happened_enterprise_existing
+      , 'ss_interviews_happened_enterprise_new': ss_interviews_happened_enterprise_new
       , 'ss_devs_chosen_fss_existing': ss_devs_chosen_fss_existing
       , 'ss_devs_chosen_fss_new': ss_devs_chosen_fss_new
-      , 'ss_devs_chosen_platinum_existing': ss_devs_chosen_platinum_existing
-      , 'ss_devs_chosen_platinum_new': ss_devs_chosen_platinum_new
+      , 'ss_devs_chosen_enterprise_existing': ss_devs_chosen_enterprise_existing
+      , 'ss_devs_chosen_enterprise_new': ss_devs_chosen_enterprise_new
       , 'ss_searches_fss': ss_searches_fss
-      , 'ss_searches_platinum': ss_searches_platinum
+      , 'ss_searches_enterprise': ss_searches_enterprise
       , 'ss_profile_viewed_fss': ss_profile_viewed_fss
-      , 'ss_profile_viewed_platinum': ss_profile_viewed_platinum
+      , 'ss_profile_viewed_enterprise': ss_profile_viewed_enterprise
       , 'ss_signin_failure': ss_signin_failure
       #, 'ss_client_latency_perc50': ss_client_latency_perc50
     }
@@ -154,34 +154,34 @@ def get_matching_data():
         (dict): Containing all the metric names and their data pairs. 
     """
     
-    devs_shortlisted_fss_existing, devs_shortlisted_fss_new, devs_shortlisted_platinum_existing, devs_shortlisted_platinum_new = get_devs_shortlisted()
-    packets_sent_fss_existing, packets_sent_fss_new, packets_sent_platinum_existing, packets_sent_platinum_new = get_packets_sent()
-    ms_interview_requests_fss_existing, ms_interview_requests_fss_new, ms_interview_requests_platinum_existing, ms_interview_requests_platinum_new = get_ms_interview_requests()
-    ms_interviews_happened_fss_existing, ms_interviews_happened_fss_new, ms_interviews_happened_platinum_existing, ms_interviews_happened_platinum_new = get_ms_interviews_happened()
-    ms_devs_chosen_fss_existing, ms_devs_chosen_fss_new, ms_devs_chosen_platinum_existing, ms_devs_chosen_platinum_new = get_ms_devs_chosen()
+    devs_shortlisted_fss_existing, devs_shortlisted_fss_new, devs_shortlisted_enterprise_existing, devs_shortlisted_enterprise_new = get_devs_shortlisted()
+    packets_sent_fss_existing, packets_sent_fss_new, packets_sent_enterprise_existing, packets_sent_enterprise_new = get_packets_sent()
+    ms_interview_requests_fss_existing, ms_interview_requests_fss_new, ms_interview_requests_enterprise_existing, ms_interview_requests_enterprise_new = get_ms_interview_requests()
+    ms_interviews_happened_fss_existing, ms_interviews_happened_fss_new, ms_interviews_happened_enterprise_existing, ms_interviews_happened_enterprise_new = get_ms_interviews_happened()
+    ms_devs_chosen_fss_existing, ms_devs_chosen_fss_new, ms_devs_chosen_enterprise_existing, ms_devs_chosen_enterprise_new = get_ms_devs_chosen()
     ms_client_latency_perc50 = get_ms_client_latency()
 
     matching_data = {
         'devs_shortlisted_fss_existing': devs_shortlisted_fss_existing
       , 'devs_shortlisted_fss_new': devs_shortlisted_fss_new
-      , 'devs_shortlisted_platinum_existing': devs_shortlisted_platinum_existing
-      , 'devs_shortlisted_platinum_new': devs_shortlisted_platinum_new
+      , 'devs_shortlisted_enterprise_existing': devs_shortlisted_enterprise_existing
+      , 'devs_shortlisted_enterprise_new': devs_shortlisted_enterprise_new
       , 'packets_sent_fss_existing': packets_sent_fss_existing
       , 'packets_sent_fss_new': packets_sent_fss_new
-      , 'packets_sent_platinum_existing': packets_sent_platinum_existing
-      , 'packets_sent_platinum_new': packets_sent_platinum_new
+      , 'packets_sent_enterprise_existing': packets_sent_enterprise_existing
+      , 'packets_sent_enterprise_new': packets_sent_enterprise_new
       , 'ms_interview_requests_fss_existing': ms_interview_requests_fss_existing
       , 'ms_interview_requests_fss_new': ms_interview_requests_fss_new
-      , 'ms_interview_requests_platinum_existing': ms_interview_requests_platinum_existing
-      , 'ms_interview_requests_platinum_new': ms_interview_requests_platinum_new  
+      , 'ms_interview_requests_enterprise_existing': ms_interview_requests_enterprise_existing
+      , 'ms_interview_requests_enterprise_new': ms_interview_requests_enterprise_new  
       , 'ms_interviews_happened_fss_existing': ms_interviews_happened_fss_existing
       , 'ms_interviews_happened_fss_new': ms_interviews_happened_fss_new
-      , 'ms_interviews_happened_platinum_existing': ms_interviews_happened_platinum_existing
-      , 'ms_interviews_happened_platinum_new': ms_interviews_happened_platinum_new
+      , 'ms_interviews_happened_enterprise_existing': ms_interviews_happened_enterprise_existing
+      , 'ms_interviews_happened_enterprise_new': ms_interviews_happened_enterprise_new
       , 'ms_devs_chosen_fss_existing': ms_devs_chosen_fss_existing
       , 'ms_devs_chosen_fss_new': ms_devs_chosen_fss_new
-      , 'ms_devs_chosen_platinum_existing': ms_devs_chosen_platinum_existing
-      , 'ms_devs_chosen_platinum_new': ms_devs_chosen_platinum_new
+      , 'ms_devs_chosen_enterprise_existing': ms_devs_chosen_enterprise_existing
+      , 'ms_devs_chosen_enterprise_new': ms_devs_chosen_enterprise_new
       , 'ms_client_latency_perc50': ms_client_latency_perc50
     }
     
