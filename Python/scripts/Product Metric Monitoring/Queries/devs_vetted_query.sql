@@ -13,7 +13,7 @@ dev_info AS (
   
 SELECT 
   DATE (DATE_TRUNC (p2.phase2_entry_date, DAY)) AS date
-, COUNT(di.dev_id) as devs_count
+, COUNT(DISTINCT di.dev_id) as devs_count
 FROM turing-230020.analytics_views.phase2_dev_level_data p2
   LEFT JOIN dev_info di ON p2.dev_id = di.dev_id
 WHERE 

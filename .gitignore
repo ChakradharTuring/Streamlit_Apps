@@ -25,4 +25,5 @@ rsconnect-python/
 
 # Environments
 .venv
-.envgit 
+.env
+env.py

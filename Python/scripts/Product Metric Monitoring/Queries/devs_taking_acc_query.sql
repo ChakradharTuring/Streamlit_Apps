@@ -38,7 +38,7 @@ ORDER BY 1, 2
 
 SELECT  
   DATE (DATE_TRUNC (a.submit_time,  DAY)) AS date
-, COUNT (a.user_id) AS devs_count,
+, COUNT (DISTINCT a.user_id) AS devs_count,
 FROM 
   ACC a
   INNER JOIN dev_info di ON di.dev_id = a.user_id

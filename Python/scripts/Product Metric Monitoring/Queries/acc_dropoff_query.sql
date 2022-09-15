@@ -25,15 +25,14 @@ ORDER BY 1, 2
 
 SELECT 
   DATE (DATE_TRUNC (cs.submit_time, DAY)) AS date
-, COUNT (DISTINCT cs.user_id) AS devs_count
+, (COUNT (DISTINCT IF (auto_submit = 'user_quit', cs.user_id, NULL))) / (COUNT (DISTINCT cs.user_id)) AS devs_count
 FROM 
   turing-230020.devdb_mirror.dv2_challenge_submit cs
   INNER JOIN turing-230020.devdb_mirror.dv2_problem_submit ps ON ps.submit_id = cs.submit_id
   INNER JOIN dev_info di on di.dev_id = cs.user_id 
 WHERE 
   cs.submit_id IN (SELECT DISTINCT submit_id FROM base_data)
-  AND di.geography = '{}'
+  AND di.geography = 'LATAM'
   AND DATE (DATE_TRUNC (cs.submit_time, DAY)) < CURRENT_DATE()
-  AND auto_submit = 'user_quit'
 GROUP BY 1
 ORDER BY 1

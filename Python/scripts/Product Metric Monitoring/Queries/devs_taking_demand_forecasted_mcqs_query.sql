@@ -43,7 +43,7 @@ ORDER BY 1, 2
 
 SELECT 
   DATE (DATE_TRUNC (date, DAY)) as date
-, COUNT (user_id) as devs_count
+, COUNT (DISTINCT user_id) as devs_count
 FROM int_table
 WHERE 
   geography = '{}'

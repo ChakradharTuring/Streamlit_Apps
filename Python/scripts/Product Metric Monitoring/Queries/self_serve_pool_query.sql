@@ -43,7 +43,7 @@ table1 AS (
 
 SELECT 
   di.date
-, count(table1.user_id) AS devs_count
+, COUNT (DISTINCT table1.user_id) AS devs_count
 FROM 
   table1 
   LEFT JOIN dev_info di ON di.dev_id = table1.user_id

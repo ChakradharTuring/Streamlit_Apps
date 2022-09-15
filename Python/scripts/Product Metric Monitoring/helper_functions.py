@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 def get_anomalous_metrics(anomalies):
     """
     Function to get all the metrics showing anomalous behaviour and sorting them based on number of anomalies.  
@@ -57,3 +60,18 @@ def no_anomalies(anomalies):
         no_anomaly = False
         
     return no_anomaly
+
+
+def change_dict_df(object, dict_to_df=0):
+    """
+    Function to change dictionary to dataframe and vice versa. 
+    
+    Args:
+        object (dict or df): Depending on which to convert
+        dict_to_df (int): 0 to convert dict_to_df or 1 for vice versa
+    """
+    
+    if dict_to_df:
+        return pd.DataFrame(list (object.items()), columns=['Metric', 'DF'])
+    
+    return dict(zip(object.Metric, object.DF))

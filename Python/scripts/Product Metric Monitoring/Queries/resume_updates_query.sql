@@ -36,7 +36,7 @@ dev_info AS (
 
 SELECT 
   DATE_TRUNC (DATE (ud.updated_time), DAY) AS date
-, COUNT (ud.developer_id) AS devs_count
+, COUNT (DISTINCT ud.developer_id) AS devs_count
 FROM
   update_data ud
   LEFT JOIN dev_info di ON di.dev_id = ud.developer_id

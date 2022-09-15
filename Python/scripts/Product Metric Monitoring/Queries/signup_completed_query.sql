@@ -26,7 +26,7 @@ dev_info AS (
 --Signup completed 
 SELECT 
   DATE(fb.finish_signup_date) AS date
-, COUNT(*) AS devs_count
+, COUNT(DISTINCT developer_id) AS devs_count
 FROM dev_info di 
   LEFT JOIN finish_button fb on di.dev_id = fb.developer_id
 WHERE 

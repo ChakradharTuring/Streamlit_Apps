@@ -16,7 +16,7 @@ data AS (
 
 SELECT 	
   date
-, COUNT (dev_id) AS devs_count
+, COUNT (DISTINCT dev_id) AS devs_count
 FROM data
 WHERE 
   dev_id IS NOT NULL 

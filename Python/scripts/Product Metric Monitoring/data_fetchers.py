@@ -1,8 +1,6 @@
 from data_helpers import query_result, data_preprocess
-import streamlit as st
 
 
-@st.cache(ttl=60*60*6, suppress_st_warning=True)
 def get_all_data():
     """
     Combines all the supply and demand metrics.
@@ -33,22 +31,22 @@ def get_glossary():
       , 'signup_completed_latam': 'No. of developers who filled their basic info page on Turing platform from LATAM region'
       , 'seniority_assessment_taken_row': 'No. of developers who started taking seniority assessment test from RoW region'
       , 'seniority_assessment_taken_latam': 'No. of developers who started taking seniority assessment test from LATAM region'
-      , 'seniority_assessment_drop_off_row': 'No. of developers who dropped off after starting seniority assessment test from RoW region'
-      , 'seniority_assessment_drop_off_latam': 'No. of developers who dropped off after starting seniority assessment test from LATAM region'
+      , 'seniority_assessment_drop_off_row': 'Percentage of developers who dropped off after starting seniority assessment test from RoW region'
+      , 'seniority_assessment_drop_off_latam': 'Percentage of developers who dropped off after starting seniority assessment test from LATAM region'
       , 'devs_taking_mcqs_row': 'No. of developers who started taking technical MCQs from RoW region'
       , 'devs_taking_mcqs_latam': 'No. of developers who started taking technical MCQs from LATAM region'
       , 'devs_taking_demand_forecasted_mcq_row': 'No. of developers taking mcqs which are expected to be in demand from RoW region'
       , 'devs_taking_demand_forecasted_mcq_latam': 'No. of developers taking mcqs which are expected to be in demand from LATAM region'
-      , 'mcq_dropoff_row': 'No. of developers who are dropping in between mcqs from RoW region'
-      , 'mcq_dropoff_latam': 'No. of developers who are dropping in between mcqs from LATAM region'
+      , 'mcq_dropoff_row': 'Percentage of developers who are dropping in between mcqs from RoW region'
+      , 'mcq_dropoff_latam': 'Percentage of developers who are dropping in between mcqs from LATAM region'
       , 'devs_passing_mcqs_row': 'No. of developers who are passing in mcqs from RoW region'
       , 'devs_passing_mcqs_latam': 'No. of developers who are passing in mcqs from LATAM region'
       , 'devs_passing_demand_forecasted_mcqs_row': 'No. of developers passing mcqs which are expected to be in demand from RoW region'
       , 'devs_passing_demand_forecasted_mcqs_latam': 'No. of developers passing mcqs which are expected to be in demand from LATAM region'
       , 'devs_taking_acc_row': 'No. of developers who are taking ACC from the RoW region'
       , 'devs_taking_acc_latam': 'No. of developers who are taking ACC from the LATAM region'
-      , 'acc_dropoff_row': 'No. of developers who are dropping off in between ACC from the RoW region'
-      , 'acc_dropoff_latam': 'No. of developers who are dropping off in between ACC from the LATAM region'
+      , 'acc_dropoff_row': 'Percentage of developers who are dropping off in between ACC from the RoW region'
+      , 'acc_dropoff_latam': 'Percentage of developers who are dropping off in between ACC from the LATAM region'
       , 'devs_passing_acc_row': 'No. of developers who are passing ACC from the RoW region'
       , 'devs_passing_acc_latam': 'No. of developers who are passing ACC from the LATAM region'
       , 'devs_vetted_row': 'No. of vetted developers from the RoW region'

@@ -44,7 +44,7 @@ ORDER BY 1, 2
 
 SELECT 
   DATE (DATE_TRUNC (tmc.submit_time, DAY)) as date
-, COUNT (tmc.developer_id) as devs_count
+, COUNT (DISTINCT tmc.developer_id) as devs_count
 FROM 
   tech_mcq_challenge_ids tmc
   INNER JOIN dev_info di ON di.dev_id = tmc.developer_id

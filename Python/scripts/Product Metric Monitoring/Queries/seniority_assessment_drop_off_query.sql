@@ -56,11 +56,10 @@ ORDER BY 1, 2
 
 SELECT 
   DATE (DATE_TRUNC (attempt_date, DAY)) as date
-, COUNT (user_id) AS devs_count
+, (COUNT (DISTINCT IF (is_drop_off = 1, user_id, NULL))) / COUNT (DISTINCT user_id) AS devs_count
 FROM data
 WHERE 
   challenge_id IN (147, 148, 149, 162, 209)
-  AND is_drop_off = 1
   AND geography = '{}'
   AND DATE (DATE_TRUNC (attempt_date, DAY)) < CURRENT_DATE()
 GROUP BY 1
