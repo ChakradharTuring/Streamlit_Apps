@@ -7,7 +7,7 @@ import streamlit as st
 
 def make_app(supply_forecasts, matching_forecasts, selfserv_forecasts, supply_metrics, matching_metrics, selfserv_metrics, glossary):
     """
-    Main function to make the streamlit app. 
+    Main function to make the streamlit app 
     
     Args:
         supply_forecasts (dict): Dictionary having predictions for the supply metrics.  
