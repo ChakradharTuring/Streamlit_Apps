@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "jupyter-static",
+    "entrypoint": "data_scheduler.ipynb"
+  },
+  "python": {
+    "version": "3.9.5",
+    "package_manager": {
+      "name": "pip",
+      "version": "22.2.2",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "data_scheduler.ipynb": {
+      "checksum": "f227a5de0ea757e404794d49ca24897f"
+    },
+    "requirements.txt": {
+      "checksum": "305b07dc9d45febcf84a7bdff7588cea"
+    },
+    "data_fetchers.py": {
+      "checksum": "65969453198c3d62dd0187e5415f02ae"
+    },
+    "helper_functions.py": {
+      "checksum": "6b980acbb30f88be0d1df6b001ff7dff"
+    },
+    "data_helpers.py": {
+      "checksum": "4daa27be1c4c558e02e8b77837d7466d"
+    },
+    "get_predictions.py": {
+      "checksum": "dddf463072681097f248cff848219408"
+    },
+    "Queries/acc_dropoff_query.sql": {
+      "checksum": "0b961fe643d528849891c3c77b09dcb9"
+    },
+    "Queries/devs_passing_acc_query.sql": {
+      "checksum": "b9dd1dcc8b96c84d5b9b71102b8a5b0c"
+    },
+    "Queries/devs_passing_demand_forecasted_mcqs_query.sql": {
+      "checksum": "04f197200f907c30b2df960c5a9a45fd"
+    },
+    "Queries/devs_passing_mcqs_query.sql": {
+      "checksum": "b1acfbf2f646c79269f5ed55f769a6ed"
+    },
+    "Queries/devs_taking_mcqs_query.sql": {
+      "checksum": "b92948b38f17ce26d279d809e9374467"
+    },
+    "Queries/devs_vetted_query.sql": {
+      "checksum": "d6e675cd2d526545f6c3a4373fa878de"
+    },
+    "Queries/mcq_dropoff_query.sql": {
+      "checksum": "ff68d22af6901b92514f34d34b97f3d0"
+    },
+    "Queries/devs_shortlisted_query.sql": {
+      "checksum": "07e5d81a8d60ace3975e2e9536687162"
+    },
+    "Queries/devs_taking_acc_query.sql": {
+      "checksum": "ea483dcb6f1274d706ae48fd433e72a0"
+    },
+    "Queries/devs_taking_demand_forecasted_mcqs_query.sql": {
+      "checksum": "085f2a772336b35454600ece0fe7fb2d"
+    },
+    "Queries/ms_client_latency_query.sql": {
+      "checksum": "dd76086a75f4dfb51ca5865ef0af96ce"
+    },
+    "Queries/ms_devs_chosen_query.sql": {
+      "checksum": "84332aeef89e80e600622f4675311d1f"
+    },
+    "Queries/ms_interview_requests_query.sql": {
+      "checksum": "83876cf8793e8a39883afd30dfed6839"
+    },
+    "Queries/ms_interviews_happened_query.sql": {
+      "checksum": "1dcf72cbb7da0e33062f1e1e7f0447e4"
+    },
+    "Queries/p2_passing_mcq_query.sql": {
+      "checksum": "6fd394fac11ea07dfff6a1ea380d4c7b"
+    },
+    "Queries/p2_portal_logins_query.sql": {
+      "checksum": "a4bd02c96db86471fc43f9dcb7d9eb54"
+    },
+    "Queries/p2_taking_mcq_query.sql": {
+      "checksum": "7ee21afa8f922623070caeab3f6a6c63"
+    },
+    "Queries/packets_sent_query.sql": {
+      "checksum": "ff4f676296c8b9bcb86bd6ce6fc44b20"
+    },
+    "Queries/resume_updates_query.sql": {
+      "checksum": "40ad86761619e361bcfc020f1b383174"
+    },
+    "Queries/resume_uploaded_query.sql": {
+      "checksum": "e4faf64daf20f23af68edb525f3a8112"
+    },
+    "Queries/self_serve_pool_query.sql": {
+      "checksum": "e8beb76a4314e9461e17ca9eac3bdea1"
+    },
+    "Queries/seniority_assessment_drop_off_query.sql": {
+      "checksum": "8b66cb88c85e286a1da2ad872dd0de11"
+    },
+    "Queries/seniority_assessment_taken_query.sql": {
+      "checksum": "7b43fdff05aee398a5887b72e67038f0"
+    },
+    "Queries/signup_completed_query.sql": {
+      "checksum": "22d0705bcc4438063488d85b9adadaa8"
+    },
+    "Queries/ss_client_latency_query.sql": {
+      "checksum": "900f66125dc980cbf45d4236eb6ac20c"
+    },
+    "Queries/ss_devs_chosen_query.sql": {
+      "checksum": "3ba432f389d9abae9bd879dc022a2741"
+    },
+    "Queries/ss_interview_requests_query.sql": {
+      "checksum": "f0433161f78f4c62bb480b31f067c109"
+    },
+    "Queries/ss_interviews_happened_query.sql": {
+      "checksum": "90813196727aed8d561d13f974e24cd4"
+    },
+    "Queries/ss_profile_viewed_query.sql": {
+      "checksum": "8b0ae4dd5f08f25dabcca3b2b7b8a785"
+    },
+    "Queries/ss_searches_query.sql": {
+      "checksum": "be51d044c98e7714e2409717ad115738"
+    },
+    "Queries/ss_signin_failure_query.sql": {
+      "checksum": "4193a25373ab5342962e26cfcc8c90e7"
+    },
+    "Queries/total_signups_query.sql": {
+      "checksum": "46ed384b166f98053a2cbc7f896b8aff"
+    }
+  }
+}
