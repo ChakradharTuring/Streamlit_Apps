@@ -1,0 +1,56 @@
+---
+title: "Metrics showing Anomalous Behavior Yesterday"
+format: html
+editor: visual
+jupyter: python3
+---
+
+```{python}
+#| echo: false
+#| output: asis
+
+from dotenv import load_dotenv
+from helper_functions import change_dict_df, get_anomalous_metrics, print_anomalies
+from IPython.display import display, Markdown
+import os
+import pins 
+
+
+load_dotenv()
+
+board = pins.board_rsconnect(server_url='https://rstudio-connect.turing.com/', api_key=os.getenv("API_KEY"), allow_pickle_read=True)
+
+supply_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_supply_forecasts'))
+matching_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_matching_forecasts'))
+selfserv_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_selfserv_forecasts'))
+
+anomalies = get_anomalous_metrics(supply_forecasts)
+if len(anomalies) == 0:
+  pass
+else:
+  display(Markdown("## Supply Metrics\n"))
+  print_anomalies(anomalies)
+
+
+anomalies = get_anomalous_metrics(matching_forecasts)
+if len(anomalies) == 0:
+  pass
+else:
+  display(Markdown("## Matching Metrics\n"))
+  print_anomalies(anomalies)
+
+anomalies = get_anomalous_metrics(selfserv_forecasts)
+if len(anomalies) == 0:
+  pass
+else:
+  display(Markdown("## Selfserv Metrics\n"))
+  print_anomalies(anomalies)
+
+display(Markdown("\n"))
+```
+
+------------------------------------------------------------------------
+
+::: {.callout-note appearance="simple"}
+Here is the app link to deep dive into yesterday's anomalies - [Janus](https://rstudio-connect.turing.com/content/_w_ec753bfb/_w_7da339c0/b731c5f9-9471-43ed-9316-7dd094c69afe/)
+:::

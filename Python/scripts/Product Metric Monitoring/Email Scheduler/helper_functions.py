@@ -1,4 +1,17 @@
+import datetime 
 import pandas as pd
+
+
+def print_anomalies(anomalies):
+    """
+    Function to print the anomalies.   
+    
+    Args:
+        anomalies (list): Anomalous metrics list
+    """
+    
+    for anomaly in anomalies:
+        print(anomaly, '\n')
     
 
 def get_anomalous_metrics(anomalies):
@@ -33,7 +46,9 @@ def sort_anomalies(anomalies):
     ordered_anomalies = {}
     for metric, data in anomalies.items():
         data_last_week = data[data['anomaly']==1]
-        if not data_last_week.empty:
+        today = datetime.date.today()
+        yesterday = pd.to_datetime(today - datetime.timedelta(days=1), format='%Y-%m-%d')
+        if (not data_last_week.empty) and (data_last_week.ds.max() == yesterday):
             ordered_anomalies[metric] = len(data_last_week)
     
     ordered_anomalies = dict(sorted(ordered_anomalies.items(), key=lambda item: item[1], reverse=True))
