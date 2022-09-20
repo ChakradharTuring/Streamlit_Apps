@@ -214,7 +214,9 @@ def get_supply_data():
     resume_updates_row, resume_updates_latam = get_resume_updates()
     p2_taking_mcq_row, p2_taking_mcq_latam = get_p2_taking_mcq()
     p2_passing_mcq_row, p2_passing_mcq_latam = get_p2_passing_mcq()
-    self_serve_pool_row, self_serve_pool_latam = get_self_serve_pool()
+    
+    # ToDO: Get correct query for self serv pool
+    # self_serve_pool_row, self_serve_pool_latam = get_self_serve_pool()
 
     supply_data = {
         'total_signups_row': total_signups_row
@@ -253,8 +255,8 @@ def get_supply_data():
       , 'p2_taking_mcq_latam': p2_taking_mcq_latam
       , 'p2_passing_mcq_row': p2_passing_mcq_row
       , 'p2_passing_mcq_latam': p2_passing_mcq_latam
-      , 'self_serve_pool_row': self_serve_pool_row
-      , 'self_serve_pool_latam': self_serve_pool_latam
+      # , 'self_serve_pool_row': self_serve_pool_row
+      # , 'self_serve_pool_latam': self_serve_pool_latam
     }
     
     return supply_data
