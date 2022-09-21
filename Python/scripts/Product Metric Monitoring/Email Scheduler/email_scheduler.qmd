@@ -7,10 +7,31 @@ jupyter: python3
 
 ```{python}
 #| echo: false
+
+from IPython.display import display, Markdown
+
+
+def print_anomalies(anomalies, forecasts):
+    """
+    Function to print the anomalies.   
+    
+    Args:
+        anomalies (list): Anomalous metrics list
+    """
+
+    for anomaly in anomalies:
+        data = forecasts[anomaly][-1]
+        
+        precentage_bump = ((data['y'] - data['yhat']) / data['yhat']) * 100 
+        print(anomaly, '(', ROUND (precentage_bump, 2), ')', '\n')
+```
+
+```{python}
+#| echo: false
 #| output: asis
 
 from dotenv import load_dotenv
-from helper_functions import change_dict_df, get_anomalous_metrics, print_anomalies
+from helper_functions import change_dict_df, get_anomalous_metrics
 from IPython.display import display, Markdown
 import os
 import pins 
@@ -29,7 +50,7 @@ if len(anomalies) == 0:
   pass
 else:
   display(Markdown("## Supply Metrics\n"))
-  print_anomalies(anomalies)
+  print_anomalies(anomalies, supply_forecasts)
 
 
 anomalies = get_anomalous_metrics(matching_forecasts)
@@ -37,14 +58,14 @@ if len(anomalies) == 0:
   pass
 else:
   display(Markdown("## Matching Metrics\n"))
-  print_anomalies(anomalies)
+  print_anomalies(anomalies, matching_forecasts)
 
 anomalies = get_anomalous_metrics(selfserv_forecasts)
 if len(anomalies) == 0:
   pass
 else:
   display(Markdown("## Selfserv Metrics\n"))
-  print_anomalies(anomalies)
+  print_anomalies(anomalies, selfserv_forecasts)
 
 display(Markdown("\n"))
 ```

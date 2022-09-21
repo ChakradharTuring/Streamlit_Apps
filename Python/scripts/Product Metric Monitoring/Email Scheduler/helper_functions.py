@@ -2,18 +2,6 @@ import datetime
 import pandas as pd
 
 
-def print_anomalies(anomalies):
-    """
-    Function to print the anomalies.   
-    
-    Args:
-        anomalies (list): Anomalous metrics list
-    """
-    
-    for anomaly in anomalies:
-        print(anomaly, '\n')
-    
-
 def get_anomalous_metrics(anomalies):
     """
     Function to get all the metrics showing anomalous behaviour and sorting them based on number of anomalies.  
