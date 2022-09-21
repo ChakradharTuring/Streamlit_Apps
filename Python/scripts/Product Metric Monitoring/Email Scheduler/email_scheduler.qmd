@@ -20,7 +20,11 @@ def print_anomalies(anomalies, forecasts):
     for anomaly in anomalies:
         data = forecasts[anomaly].tail(1)
         
-        precentage_bump = (((data['y'] - data['yhat']) / data['yhat']) * 100)[1]
+        if data['yhat'][0] != 0:
+            precentage_bump = (((data['y'][0] - data['yhat'][0]) / data['yhat'][0]) * 100)
+        else:
+            precentage_bump = 'undefined'
+            
         print(anomaly, '(', round (precentage_bump, 2), '% )', '\n')
 ```
 
