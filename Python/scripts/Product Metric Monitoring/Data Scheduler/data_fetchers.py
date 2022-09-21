@@ -745,3 +745,8 @@ def get_ms_client_latency():
     data.append(ms_client_latency)
     
     return data[0]
+
+
+# To test the python file
+if __name__=='__main__':
+    print(get_p2_taking_mcq())

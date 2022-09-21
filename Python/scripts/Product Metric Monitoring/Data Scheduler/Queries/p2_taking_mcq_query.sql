@@ -8,8 +8,8 @@ dev_info AS (
     END AS geography
   , p2.dev_id
   FROM 
-    turing-230020.analytics_views.phase1_dev_level_data p1
-    INNER JOIN turing-230020.analytics_views.phase2_dev_level_data p2 ON p1.dev_id = p2.dev_id
+    turing-230020.curated.phase1_dev_level_data p1
+    INNER JOIN turing-230020.curated.phase2_dev_level_data p2 ON p1.dev_id = p2.dev_id
   WHERE 
     p1.signup_date IS NOT NULL
   ORDER BY 1, 2
@@ -29,18 +29,18 @@ dev_info AS (
     END AS challenge_type
   , dcs.passed
   FROM
-    turing-230020.devdb_mirror.dv2_challenge dc
-    JOIN turing-230020.devdb_mirror.dv2_challenge_submit dcs ON dc.challenge_id = dcs.challenge_id
+    turing-230020.raw.dv2_challenge dc
+    JOIN turing-230020.raw.dv2_challenge_submit dcs ON dc.challenge_id = dcs.challenge_id
   WHERE
     dcs.challenge_id NOT IN (1, 2, 3, 4, 5, 6, 22, 23, 27, 100)
     AND dcs.challenge_id NOT IN (
       SELECT
         DISTINCT challenge_id
       FROM
-        turing-230020.devdb_mirror.dv2_challenge
+        turing-230020.raw.dv2_challenge
       WHERE
         challenge_name LIKE '%ACC%'
-   ) 
+   )
 )
 
 SELECT 
@@ -53,5 +53,5 @@ WHERE
   tmc.challenge_type = 'Technical'
   AND di.geography = '{}'
   AND DATE (DATE_TRUNC (tmc.submit_time, DAY)) < CURRENT_DATE()
-GROUP BY 1
+GROUP BY 1 
 ORDER BY 1
