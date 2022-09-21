@@ -56,7 +56,7 @@ ORDER BY 1, 2
 
 SELECT 
   DATE (DATE_TRUNC (attempt_date, DAY)) as date
-, (COUNT (DISTINCT IF (is_drop_off = 1, user_id, NULL))) / (COUNT (DISTINCT user_id)) AS devs_count
+, ((COUNT (DISTINCT IF (is_drop_off = 1, user_id, NULL))) / (COUNT (DISTINCT user_id))) * 100 AS devs_count
 FROM data
 WHERE 
   geography = '{}'

@@ -3,7 +3,7 @@ WITH
 data AS (
   SELECT 
     dim_date AS date
-  , (COUNT (DISTINCT Sign_in_failure)) / (COUNT (DISTINCT Signin_attempt)) AS devs_count
+  , ((COUNT (DISTINCT Sign_in_failure)) / (COUNT (DISTINCT Signin_attempt))) * 100 AS devs_count
   FROM turing-230020.matchingmetrics.product_metrics_pre_throughput_cube_2
   WHERE 
     dim_date IS NOT NULL 

@@ -25,7 +25,7 @@ ORDER BY 1, 2
 
 SELECT 
   DATE (DATE_TRUNC (cs.submit_time, DAY)) AS date
-, (COUNT (DISTINCT IF (auto_submit = 'user_quit', cs.user_id, NULL))) / (COUNT (DISTINCT cs.user_id)) AS devs_count
+, ((COUNT (DISTINCT IF (auto_submit = 'user_quit', cs.user_id, NULL))) / (COUNT (DISTINCT cs.user_id))) * 100 AS devs_count
 FROM 
   turing-230020.devdb_mirror.dv2_challenge_submit cs
   INNER JOIN turing-230020.devdb_mirror.dv2_problem_submit ps ON ps.submit_id = cs.submit_id
