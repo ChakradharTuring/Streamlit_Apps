@@ -20,8 +20,8 @@ def print_anomalies(anomalies, forecasts):
     for anomaly in anomalies:
         data = forecasts[anomaly].tail(1)
         
-        if data['yhat'][0] != 0:
-            precentage_bump = (((data['y'][0] - data['yhat'][0]) / data['yhat'][0]) * 100)
+        if data['yhat'].iloc[0] != 0:
+            precentage_bump = (((data['y'].iloc[0] - data['yhat'].iloc[0]) / data['yhat'].iloc[0]) * 100)
         else:
             precentage_bump = 'undefined'
             
