@@ -16,6 +16,7 @@ MANIFEST
 PDSA.Rproj
 rsconnect-python/
 .Rproj.user
+.Rhistory
 
 # Jupyter Notebook
 .ipynb_checkpoints
