@@ -35,7 +35,7 @@ def sort_anomalies(anomalies):
     for metric, data in anomalies.items():
         data_last_week = data[data['anomaly']==1]
         today = datetime.date.today()
-        yesterday = pd.to_datetime(today - datetime.timedelta(days=2), format='%Y-%m-%d')
+        yesterday = pd.to_datetime(today - datetime.timedelta(days=1), format='%Y-%m-%d')
         if (not data_last_week.empty) and (data_last_week.ds.max() == yesterday):
             ordered_anomalies[metric] = len(data_last_week)
     
