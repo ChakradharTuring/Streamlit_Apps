@@ -9,7 +9,7 @@ import streamlit as st
 load_dotenv()
 
 
-@st.cache(ttl=60*60*6, suppress_st_warning=True)
+@st.cache(ttl=60*60*0.5, suppress_st_warning=True)
 def read_data():
     """
     Function to read automated dataframes.  
