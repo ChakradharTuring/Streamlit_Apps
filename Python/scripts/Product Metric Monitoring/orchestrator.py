@@ -9,10 +9,10 @@ import streamlit as st
 load_dotenv()
 
 
-@st.cache(ttl=60*60*0.5, suppress_st_warning=True)
+@st.cache(ttl=60*60*1, suppress_st_warning=True)
 def read_data():
     """
-    Function to read automated dataframes.  
+    Function to read pinned dataframnes in Connect.
     """
     
     board = pins.board_rsconnect(server_url='https://rstudio-connect.turing.com/', api_key=os.getenv("API_KEY"), allow_pickle_read=True)
