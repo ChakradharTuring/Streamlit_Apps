@@ -246,7 +246,7 @@ def page_glossary(glossary):
     
     st.write('These are all the metrics which Janus monitors as of now. On the anomalies or the data reports page, you may see the following suffixes attached to the words:')
     st.write('1. _row: Used in Supply Metrics. Means the numbers denote the developers from RoW (rest of the world) region.')
-    st.write('2 _latam: Used in Supply Metrics. Means the numbers denote the developers from LATAM region.')
+    st.write('2. _latam: Used in Supply Metrics. Means the numbers denote the developers from LATAM region.')
     st.write('3. _fss: Used in Matching/SelfServ Metrics. Means the numbers are specific to FSS companies.')
     st.write('4. _enterprise: Used in Matching/SelfServ Metrics. Means the numbers are specific to Enterprise companies.')
     st.write('5. _fss_new: Used in Matching/SelfServ Metrics. Means the numbers are specific to FSS New companies.')
