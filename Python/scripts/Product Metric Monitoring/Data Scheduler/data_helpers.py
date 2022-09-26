@@ -55,3 +55,17 @@ def data_preprocess(df):
     df['7_day_rolling_mean'] = df['y'].rolling(window=7).mean()
     
     return df
+
+
+def sum_data(data_1, data_2, data_3=None, data_4=None):
+    """
+    Sums the different categories of metric.
+    
+    Args:
+        data (dfs): The input dataframes to be summed. 
+        
+    Returns:
+        (df): The summed dataframe.
+    """
+    
+    return pd.concat([data_1, data_2, data_3, data_4]).groupby('ds', as_index=False).sum()
