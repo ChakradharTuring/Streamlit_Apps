@@ -51,13 +51,13 @@ def page_anomalies(supply_forecasts, matching_forecasts, selfserv_forecasts, sup
     anomaly_page = st.radio('Choose Product:', anomaly_options, horizontal=True)
     
     if anomaly_page == 'Supply':
-        render_anomaly(supply_metrics, supply_forecasts, ['Manually Select', 'RoW', 'LATAM'])
+        render_anomaly(supply_metrics, supply_forecasts, ['Manually Select', 'Overall', 'RoW', 'LATAM'])
     
     if anomaly_page == 'Matching':
-        render_anomaly(matching_metrics, matching_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
+        render_anomaly(matching_metrics, matching_forecasts, ['Manually Select', 'Overall', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
         
     if anomaly_page == 'SefServ':
-        render_anomaly(selfserv_metrics, selfserv_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
+        render_anomaly(selfserv_metrics, selfserv_forecasts, ['Manually Select', 'Overall', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
 
     
 def render_anomaly(metrics, forecasts, metric_category_list):
@@ -91,7 +91,7 @@ def render_anomaly(metrics, forecasts, metric_category_list):
         if metric_category == 'Others':
             for metric in concerned_metrics:
                 globals()[metric] = True
-                names = ['fss_new', 'fss_existing', 'enterprise_new', 'enterprise_existing']
+                names = ['fss_new', 'fss_existing', 'enterprise_new', 'enterprise_existing', 'overall', 'fss', 'enterprise']
                 for name in names:
                     if name in metric:
                         globals()[metric] = False
@@ -243,5 +243,16 @@ def page_glossary(glossary):
     """
 
     glossary = (pd.DataFrame(glossary.items())).rename({0: 'Metric', 1: 'Metric Definition'}, axis=1)
-
+    
+    st.write('These are all the metrics which Janus monitors as of now. The data is aggregated for each metric at a daily level. On the anomalies or the data reports page, you may see the following suffixes attached to the words:')
+    st.write('1. _row: Used in Supply Metrics. Means the numbers denote the developers from RoW (rest of the world) region.')
+    st.write('2. _latam: Used in Supply Metrics. Means the numbers denote the developers from LATAM region.')
+    st.write('3. _fss: Used in Matching/SelfServ Metrics. Means the numbers are specific to FSS companies.')
+    st.write('4. _enterprise: Used in Matching/SelfServ Metrics. Means the numbers are specific to Enterprise companies.')
+    st.write('5. _fss_new: Used in Matching/SelfServ Metrics. Means the numbers are specific to FSS New companies.')
+    st.write('6. _fss_existing: Used in Matching/SelfServ Metrics. Means the numbers are specific to FSS Existing companies.')
+    st.write('7. _enterprise_new: Used in Matching/SelfServ Metrics. Means the numbers are specific to Enterprise New companies.')
+    st.write('8. _enterprise_existing: Used in Matching/SelfServ Metrics. Means the numbers are specific to Enterprise Existing companies.')
+    st.write('9. _overall: Means the sum of numbers considering all categories for the metric.')
+    
     st.table(glossary)

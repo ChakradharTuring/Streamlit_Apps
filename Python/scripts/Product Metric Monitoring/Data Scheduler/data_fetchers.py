@@ -1,4 +1,4 @@
-from data_helpers import query_result, data_preprocess
+from data_helpers import query_result, data_preprocess, sum_data
 
 
 def get_all_data():
@@ -23,84 +23,38 @@ def get_glossary():
     """
     
     glossary = {
-        'total_signups_row': 'No. of developers who signed up on Turing platform from RoW region'
-      , 'total_signups_latam': 'No. of developers who signed up on Turing platform from LATAM region'
-      , 'resume_uploaded_row': 'No. of developers who uploaded their resume on Turing platform from RoW region'
-      , 'resume_uploaded_latam': 'No. of developers who uploaded their resume on Turing platform from LATAM region'
-      , 'signup_completed_row': 'No. of developers who filled their basic info page on Turing platform from RoW region'
-      , 'signup_completed_latam': 'No. of developers who filled their basic info page on Turing platform from LATAM region'
-      , 'seniority_assessment_taken_row': 'No. of developers who started taking seniority assessment test from RoW region'
-      , 'seniority_assessment_taken_latam': 'No. of developers who started taking seniority assessment test from LATAM region'
-      , 'seniority_assessment_drop_off_row': 'Percentage of developers who dropped off after starting seniority assessment test from RoW region'
-      , 'seniority_assessment_drop_off_latam': 'Percentage of developers who dropped off after starting seniority assessment test from LATAM region'
-      , 'devs_taking_mcqs_row': 'No. of developers who started taking technical MCQs from RoW region'
-      , 'devs_taking_mcqs_latam': 'No. of developers who started taking technical MCQs from LATAM region'
-      , 'devs_taking_demand_forecasted_mcq_row': 'No. of developers taking mcqs which are expected to be in demand from RoW region'
-      , 'devs_taking_demand_forecasted_mcq_latam': 'No. of developers taking mcqs which are expected to be in demand from LATAM region'
-      , 'mcq_dropoff_row': 'Percentage of developers who are dropping in between mcqs from RoW region'
-      , 'mcq_dropoff_latam': 'Percentage of developers who are dropping in between mcqs from LATAM region'
-      , 'devs_passing_mcqs_row': 'No. of developers who are passing in mcqs from RoW region'
-      , 'devs_passing_mcqs_latam': 'No. of developers who are passing in mcqs from LATAM region'
-      , 'devs_passing_demand_forecasted_mcqs_row': 'No. of developers passing mcqs which are expected to be in demand from RoW region'
-      , 'devs_passing_demand_forecasted_mcqs_latam': 'No. of developers passing mcqs which are expected to be in demand from LATAM region'
-      , 'devs_taking_acc_row': 'No. of developers who are taking ACC from the RoW region'
-      , 'devs_taking_acc_latam': 'No. of developers who are taking ACC from the LATAM region'
-      , 'acc_dropoff_row': 'Percentage of developers who are dropping off in between ACC from the RoW region'
-      , 'acc_dropoff_latam': 'Percentage of developers who are dropping off in between ACC from the LATAM region'
-      , 'devs_passing_acc_row': 'No. of developers who are passing ACC from the RoW region'
-      , 'devs_passing_acc_latam': 'No. of developers who are passing ACC from the LATAM region'
-      , 'devs_vetted_row': 'No. of vetted developers from the RoW region'
-      , 'devs_vetted_latam': 'No. of vetted developers from the LATAM region'
-      , 'p2_portal_logins_row': 'No. of developers who login on the P2 Portal from the RoW region'
-      , 'p2_portal_logins_latam': 'No. of developers who login on the P2 Portal from the LATAM region'
-      , 'resume_updates_row': 'No. of resume updates by developers from the RoW region'
-      , 'resume_updates_latam': 'No. of resume updates by developers from the LATAM region'
-      , 'p2_taking_mcq_row': 'No. of P2 developers taking mcqs from the RoW region'
-      , 'p2_taking_mcq_latam': 'No. of P2 developers taking mcqs from the LATAM region'
-      , 'p2_passing_mcq_row': 'No. of P2 developers passing mcqs from the RoW region'
-      , 'p2_passing_mcq_latam': 'No. of P2 developers passing mcqs from the LATAM region'
-      , 'self_serve_pool_row': 'No. of developers in the self serve pool from the RoW region'
-      , 'self_serve_pool_latam': 'No. of developers in the self serve pool from the LATAM region'
-      , 'ss_interview_requests_fss_existing': 'No. of interview requests from the SS Pool by FSS Existing category'
-      , 'ss_interview_requests_fss_new': 'No. of interview requests from the SS Pool by FSS New category'
-      , 'ss_interview_requests_enterprise_existing': 'No. of interview requests from the SS Pool by Enterprise Existing category'
-      , 'ss_interview_requests_enterprise_new': 'No. of interview requests from the SS Pool by Enterprise New category'
-      , 'ss_interviews_happened_fss_existing': 'No. of interview happened from the SS Pool by FSS Existing category'
-      , 'ss_interviews_happened_fss_new': 'No. of interview happened from the SS Pool by FSS New category'
-      , 'ss_interviews_happened_enterprise_existing': 'No. of interview happened from the SS Pool by Enterprise Existing category'
-      , 'ss_interviews_happened_enterprise_new': 'No. of interview happened from the SS Pool by Enterprise New category'
-      , 'ss_devs_chosen_fss_existing': 'No. of devs chosen from the SS Pool by FSS Existing category'
-      , 'ss_devs_chosen_fss_new': 'No. of devs chosen from the SS Pool by FSS New category'
-      , 'ss_devs_chosen_enterprise_existing': 'No. of devs chosen from the SS Pool by Enterprise Existing category'
-      , 'ss_devs_chosen_enterprise_new': 'No. of devs chosen from the SS Pool by Enterprise New category'
-      , 'ss_searches_fss': 'No. of SS Query searches by FSS category'
-      , 'ss_searches_enterprise': 'No. of SS Query searches by Enterprise category'
-      , 'ss_profile_viewed_fss': 'No. of SS Profile Viewed by FSS category'
-      , 'ss_profile_viewed_enterprise': 'No. of SS Profile Viewed by Enterprise category'
-      , 'ss_signin_failure_fss': 'Percentage of SS Sign-in Failures by FSS category'
-      , 'ss_signin_failure_enterprise': 'Percentage of SS Sign-in Failures by Enterprise category'
-      , 'ss_client_latency_perc50': 'SS Client Latency Percentile 50'
-      , 'devs_shortlisted_fss_existing': 'No. of devs shortlisted from Matching by FSS Existing Category'
-      , 'devs_shortlisted_fss_new': 'No. of devs shortlisted from Matching by FSS New Category'
-      , 'devs_shortlisted_enterprise_existing': 'No. of devs shortlisted from Matching by Enterprise Existing Category'
-      , 'devs_shortlisted_enterprise_new': 'No. of devs shortlisted from Matching by Enterprise New Category'
-      , 'packets_sent_fss_existing': 'No. of packets sent from Matching by FSS Existing Category'
-      , 'packets_sent_fss_new': 'No. of packets sent from Matching by FSS New Category'
-      , 'packets_sent_enterprise_existing': 'No. of packets sent from Matching by Enterprise Existing Category'
-      , 'packets_sent_enterprise_new': 'No. of packets sent from Matching by Enterprise New Category'
-      , 'ms_interview_requests_fss_existing': 'No. of interview request from Matching by FSS Existing Category'
-      , 'ms_interview_requests_fss_new': 'No. of interview request from Matching by FSS New Category'
-      , 'ms_interview_requests_enterprise_existing': 'No. of interview request from Matching by Enterprise Existing Category'
-      , 'ms_interview_requests_enterprise_new': 'No. of interview request from Matching by Enterprise New Category'  
-      , 'ms_interviews_happened_fss_existing': 'No. of interview happened from Matching by FSS Existing Category'
-      , 'ms_interviews_happened_fss_new': 'No. of interview happened from Matching by FSS New Category'
-      , 'ms_interviews_happened_enterprise_existing': 'No. of interview happened from Matching by Enterprise Existing Category'
-      , 'ms_interviews_happened_enterprise_new': 'No. of interview happened from Matching by Enterprise New Category'
-      , 'ms_devs_chosen_fss_existing': 'No. of devs chosen from Matching by FSS Existing Category'
-      , 'ms_devs_chosen_fss_new': 'No. of devs chosen from Matching by FSS New Category'
-      , 'ms_devs_chosen_enterprise_existing': 'No. of devs chosen from Matching by Enterprise Existing Category'
-      , 'ms_devs_chosen_enterprise_new': 'No. of devs chosen from Matching by Enterprise New Category'
-      , 'ms_client_latency_perc50': 'MS Client Latency Percentile 50'
+        'total_signups': 'No. of developers who signed up on Turing platform. This is aggregated based on signup date of the dev.'
+      , 'resume_uploaded': 'No. of developers who uploaded their resume on Turing platform. This is aggregated based on resume uploaded date by the dev.'
+      , 'signup_completed': 'No. of developers who filled their basic info page on Turing platform. This is aggregated based on basic info page completion date by the dev.'
+      , 'seniority_assessment_taken': 'No. of developers who started taking seniority assessment test. This is aggregated based on seniority assessment taken date by the dev.'
+      , 'seniority_assessment_drop_off': 'Percentage of developers who dropped off after starting seniority assessment test. This is aggregated based on seniority assessment attempt date by the dev.'
+      , 'devs_taking_mcqs': 'No. of developers who started taking technical MCQs. This is aggregated based on MCQ submit date by the dev.'
+      , 'devs_taking_demand_forecasted_mcq': 'No. of developers taking mcqs which are expected to be in demand. This is aggregated based on MCQ submit date by the dev.'
+      , 'mcq_dropoff': 'Percentage of developers who are dropping in between mcqs. This is aggregated based on MCQ attempt date by the dev.'
+      , 'devs_passing_mcqs': 'No. of developers who are passing in mcqs. This is aggregated based on MCQ submit date by the dev.'
+      , 'devs_passing_demand_forecasted_mcqs': 'No. of developers passing mcqs which are expected to be in demand. This is aggregated based on MCQ submit date by the dev.'
+      , 'devs_taking_acc': 'No. of developers who are taking ACC. This is aggregated based on ACC submit date by the dev.'
+      , 'acc_dropoff': 'Percentage of developers who are dropping off in between ACC. This is aggregated based on ACC attempt date by the dev.'
+      , 'devs_passing_acc': 'No. of developers who are passing ACC. This is aggregated based on ACC submit date by the dev.'
+      , 'devs_vetted': 'No. of vetted developers. This is aggregated based on P2 entry date of the dev.'
+      , 'p2_portal_logins': 'No. of developers who login on the P2 Portal. This is aggregated based on login date of the dev.'
+      , 'resume_updates': 'No. of resume updates by developers. This is aggregated based on resume updated date by the dev.'
+      , 'p2_taking_mcq': 'No. of P2 developers taking mcqs. This is aggregated based on MCQ submit date by the dev.'
+      , 'p2_passing_mcq': 'No. of P2 developers passing mcqs. This is aggregated based on MCQ submit date by the dev.'
+      # , 'self_serve_pool': 'No. of developers in the self serve pool.'
+      , 'ss_interview_requests': 'No. of interview requests from the SS Pool. This is aggregated based on interview scheduled date.'
+      , 'ss_interviews_happened': 'No. of interview happened from the SS Pool. This is aggregated based on interview happened date.'
+      , 'ss_devs_chosen': 'No. of devs chosen from the SS Pool. This is aggregated based on dev chosen date.'
+      , 'ss_searches': 'No. of SS Query searches. This is aggregated based on search query created date.'
+      , 'ss_profile_viewed': 'No. of SS Profile Viewed. This is aggregated based on dev profile viewed date.'
+      , 'ss_signin_failure': 'Percentage of SS Sign-in Failures. This is aggregated based on dev chosen date.'
+      , 'devs_shortlisted': 'No. of devs shortlisted from Matching. This is aggregated based on sign-in attempts and sign-in failure dates on a daily level.'
+      , 'packets_sent': 'No. of packets sent from Matching. This is aggregated based on packet sent date.'
+      , 'ms_interview_requests': 'No. of interview request from Matching. This is aggregated based on interview scheduled date.'
+      , 'ms_interviews_happened': 'No. of interview happened from Matching. This is aggregated based on interview happened date.'
+      , 'ms_devs_chosen': 'No. of devs chosen from Matching. This is aggregated based on dev chosen date.'
+      , 'ms_client_latency_perc50': 'MS Client Latency Percentile 50. This is simply the median value of all the latencies on daily level.'
+      # , 'ss_client_latency_perc50': 'SS Client Latency Percentile 50. This is simply the median value of all the latencies on daily level.. '
     }
     
     return glossary
@@ -127,18 +81,23 @@ def get_selfserv_data():
       , 'ss_interview_requests_fss_new': ss_interview_requests_fss_new
       , 'ss_interview_requests_enterprise_existing': ss_interview_requests_enterprise_existing
       , 'ss_interview_requests_enterprise_new': ss_interview_requests_enterprise_new
+      , 'ss_interview_requests_overall': sum_data(ss_interview_requests_fss_existing, ss_interview_requests_fss_new, ss_interview_requests_enterprise_existing, ss_interview_requests_enterprise_new)
       , 'ss_interviews_happened_fss_existing': ss_interviews_happened_fss_existing
       , 'ss_interviews_happened_fss_new': ss_interviews_happened_fss_new
       , 'ss_interviews_happened_enterprise_existing': ss_interviews_happened_enterprise_existing
       , 'ss_interviews_happened_enterprise_new': ss_interviews_happened_enterprise_new
+      , 'ss_interviews_happened_overall': sum_data(ss_interviews_happened_fss_existing, ss_interviews_happened_fss_new, ss_interviews_happened_enterprise_existing, ss_interviews_happened_enterprise_new)
       , 'ss_devs_chosen_fss_existing': ss_devs_chosen_fss_existing
       , 'ss_devs_chosen_fss_new': ss_devs_chosen_fss_new
       , 'ss_devs_chosen_enterprise_existing': ss_devs_chosen_enterprise_existing
       , 'ss_devs_chosen_enterprise_new': ss_devs_chosen_enterprise_new
+      , 'ss_devs_chosen_overall': sum_data(ss_devs_chosen_fss_existing, ss_devs_chosen_fss_new, ss_devs_chosen_enterprise_existing, ss_devs_chosen_enterprise_new)
       , 'ss_searches_fss': ss_searches_fss
       , 'ss_searches_enterprise': ss_searches_enterprise
+      , 'ss_searches_overall': sum_data(ss_searches_fss, ss_searches_enterprise)
       , 'ss_profile_viewed_fss': ss_profile_viewed_fss
       , 'ss_profile_viewed_enterprise': ss_profile_viewed_enterprise
+      , 'ss_profile_viewed_overall': sum_data(ss_profile_viewed_fss, ss_profile_viewed_enterprise)
       , 'ss_signin_failure': ss_signin_failure
       #, 'ss_client_latency_perc50': ss_client_latency_perc50
     }
@@ -166,22 +125,27 @@ def get_matching_data():
       , 'devs_shortlisted_fss_new': devs_shortlisted_fss_new
       , 'devs_shortlisted_enterprise_existing': devs_shortlisted_enterprise_existing
       , 'devs_shortlisted_enterprise_new': devs_shortlisted_enterprise_new
+      , 'devs_shortlisted_overall': sum_data(devs_shortlisted_fss_existing, devs_shortlisted_fss_new, devs_shortlisted_enterprise_existing, devs_shortlisted_enterprise_new)
       , 'packets_sent_fss_existing': packets_sent_fss_existing
       , 'packets_sent_fss_new': packets_sent_fss_new
       , 'packets_sent_enterprise_existing': packets_sent_enterprise_existing
       , 'packets_sent_enterprise_new': packets_sent_enterprise_new
+      , 'packets_sent_overall': sum_data(packets_sent_fss_existing, packets_sent_fss_new, packets_sent_enterprise_existing, packets_sent_enterprise_new)
       , 'ms_interview_requests_fss_existing': ms_interview_requests_fss_existing
       , 'ms_interview_requests_fss_new': ms_interview_requests_fss_new
       , 'ms_interview_requests_enterprise_existing': ms_interview_requests_enterprise_existing
       , 'ms_interview_requests_enterprise_new': ms_interview_requests_enterprise_new  
+      , 'ms_interview_requests_overall': sum_data(ms_interview_requests_fss_existing, ms_interview_requests_fss_new, ms_interview_requests_enterprise_existing, ms_interview_requests_enterprise_new)  
       , 'ms_interviews_happened_fss_existing': ms_interviews_happened_fss_existing
       , 'ms_interviews_happened_fss_new': ms_interviews_happened_fss_new
       , 'ms_interviews_happened_enterprise_existing': ms_interviews_happened_enterprise_existing
       , 'ms_interviews_happened_enterprise_new': ms_interviews_happened_enterprise_new
+      , 'ms_interviews_happened_overall': sum_data(ms_interviews_happened_fss_existing, ms_interviews_happened_fss_new, ms_interviews_happened_enterprise_existing, ms_interviews_happened_enterprise_new)
       , 'ms_devs_chosen_fss_existing': ms_devs_chosen_fss_existing
       , 'ms_devs_chosen_fss_new': ms_devs_chosen_fss_new
       , 'ms_devs_chosen_enterprise_existing': ms_devs_chosen_enterprise_existing
       , 'ms_devs_chosen_enterprise_new': ms_devs_chosen_enterprise_new
+      , 'ms_devs_chosen_overall': sum_data(ms_devs_chosen_fss_existing, ms_devs_chosen_fss_new, ms_devs_chosen_enterprise_existing, ms_devs_chosen_enterprise_new)
       , 'ms_client_latency_perc50': ms_client_latency_perc50
     }
     
@@ -221,40 +185,55 @@ def get_supply_data():
     supply_data = {
         'total_signups_row': total_signups_row
       , 'total_signups_latam': total_signups_latam
+      , 'total_signups_overall': sum_data(total_signups_row, total_signups_latam)
       , 'resume_uploaded_row': resume_uploaded_row
       , 'resume_uploaded_latam': resume_uploaded_latam
+      , 'resume_uploaded_overall': sum_data(resume_uploaded_row, resume_uploaded_latam)
       , 'signup_completed_row': signup_completed_row
       , 'signup_completed_latam': signup_completed_latam
+      , 'signup_completed_overall': sum_data(signup_completed_row, signup_completed_latam)
       , 'seniority_assessment_taken_row': seniority_assessment_taken_row
       , 'seniority_assessment_taken_latam': seniority_assessment_taken_latam
+      , 'seniority_assessment_taken_overall': sum_data(seniority_assessment_taken_row, seniority_assessment_taken_latam)
       , 'seniority_assessment_drop_off_row': seniority_assessment_drop_off_row
       , 'seniority_assessment_drop_off_latam': seniority_assessment_drop_off_latam
       , 'devs_taking_mcqs_row': devs_taking_mcqs_row
       , 'devs_taking_mcqs_latam': devs_taking_mcqs_latam
+      , 'devs_taking_mcqs_overall': sum_data(devs_taking_mcqs_row, devs_taking_mcqs_latam)
       , 'devs_taking_demand_forecasted_mcqs_row': devs_taking_demand_forecasted_mcqs_row
       , 'devs_taking_demand_forecasted_mcqs_latam': devs_taking_demand_forecasted_mcqs_latam
+      , 'devs_taking_demand_forecasted_mcqs_overall': sum_data(devs_taking_demand_forecasted_mcqs_row, devs_taking_demand_forecasted_mcqs_latam)
       , 'mcq_dropoff_row': mcq_dropoff_row
       , 'mcq_dropoff_latam': mcq_dropoff_latam
       , 'devs_passing_mcqs_row': devs_passing_mcqs_row
       , 'devs_passing_mcqs_latam': devs_passing_mcqs_latam
+      , 'devs_passing_mcqs_overall': sum_data(devs_passing_mcqs_row, devs_passing_mcqs_latam)
       , 'devs_passing_demand_forecasted_mcqs_row': devs_passing_demand_forecasted_mcqs_row
       , 'devs_passing_demand_forecasted_mcqs_latam': devs_passing_demand_forecasted_mcqs_latam
+      , 'devs_passing_demand_forecasted_mcqs_overall': sum_data(devs_passing_demand_forecasted_mcqs_row, devs_passing_demand_forecasted_mcqs_latam)
       , 'devs_taking_acc_row': devs_taking_acc_row
       , 'devs_taking_acc_latam': devs_taking_acc_latam
+      , 'devs_taking_acc_overall': sum_data(devs_taking_acc_row, devs_taking_acc_latam)
       , 'acc_dropoff_row': acc_dropoff_row
       , 'acc_dropoff_latam': acc_dropoff_latam
       , 'devs_passing_acc_row': devs_passing_acc_row
       , 'devs_passing_acc_latam': devs_passing_acc_latam
+      , 'devs_passing_acc_overall': sum_data(devs_passing_acc_row, devs_passing_acc_latam)
       , 'devs_vetted_row': devs_vetted_row
       , 'devs_vetted_latam': devs_vetted_latam
+      , 'devs_vetted_overall': sum_data(devs_vetted_row, devs_vetted_latam)
       , 'p2_portal_logins_row': p2_portal_logins_row
       , 'p2_portal_logins_latam': p2_portal_logins_latam
+      , 'p2_portal_logins_overall': sum_data(p2_portal_logins_row, p2_portal_logins_latam)
       , 'resume_updates_row': resume_updates_row
       , 'resume_updates_latam': resume_updates_latam
+      , 'resume_updates_overall': sum_data(resume_updates_row, resume_updates_latam)
       , 'p2_taking_mcq_row': p2_taking_mcq_row
       , 'p2_taking_mcq_latam': p2_taking_mcq_latam
+      , 'p2_taking_mcq_overall': sum_data(p2_taking_mcq_row, p2_taking_mcq_latam)
       , 'p2_passing_mcq_row': p2_passing_mcq_row
       , 'p2_passing_mcq_latam': p2_passing_mcq_latam
+      , 'p2_passing_mcq_overall': sum_data(p2_passing_mcq_row, p2_passing_mcq_latam)
       # , 'self_serve_pool_row': self_serve_pool_row
       # , 'self_serve_pool_latam': self_serve_pool_latam
     }
@@ -749,4 +728,6 @@ def get_ms_client_latency():
 
 # To test the python file
 if __name__=='__main__':
-    print(get_p2_taking_mcq())
+    ss_interview_requests_fss_existing, ss_interview_requests_fss_new, ss_interview_requests_enterprise_existing, ss_interview_requests_enterprise_new = get_ss_interview_requests()
+    ss_interview_requests_overall = sum_data(ss_interview_requests_enterprise_existing, ss_interview_requests_enterprise_new)
+    print(ss_interview_requests_overall)
