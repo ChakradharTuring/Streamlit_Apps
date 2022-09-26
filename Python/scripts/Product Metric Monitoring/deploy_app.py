@@ -51,13 +51,13 @@ def page_anomalies(supply_forecasts, matching_forecasts, selfserv_forecasts, sup
     anomaly_page = st.radio('Choose Product:', anomaly_options, horizontal=True)
     
     if anomaly_page == 'Supply':
-        render_anomaly(supply_metrics, supply_forecasts, ['Manually Select', 'RoW', 'LATAM'])
+        render_anomaly(supply_metrics, supply_forecasts, ['Manually Select', 'Overall', 'RoW', 'LATAM'])
     
     if anomaly_page == 'Matching':
-        render_anomaly(matching_metrics, matching_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
+        render_anomaly(matching_metrics, matching_forecasts, ['Manually Select', 'Overall', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
         
     if anomaly_page == 'SefServ':
-        render_anomaly(selfserv_metrics, selfserv_forecasts, ['Manually Select', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
+        render_anomaly(selfserv_metrics, selfserv_forecasts, ['Manually Select', 'Overall', 'FSS New', 'FSS Existing', 'Enterprise New', 'Enterprise Existing', 'FSS', 'Enterprise', 'Others'])
 
     
 def render_anomaly(metrics, forecasts, metric_category_list):
