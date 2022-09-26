@@ -91,7 +91,7 @@ def render_anomaly(metrics, forecasts, metric_category_list):
         if metric_category == 'Others':
             for metric in concerned_metrics:
                 globals()[metric] = True
-                names = ['fss_new', 'fss_existing', 'enterprise_new', 'enterprise_existing']
+                names = ['fss_new', 'fss_existing', 'enterprise_new', 'enterprise_existing', 'overall', 'fss', 'enterprise']
                 for name in names:
                     if name in metric:
                         globals()[metric] = False
@@ -244,7 +244,7 @@ def page_glossary(glossary):
 
     glossary = (pd.DataFrame(glossary.items())).rename({0: 'Metric', 1: 'Metric Definition'}, axis=1)
     
-    st.write('These are all the metrics which Janus monitors as of now. On the anomalies or the data reports page, you may see the following suffixes attached to the words:')
+    st.write('These are all the metrics which Janus monitors as of now. The data is aggregated for each metric at a daily level. On the anomalies or the data reports page, you may see the following suffixes attached to the words:')
     st.write('1. _row: Used in Supply Metrics. Means the numbers denote the developers from RoW (rest of the world) region.')
     st.write('2. _latam: Used in Supply Metrics. Means the numbers denote the developers from LATAM region.')
     st.write('3. _fss: Used in Matching/SelfServ Metrics. Means the numbers are specific to FSS companies.')
