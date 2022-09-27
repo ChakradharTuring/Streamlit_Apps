@@ -16,7 +16,7 @@ def make_app(supply_forecasts, matching_forecasts, selfserv_forecasts, supply_me
         supply_metrics (dict): Dictionary having actual values of the supply metrics.
         matching_metrics (dict): Dictionary having actual values of the matching metrics.
         selfserv_metrics (dict): Dictionary having actual values of the selfserv metrics.
-        glossary (dict): Glossary explaining all metrics
+        glossary (dict): Glossary explaining all metrics.
     """
 
     st.title("Janus (Early Monitoring)")
