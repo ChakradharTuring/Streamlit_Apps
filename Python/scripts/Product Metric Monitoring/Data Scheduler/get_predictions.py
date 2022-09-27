@@ -24,15 +24,19 @@ def run_prophet(data):
       , seasonality_mode = 'multiplicative'
       , interval_width = 0.95
       , changepoint_range = 0.8
-      , changepoint_prior_scale = 0.001
+      , changepoint_prior_scale = 0.05
     )
     
     today = datetime.date.today()
     week_ago = pd.to_datetime(today - datetime.timedelta(days=7), format='%Y-%m-%d')
-
+    months_ago = pd.to_datetime(today - datetime.timedelta(days=97), format='%Y-%m-%d')
+    
     if holiday_effect:
         model.add_country_holidays(country_name='US')
-        
+
+    mean_value = data[(data['ds'] > months_ago) & (data['ds'] < weeks_ago)]['y'].mean()
+    data.loc[data['y'] > int((2.5 * mean_value)), 'y'] = int(mean_value)
+    
     model.fit(data[data['ds'] < week_ago])
     np.random.seed(16)
     forecast = model.predict(data)
