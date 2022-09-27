@@ -35,7 +35,7 @@ def run_prophet(data):
         model.add_country_holidays(country_name='US')
 
     mean_value = data[(data['ds'] > months_ago) & (data['ds'] < week_ago)]['y'].mean()
-    data.loc[data['y'] > (2.5 * mean_value), 'y'] = int(mean_value)
+    data.loc[(data['y'] > (2.5 * mean_value)) & (data['ds'] < week_ago), 'y'] = int(mean_value)
     
     model.fit(data[data['ds'] < week_ago])
     np.random.seed(16)
