@@ -29,10 +29,14 @@ def run_prophet(data):
     
     today = datetime.date.today()
     week_ago = pd.to_datetime(today - datetime.timedelta(days=7), format='%Y-%m-%d')
-
+    months_ago = pd.to_datetime(today - datetime.timedelta(days=97), format='%Y-%m-%d')
+    
     if holiday_effect:
         model.add_country_holidays(country_name='US')
-        
+
+    mean_value = data[(data['ds'] > months_ago) & (data['ds'] < week_ago)]['y'].mean()
+    data.loc[(data['y'] > (2.5 * mean_value)) & (data['ds'] < week_ago), 'y'] = int(mean_value)
+    
     model.fit(data[data['ds'] < week_ago])
     np.random.seed(16)
     forecast = model.predict(data)
@@ -62,7 +66,7 @@ def get_anomalies(metric):
     for metric, data in metric.items():
         print('---- Running Prophet for Metric:', metric, '----')
         
-        performance = run_prophet(data)
+        performance = run_prophet(data.copy())
         forecasted_values[metric] = performance
         
     return forecasted_values
