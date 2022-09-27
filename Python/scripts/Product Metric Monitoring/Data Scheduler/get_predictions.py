@@ -66,7 +66,7 @@ def get_anomalies(metric):
     for metric, data in metric.items():
         print('---- Running Prophet for Metric:', metric, '----')
         
-        performance = run_prophet(data)
+        performance = run_prophet(data.copy())
         forecasted_values[metric] = performance
         
     return forecasted_values
