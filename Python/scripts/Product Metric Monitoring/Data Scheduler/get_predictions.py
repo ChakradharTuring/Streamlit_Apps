@@ -24,7 +24,7 @@ def run_prophet(data):
       , seasonality_mode = 'multiplicative'
       , interval_width = 0.95
       , changepoint_range = 0.8
-      , changepoint_prior_scale = 0.05
+      , changepoint_prior_scale = 0.001
     )
     
     today = datetime.date.today()
