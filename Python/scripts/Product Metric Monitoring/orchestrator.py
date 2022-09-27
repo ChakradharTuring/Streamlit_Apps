@@ -22,9 +22,9 @@ def read_data():
     selfserv_metrics = change_dict_df(board.pin_read('bhanu_mittal/janus_selfserv_data'))
     glossary = change_dict_df(board.pin_read('bhanu_mittal/janus_glossary'))
     
-    supply_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_supply_forecasts_test'))
-    matching_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_matching_forecasts_test'))
-    selfserv_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_selfserv_forecasts_test'))
+    supply_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_supply_forecasts'))
+    matching_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_matching_forecasts'))
+    selfserv_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_selfserv_forecasts'))
    
     return supply_metrics, matching_metrics, selfserv_metrics, glossary, supply_forecasts, matching_forecasts, selfserv_forecasts
 
