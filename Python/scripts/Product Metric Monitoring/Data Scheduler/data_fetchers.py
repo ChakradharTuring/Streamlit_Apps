@@ -37,7 +37,7 @@ def get_glossary():
       , 'acc_dropoff': 'Percentage of developers who are dropping off in between ACC. This is aggregated based on ACC attempt date by the dev.'
       , 'devs_passing_acc': 'No. of developers who are passing ACC. This is aggregated based on ACC submit date by the dev.'
       , 'devs_vetted': 'No. of vetted developers. This is aggregated based on P2 entry date of the dev.'
-      , 'p2_portal_logins': 'No. of developers who login on the P2 Portal. This is aggregated based on login date of the dev.'
+      # , 'p2_portal_logins': 'No. of developers who login on the P2 Portal. This is aggregated based on login date of the dev.'
       , 'resume_updates': 'No. of resume updates by developers. This is aggregated based on resume updated date by the dev.'
       , 'p2_taking_mcq': 'No. of P2 developers taking mcqs. This is aggregated based on MCQ submit date by the dev.'
       , 'p2_passing_mcq': 'No. of P2 developers passing mcqs. This is aggregated based on MCQ submit date by the dev.'
@@ -174,7 +174,7 @@ def get_supply_data():
     acc_dropoff_row, acc_dropoff_latam = get_acc_dropoff()
     devs_passing_acc_row, devs_passing_acc_latam = get_devs_passing_acc()
     devs_vetted_row, devs_vetted_latam = get_devs_vetted()
-    p2_portal_logins_row, p2_portal_logins_latam = get_p2_portal_logins()
+    # p2_portal_logins_row, p2_portal_logins_latam = get_p2_portal_logins()
     resume_updates_row, resume_updates_latam = get_resume_updates()
     p2_taking_mcq_row, p2_taking_mcq_latam = get_p2_taking_mcq()
     p2_passing_mcq_row, p2_passing_mcq_latam = get_p2_passing_mcq()
@@ -222,9 +222,9 @@ def get_supply_data():
       , 'devs_vetted_row': devs_vetted_row
       , 'devs_vetted_latam': devs_vetted_latam
       , 'devs_vetted_overall': sum_data(devs_vetted_row, devs_vetted_latam)
-      , 'p2_portal_logins_row': p2_portal_logins_row
-      , 'p2_portal_logins_latam': p2_portal_logins_latam
-      , 'p2_portal_logins_overall': sum_data(p2_portal_logins_row, p2_portal_logins_latam)
+      # , 'p2_portal_logins_row': p2_portal_logins_row
+      # , 'p2_portal_logins_latam': p2_portal_logins_latam
+      # , 'p2_portal_logins_overall': sum_data(p2_portal_logins_row, p2_portal_logins_latam)
       , 'resume_updates_row': resume_updates_row
       , 'resume_updates_latam': resume_updates_latam
       , 'resume_updates_overall': sum_data(resume_updates_row, resume_updates_latam)
