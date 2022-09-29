@@ -1,0 +1,210 @@
+,skill_id,skill_name_x,total_open_positions__c_x,dc,skill_name_y,total_open_positions__c_y,total_devs,Elite,High Quality,Average,Low Quality,Low Experience
+0,9,Mobile Testing Frameworks/Tools,3.0,3.0,Mobile Testing Frameworks/Tools,6.0,0.0,,,,,
+1,16,iOS Development,156.0,57.0,iOS Development,17.0,888.0,24.0,112.0,492.0,171.0,89.0
+2,20,Python,1161.0,318.0,Python,121.0,9939.0,568.0,2169.0,869.0,619.0,5714.0
+3,25,Django,84.0,32.0,Django,12.0,1888.0,181.0,507.0,101.0,182.0,917.0
+4,26,Go/Golang,278.0,89.0,Go/Golang,28.0,764.0,93.0,236.0,214.0,76.0,145.0
+5,27,C++,109.0,10.0,C++,11.0,1140.0,130.0,312.0,344.0,132.0,222.0
+6,29,Java,558.0,114.0,Java,44.0,5094.0,452.0,1624.0,1501.0,837.0,680.0
+7,30,Ruby on Rails,363.0,95.0,Ruby on Rails,28.0,650.0,49.0,134.0,289.0,93.0,85.0
+8,31,Flask,66.0,23.0,Flask,11.0,839.0,100.0,284.0,56.0,92.0,307.0
+9,38,HTTP,6.0,0.0,HTTP,5.0,0.0,,,,,
+10,49,Security,8.0,0.0,Security,1.0,164.0,28.0,56.0,56.0,15.0,9.0
+11,54,DevOps,202.0,51.0,DevOps,5.0,0.0,,,,,
+12,55,Docker,173.0,50.0,Docker,12.0,2806.0,446.0,1196.0,382.0,168.0,614.0
+13,60,Google Cloud Platform,44.0,12.0,Google Cloud Platform,1.0,9.0,,5.0,2.0,1.0,1.0
+14,61,Kubernetes,201.0,47.0,Kubernetes,11.0,733.0,126.0,321.0,143.0,39.0,104.0
+15,62,Ansible,15.0,6.0,Ansible,1.0,0.0,,,,,
+16,63,CI/CD,123.0,30.0,CI/CD,4.0,0.0,,,,,
+17,64,Rust,39.0,2.0,Rust,4.0,65.0,11.0,20.0,17.0,3.0,14.0
+18,67,Kafka,37.0,5.0,Kafka,5.0,0.0,,,,,
+19,69,Azure,65.0,12.0,Azure,13.0,377.0,61.0,162.0,92.0,37.0,25.0
+20,70,GCP,93.0,27.0,GCP,5.0,0.0,,,,,
+21,72,,,,SaltStack,1.0,0.0,,,,,
+22,73,GitHub,29.0,11.0,GitHub,5.0,0.0,,,,,
+23,76,ElasticSearch,33.0,6.0,ElasticSearch,5.0,0.0,,,,,
+24,79,Zookeeper,4.0,0.0,Zookeeper,1.0,0.0,,,,,
+25,80,Terraform,120.0,28.0,Terraform,4.0,0.0,,,,,
+26,83,Prometheus,5.0,2.0,Prometheus,1.0,0.0,,,,,
+27,85,Grafana,6.0,2.0,Grafana,1.0,0.0,,,,,
+28,86,PostgreSQL,325.0,67.0,PostgreSQL,19.0,7047.0,826.0,2625.0,1144.0,726.0,1726.0
+29,87,Redis,30.0,8.0,Redis,3.0,426.0,112.0,174.0,70.0,28.0,42.0
+30,91,C#,250.0,71.0,C#,25.0,4384.0,229.0,1066.0,1912.0,787.0,390.0
+31,93,JavaScript,965.0,258.0,JavaScript,78.0,439.0,159.0,204.0,28.0,31.0,17.0
+32,97,Android SDK,26.0,10.0,Android SDK,2.0,1994.0,98.0,327.0,982.0,427.0,160.0
+33,102,MVVM,10.0,3.0,MVVM,8.0,0.0,,,,,
+34,104,Scala,60.0,9.0,Scala,4.0,83.0,16.0,36.0,18.0,4.0,9.0
+35,105,Swift,92.0,23.0,Swift,5.0,888.0,24.0,112.0,492.0,171.0,89.0
+36,107,CSS,327.0,79.0,CSS,30.0,179.0,86.0,73.0,7.0,6.0,7.0
+37,108,Android,154.0,49.0,Android,23.0,321.0,12.0,59.0,177.0,55.0,18.0
+38,109,.NET,53.0,15.0,.NET,4.0,0.0,,,,,
+39,111,REST/RESTful APIs,338.0,87.0,REST/RESTful APIs,11.0,3800.0,685.0,1608.0,708.0,388.0,411.0
+40,113,MySQL,166.0,46.0,MySQL,19.0,7047.0,826.0,2625.0,1144.0,726.0,1726.0
+41,114,SQL,414.0,96.0,SQL,33.0,7047.0,826.0,2625.0,1144.0,726.0,1726.0
+42,116,MongoDB,206.0,57.0,MongoDB,11.0,899.0,268.0,397.0,94.0,70.0,70.0
+43,120,Node.js,1280.0,376.0,Node.js,83.0,4286.0,616.0,1598.0,963.0,432.0,677.0
+44,121,Redux,185.0,63.0,Redux,26.0,1050.0,199.0,409.0,126.0,66.0,250.0
+45,122,Vue.js,279.0,92.0,Vue.js,27.0,2250.0,356.0,1022.0,347.0,181.0,344.0
+46,124,Software Architecture,30.0,6.0,Software Architecture,2.0,0.0,,,,,
+47,125,API Design,39.0,5.0,API Design,4.0,0.0,,,,,
+48,132,Firebase,61.0,21.0,Firebase,2.0,692.0,88.0,215.0,179.0,130.0,80.0
+49,133,Apache Beam,1.0,0.0,Apache Beam,1.0,0.0,,,,,
+50,157,Objective-C,34.0,16.0,Objective-C,1.0,0.0,,,,,
+51,158,Typescript,810.0,248.0,Typescript,76.0,3260.0,550.0,1363.0,397.0,241.0,709.0
+52,159,GraphQL,287.0,78.0,GraphQL,15.0,569.0,159.0,214.0,61.0,28.0,107.0
+53,160,React Native,433.0,130.0,React Native,14.0,1468.0,147.0,389.0,23.0,78.0,831.0
+54,165,PHP,257.0,72.0,PHP,21.0,3586.0,450.0,1407.0,839.0,636.0,254.0
+55,166,Linux ,112.0,31.0,Linux ,4.0,0.0,,,,,
+56,167,Algorithms and Data Structures,30.0,6.0,Algorithms and Data Structures,1.0,1347.0,288.0,588.0,191.0,87.0,193.0
+57,179,Network Protocols,6.0,3.0,Network Protocols,2.0,0.0,,,,,
+58,188,D3.js,13.0,6.0,D3.js,1.0,110.0,31.0,45.0,12.0,6.0,16.0
+59,193,Computer Vision,13.0,2.0,Computer Vision,1.0,0.0,,,,,
+60,194,Natural Language Processing (NLP),21.0,11.0,Natural Language Processing (NLP),2.0,0.0,,,,,
+61,196,Object-Oriented Design,2.0,0.0,Object-Oriented Design,1.0,0.0,,,,,
+62,216,Pandas,11.0,0.0,Pandas,1.0,0.0,,,,,
+63,217,Numpy,3.0,0.0,Numpy,2.0,0.0,,,,,
+64,221,Spark,32.0,6.0,Spark,4.0,119.0,19.0,49.0,22.0,2.0,27.0
+65,222,Keras,4.0,2.0,Keras,1.0,0.0,,,,,
+66,223,Tensorflow,15.0,1.0,Tensorflow,5.0,159.0,29.0,63.0,2.0,13.0,52.0
+67,226,PyTorch,14.0,3.0,PyTorch,1.0,152.0,20.0,53.0,6.0,4.0,69.0
+68,227,,,,MXNet,1.0,0.0,,,,,
+69,232,DynamoDB,14.0,5.0,DynamoDB,4.0,0.0,,,,,
+70,236,,,,Matplotlib,1.0,0.0,,,,,
+71,242,Airflow,20.0,4.0,Airflow,2.0,0.0,,,,,
+72,246,RDBMS,28.0,3.0,RDBMS,1.0,0.0,,,,,
+73,249,Cloud,112.0,33.0,Cloud,13.0,0.0,,,,,
+74,250,Amazon Redshift,14.0,7.0,Amazon Redshift,2.0,0.0,,,,,
+75,256,Data Warehousing,15.0,5.0,Data Warehousing,1.0,0.0,,,,,
+76,257,Business Intelligence,2.0,1.0,Business Intelligence,2.0,0.0,,,,,
+77,258,Git,71.0,20.0,Git,11.0,4398.0,609.0,1940.0,900.0,392.0,557.0
+78,264,JSON,38.0,10.0,JSON,2.0,0.0,,,,,
+79,265,XML,14.0,4.0,XML,5.0,0.0,,,,,
+80,266,Sound and Audio,2.0,0.0,Sound and Audio,1.0,0.0,,,,,
+81,267,Video,6.0,0.0,Video,1.0,0.0,,,,,
+82,268,Machine Learning,160.0,52.0,Machine Learning,20.0,1657.0,104.0,434.0,150.0,122.0,847.0
+83,270,,,,Stanford CoreNLP,1.0,0.0,,,,,
+84,277,Kotlin,97.0,18.0,Kotlin,8.0,321.0,12.0,59.0,177.0,55.0,18.0
+85,282,Express.js,65.0,15.0,Express.js,3.0,774.0,225.0,334.0,74.0,60.0,81.0
+86,284,jQuery,75.0,28.0,jQuery,7.0,0.0,,,,,
+87,287,NoSQL,100.0,14.0,NoSQL,6.0,0.0,,,,,
+88,304,Blockchain,63.0,22.0,Blockchain,1.0,523.0,96.0,205.0,65.0,72.0,85.0
+89,305,Microservices,134.0,25.0,Microservices,15.0,410.0,113.0,188.0,72.0,18.0,19.0
+90,308,HTML5,43.0,6.0,HTML5,8.0,179.0,86.0,73.0,7.0,6.0,7.0
+91,309,CSS3,29.0,9.0,CSS3,8.0,179.0,86.0,73.0,7.0,6.0,7.0
+92,314,JavaScript Frameworks,41.0,15.0,JavaScript Frameworks,14.0,0.0,,,,,
+93,315,Elixir,19.0,4.0,Elixir,1.0,56.0,8.0,13.0,13.0,10.0,12.0
+94,321,Webpack,12.0,5.0,Webpack,4.0,0.0,,,,,
+95,328,Third party APIs,36.0,22.0,Third party APIs,3.0,0.0,,,,,
+96,331,MVC,20.0,7.0,MVC,7.0,0.0,,,,,
+97,338,Flux,3.0,0.0,Flux,3.0,0.0,,,,,
+98,341,Jira,15.0,7.0,Jira,1.0,0.0,,,,,
+99,342,TDD/Test-Driven Development,11.0,5.0,TDD/Test-Driven Development,2.0,0.0,,,,,
+100,347,Agile,23.0,2.0,Agile,1.0,0.0,,,,,
+101,351,Data Analysis,7.0,1.0,Data Analysis,2.0,1199.0,78.0,308.0,112.0,96.0,605.0
+102,355,Web Architecture,5.0,1.0,Web Architecture,1.0,0.0,,,,,
+103,358,Laravel,46.0,14.0,Laravel,5.0,2364.0,292.0,1009.0,605.0,258.0,200.0
+104,359,Jenkins,34.0,5.0,Jenkins,1.0,466.0,78.0,215.0,92.0,45.0,36.0
+105,373,Product Management,5.0,1.0,Product Management,1.0,0.0,,,,,
+106,374,Business Analysis,3.0,1.0,Business Analysis,1.0,0.0,,,,,
+107,384,JMeter,1.0,0.0,JMeter,1.0,0.0,,,,,
+108,386,Manual Testing,11.0,3.0,Manual Testing,5.0,793.0,32.0,72.0,467.0,172.0,50.0
+109,387,HTML,281.0,68.0,HTML,16.0,179.0,86.0,73.0,7.0,6.0,7.0
+110,388,.NET Core,101.0,34.0,.NET Core,7.0,0.0,,,,,
+111,389,Hibernate,6.0,0.0,Hibernate,1.0,0.0,,,,,
+112,392,Flutter,95.0,34.0,Flutter,8.0,1532.0,103.0,349.0,572.0,274.0,234.0
+113,394,Data Modeling,14.0,2.0,Data Modeling,1.0,0.0,,,,,
+114,400,Spring Boot,17.0,2.0,Spring Boot,2.0,1417.0,154.0,531.0,402.0,225.0,105.0
+115,406,Next.js,129.0,36.0,Next.js,10.0,486.0,116.0,186.0,40.0,20.0,124.0
+116,411,Data Science,64.0,15.0,Data Science,5.0,0.0,,,,,
+117,424,Drupal,10.0,0.0,Drupal,1.0,0.0,,,,,
+118,425,Unity 3D,12.0,1.0,Unity 3D,3.0,0.0,,,,,
+119,433,AWS,587.0,150.0,AWS,38.0,164.0,28.0,56.0,56.0,15.0,9.0
+120,467,Power BI,8.0,2.0,Power BI,1.0,0.0,,,,,
+121,475,Solidity,54.0,10.0,Solidity,3.0,0.0,,,,,
+122,483,Distributed Systems,23.0,4.0,Distributed Systems,1.0,0.0,,,,,
+123,484,CircleCI ,4.0,3.0,CircleCI ,1.0,0.0,,,,,
+124,485,Jest,10.0,1.0,Jest,3.0,0.0,,,,,
+125,488,Mobile Web Development ,31.0,13.0,Mobile Web Development ,1.0,0.0,,,,,
+126,495,AJAX ,5.0,3.0,AJAX ,1.0,0.0,,,,,
+127,526,WordPress,40.0,5.0,WordPress,3.0,542.0,94.0,209.0,110.0,100.0,29.0
+128,541,Deep Learning,20.0,8.0,Deep Learning,2.0,0.0,,,,,
+129,558,Azure Databricks,9.0,3.0,Azure Databricks,2.0,0.0,,,,,
+130,562,Azure Cosmos DB,1.0,0.0,Azure Cosmos DB,1.0,377.0,61.0,162.0,92.0,37.0,25.0
+131,567,Android/Java,25.0,10.0,Android/Java,8.0,1994.0,98.0,327.0,982.0,427.0,160.0
+132,568,Android/Kotlin,124.0,67.0,Android/Kotlin,9.0,321.0,12.0,59.0,177.0,55.0,18.0
+133,594,SCSS,10.0,3.0,SCSS,1.0,0.0,,,,,
+134,598,Javascript ES6,38.0,12.0,Javascript ES6,1.0,6728.0,888.0,2694.0,1124.0,782.0,1240.0
+135,602,Material UI,12.0,4.0,Material UI,1.0,0.0,,,,,
+136,610,Adobe Illustrator,1.0,0.0,Adobe Illustrator,1.0,0.0,,,,,
+137,614,Figma,16.0,1.0,Figma,1.0,0.0,,,,,
+138,617,,,,AMP (Accelerated Mobile Pages),1.0,0.0,,,,,
+139,666,ASP.NET,35.0,5.0,ASP.NET,2.0,1522.0,151.0,611.0,434.0,240.0,86.0
+140,677,Database Administration,11.0,2.0,Database Administration,3.0,0.0,,,,,
+141,680,Spring Framework,14.0,4.0,Spring Framework,1.0,0.0,,,,,
+142,710,Python for Data Science,30.0,7.0,Python for Data Science,8.0,9939.0,568.0,2169.0,869.0,619.0,5714.0
+143,720,AWS Solutions Architecture,56.0,11.0,AWS Solutions Architecture,6.0,1696.0,293.0,736.0,329.0,136.0,202.0
+144,769,Software Development,36.0,9.0,Software Development,3.0,1081.0,306.0,461.0,161.0,91.0,62.0
+145,836,AWS DevOps,99.0,24.0,AWS DevOps,7.0,1696.0,293.0,736.0,329.0,136.0,202.0
+146,862,Web Development,11.0,3.0,Web Development,2.0,8.0,2.0,3.0,2.0,1.0,
+147,876,ASP.NET Core,14.0,5.0,ASP.NET Core,1.0,1522.0,151.0,611.0,434.0,240.0,86.0
+148,885,IoT,6.0,0.0,IoT,1.0,0.0,,,,,
+149,886,Arduino,1.0,0.0,Arduino,1.0,0.0,,,,,
+150,903,OpenStack,1.0,0.0,OpenStack,1.0,0.0,,,,,
+151,922,RabbitMQ,4.0,1.0,RabbitMQ,4.0,0.0,,,,,
+152,939,CakePHP,1.0,0.0,CakePHP,1.0,3586.0,450.0,1407.0,839.0,636.0,254.0
+153,989,,,,Oracle ERP,1.0,0.0,,,,,
+154,1013,AWS Lambda,86.0,14.0,AWS Lambda,12.0,215.0,70.0,105.0,11.0,5.0,24.0
+155,1014,,,,Cplex,5.0,0.0,,,,,
+156,1046,,,,Hardware Project,1.0,0.0,,,,,
+157,1057,Artificial Intelligence,20.0,9.0,Artificial Intelligence,2.0,0.0,,,,,
+158,1059,Web API,75.0,16.0,Web API,7.0,0.0,,,,,
+159,1078,,,,Web Penetration Testing,1.0,0.0,,,,,
+160,1123,UI Design,49.0,10.0,UI Design,3.0,509.0,24.0,48.0,273.0,147.0,17.0
+161,1127,Maven,2.0,0.0,Maven,3.0,0.0,,,,,
+162,1234,Gradle,3.0,0.0,Gradle,1.0,0.0,,,,,
+163,1250,GitLab,10.0,1.0,GitLab,1.0,0.0,,,,,
+164,1299,Back-End Development,47.0,9.0,Back-End Development,2.0,0.0,,,,,
+165,1300,ETL,48.0,11.0,ETL,1.0,0.0,,,,,
+166,1302,Fullstack Development,29.0,8.0,Fullstack Development,1.0,0.0,,,,,
+167,1314,Cypress,25.0,8.0,Cypress,3.0,0.0,,,,,
+168,1324,,,,Akka,1.0,0.0,,,,,
+169,1367,Django Rest Framework,15.0,5.0,Django Rest Framework,1.0,1888.0,181.0,507.0,101.0,182.0,917.0
+170,1397,AngularJS,56.0,15.0,AngularJS,8.0,3523.0,318.0,1232.0,1091.0,448.0,434.0
+171,1561,Mobile App Development,38.0,11.0,Mobile App Development,2.0,0.0,,,,,
+172,1570,Windows Kernel Drivers,2.0,1.0,Windows Kernel Drivers,2.0,0.0,,,,,
+173,1600,,,,PyQt5,2.0,0.0,,,,,
+174,1609,Java JSF,1.0,0.0,Java JSF,1.0,0.0,,,,,
+175,1615,API Integrations  ,92.0,21.0,API Integrations  ,5.0,0.0,,,,,
+176,1675,Salesforce Development,29.0,4.0,Salesforce Development,1.0,0.0,,,,,
+177,1676,Salesforce Admin,1.0,0.0,Salesforce Admin,1.0,0.0,,,,,
+178,1690,Software Testing,19.0,5.0,Software Testing,2.0,0.0,,,,,
+179,1699,Wireframing & Prototyping,3.0,0.0,Wireframing & Prototyping,1.0,0.0,,,,,
+180,1849,Tech Lead,14.0,2.0,Tech Lead,1.0,1.0,1.0,,,,
+181,1938,UX Design,58.0,13.0,UX Design,3.0,509.0,24.0,48.0,273.0,147.0,17.0
+182,1939,Automation Testing,26.0,11.0,Automation Testing,13.0,793.0,32.0,72.0,467.0,172.0,50.0
+183,1943,Azure DevOps,23.0,8.0,Azure DevOps,2.0,48.0,9.0,15.0,21.0,,3.0
+184,2031,React,2072.0,625.0,React,153.0,4377.0,488.0,1208.0,52.0,24.0,2605.0
+185,2032,SpringBoot,72.0,13.0,SpringBoot,2.0,0.0,,,,,
+186,2036,Angular,271.0,59.0,Angular,11.0,3523.0,318.0,1232.0,1091.0,448.0,434.0
+187,2049,PHP/MySQL,21.0,4.0,PHP/MySQL,1.0,888.0,258.0,460.0,96.0,49.0,25.0
+188,2050,Python(Django),164.0,66.0,Python(Django),11.0,1888.0,181.0,507.0,101.0,182.0,917.0
+189,2055,Unity,22.0,2.0,Unity,4.0,0.0,,,,,
+190,2067,iOS - Swift,175.0,69.0,iOS - Swift,9.0,888.0,24.0,112.0,492.0,171.0,89.0
+191,2087,"PHP, Laravel",95.0,37.0,"PHP, Laravel",4.0,2089.0,264.0,924.0,551.0,174.0,176.0
+192,2091,Data Engineering,53.0,7.0,Data Engineering,2.0,1458.0,172.0,496.0,158.0,127.0,505.0
+193,2092,Data Pipelines,20.0,6.0,Data Pipelines,2.0,0.0,,,,,
+194,2094,Data Engineer,30.0,5.0,Data Engineer,6.0,1458.0,172.0,496.0,158.0,127.0,505.0
+195,2096,Go,84.0,20.0,Go,7.0,764.0,93.0,236.0,214.0,76.0,145.0
+196,2097,BigQuery,10.0,2.0,BigQuery,1.0,91.0,19.0,33.0,10.0,9.0,20.0
+197,2099,SwiftUI,20.0,5.0,SwiftUI,1.0,888.0,24.0,112.0,492.0,171.0,89.0
+198,2101,React Hooks,15.0,6.0,React Hooks,1.0,171.0,74.0,66.0,3.0,3.0,25.0
+199,2105,Computer Science Fundamentals,7.0,3.0,Computer Science Fundamentals,2.0,0.0,,,,,
+200,2107,Nest.js,20.0,5.0,Nest.js,5.0,0.0,,,,,
+201,2109,Tailwind CSS,17.0,8.0,Tailwind CSS,1.0,0.0,,,,,
+202,2115,QA,50.0,20.0,QA,20.0,793.0,32.0,72.0,467.0,172.0,50.0
+203,2117,Shopify,18.0,5.0,Shopify,2.0,0.0,,,,,
+204,2118,Liquid,3.0,1.0,Liquid,1.0,0.0,,,,,
+205,2126,Fintech,4.0,1.0,Fintech,1.0,0.0,,,,,
+206,2127,Serverless,12.0,3.0,Serverless,1.0,0.0,,,,,
+207,2133,AWS Operations,7.0,1.0,AWS Operations,1.0,0.0,,,,,
+208,2143,Ethereum,7.0,1.0,Ethereum,1.0,0.0,,,,,
