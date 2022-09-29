@@ -1,0 +1,1491 @@
+,client_type,client_category,region,role_type,priority,num_skills,num_mcqs,num_must_have_skills,num_nice_have_skills,n_devs_must_have_mcq,n_devs_nice_have_mcq,n_devs_must_have_self,n_devs_nice_have_self,job_value,customer_weekly_hour_engagement,is_deleted,cluster,developer_chosen,job_id
+68,existing,1.Platinum,2.Rest of US,,,2,2,1,1,0.0,9808.0,143.0,17893.0,29.2,,0,0,1.0,11
+113,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,3,4,3,0,199.0,No Nice have skill,3807.0,No Nice have skill,29.2,40.0,0,0,1.0,7825
+116,existing,1.Platinum,2.Rest of US,Mobile,p0,2,3,2,0,24.0,No Nice have skill,3565.0,No Nice have skill,29.2,40.0,0,0,0.0,6108
+117,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,2,3,0,0.0,No Nice have skill,372.0,No Nice have skill,29.2,40.0,0,0,0.0,4684
+118,new,1.Platinum,2.Rest of US,Web Frontend,p0,4,6,3,1,61.0,4251.0,849.0,15643.0,29.2,40.0,0,2,0.0,4265
+120,existing,1.Platinum,2.Rest of US,Other,p0,4,5,4,0,0.0,No Nice have skill,82.0,No Nice have skill,29.2,40.0,0,0,0.0,5831
+121,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,6,7,5,1,12.0,6922.0,186.0,8131.0,29.2,40.0,0,2,0.0,6092
+122,new,1.Platinum,2.Rest of US,Full Stack,p0,3,3,2,1,135.0,645.0,183.0,1558.0,29.2,40.0,0,0,0.0,8364
+123,new,1.Platinum,2.Rest of US,Full Stack,p0,3,3,2,1,135.0,645.0,183.0,1558.0,29.2,40.0,0,0,0.0,8366
+124,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,3,3,3,0,42.0,No Nice have skill,109.0,No Nice have skill,29.2,40.0,0,0,0.0,8363
+125,new,1.Platinum,2.Rest of US,Full Stack,p0,2,3,2,0,131.0,No Nice have skill,241.0,No Nice have skill,29.2,40.0,0,0,0.0,4184
+128,new,1.Platinum,1.Bay Area,Full Stack,p0,4,4,4,0,186.0,No Nice have skill,1372.0,No Nice have skill,56.6,40.0,0,0,0.0,6367
+146,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,2,3,2,0,769.0,No Nice have skill,2672.0,No Nice have skill,29.2,40.0,0,0,1.0,491
+218,new,1.Platinum,2.Rest of US,Web Backend,,1,1,1,0,645.0,No Nice have skill,1558.0,No Nice have skill,23.4,40.0,0,0,1.0,846
+264,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,4,1,3,1416.0,0,1155.0,100.0,,20.0,0,2,0.0,795
+361,new,1.Platinum,3.Top 30 GDP,Mobile,p0,1,1,1,0,1513.0,No Nice have skill,3385.0,No Nice have skill,5.8,40.0,0,0,0.0,1304
+362,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,5,6,1,4,752.0,1.0,1103.0,75.0,5.8,40.0,0,2,0.0,1244
+402,new,1.Platinum,1.Bay Area,DevOps,p0,5,5,3,2,0.0,0,913.0,3232.0,56.6,40.0,0,2,1.0,1506
+763,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,4,3,3,1,0.0,0,221.0,152.0,56.6,40.0,0,2,0.0,1785
+782,new,1.Platinum,1.Bay Area,Full Stack,p0,5,6,5,0,0.0,No Nice have skill,12.0,No Nice have skill,56.6,40.0,0,0,0.0,764
+906,new,1.Platinum,1.Bay Area,Full Stack,p0,5,5,2,3,79.0,0,1024.0,149.0,56.6,40.0,0,2,0.0,1539
+967,new,1.Platinum,3.Top 30 GDP,Fullstack (FE-heavy),p0,5,6,4,1,0.0,148.0,81.0,11204.0,5.8,40.0,0,2,0.0,2141
+1071,existing,1.Platinum,2.Rest of US,Other,p0,2,2,2,0,52.0,No Nice have skill,3999.0,No Nice have skill,11.7,,0,0,1.0,447
+1079,existing,1.Platinum,1.Bay Area,Mobile,,4,3,2,2,19.0,0,442.0,5.0,11.7,40.0,0,0,1.0,460
+1080,existing,1.Platinum,2.Rest of US,DevOps,p0,4,3,4,0,0.0,No Nice have skill,345.0,No Nice have skill,11.7,,0,0,0.0,530
+1084,existing,1.Platinum,2.Rest of US,Backend Systems,,1,1,1,0,296.0,No Nice have skill,756.0,No Nice have skill,11.7,,0,0,1.0,997
+1105,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,0.0,No Nice have skill,1088.0,No Nice have skill,11.7,,0,0,1.0,656
+1108,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,2,3,2,0,2921.0,No Nice have skill,10631.0,No Nice have skill,11.7,,0,0,1.0,362
+1111,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),,2,3,2,0,49.0,No Nice have skill,1692.0,No Nice have skill,11.7,,0,0,1.0,400
+1127,new,1.Platinum,1.Bay Area,Mobile,,4,3,2,2,19.0,0,442.0,5.0,56.6,40.0,0,2,1.0,283
+1135,existing,1.Platinum,2.Rest of US,Mobile,p0,2,2,2,0,284.0,No Nice have skill,2078.0,No Nice have skill,11.7,,0,0,1.0,786
+1137,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,905
+1143,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1877.0,No Nice have skill,11.7,,0,0,1.0,906
+1149,existing,1.Platinum,2.Rest of US,Mobile,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,,0,0,1.0,958
+1151,existing,1.Platinum,2.Rest of US,Mobile,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,,0,0,1.0,797
+1161,existing,1.Platinum,2.Rest of US,DevOps,,1,1,1,0,1656.0,No Nice have skill,549.0,No Nice have skill,11.7,,0,0,1.0,250
+1172,existing,1.Platinum,2.Rest of US,Web Backend,p0,2,3,2,0,2921.0,No Nice have skill,4939.0,No Nice have skill,11.7,,0,0,1.0,631
+1175,existing,1.Platinum,2.Rest of US,Web Frontend,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,11.7,,0,1,1.0,670
+1183,existing,1.Platinum,2.Rest of US,Backend Systems,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,923
+1195,existing,1.Platinum,2.Rest of US,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,3128
+1197,existing,1.Platinum,2.Rest of US,,,2,4,2,0,439.0,No Nice have skill,7364.0,No Nice have skill,11.7,,0,0,1.0,1919
+1198,existing,1.Platinum,2.Rest of US,,,2,3,1,1,9808.0,821.0,17893.0,4228.0,11.7,,0,1,1.0,1603
+1199,existing,1.Platinum,2.Rest of US,,,1,0,1,0,0.0,No Nice have skill,171.0,No Nice have skill,11.7,,0,0,1.0,2769
+1200,existing,1.Platinum,2.Rest of US,,,2,4,2,0,105.0,No Nice have skill,12001.0,No Nice have skill,11.7,,0,0,0.0,7168
+1202,existing,1.Platinum,2.Rest of US,,,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,11.7,,0,0,1.0,5562
+1204,existing,1.Platinum,2.Rest of US,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,1145
+1205,existing,1.Platinum,2.Rest of US,,,2,4,2,0,439.0,No Nice have skill,7364.0,No Nice have skill,11.7,,0,0,1.0,1923
+1206,existing,1.Platinum,2.Rest of US,,,2,4,2,0,439.0,No Nice have skill,7364.0,No Nice have skill,11.7,,0,0,1.0,1922
+1207,existing,1.Platinum,2.Rest of US,,,2,1,2,0,0.0,No Nice have skill,131.0,No Nice have skill,11.7,,0,0,1.0,2770
+1209,existing,1.Platinum,2.Rest of US,,,1,0,1,0,0.0,No Nice have skill,365.0,No Nice have skill,11.7,,0,0,0.0,9352
+1210,existing,1.Platinum,2.Rest of US,,,2,3,2,0,1410.0,No Nice have skill,10025.0,No Nice have skill,11.7,,0,0,1.0,1995
+1212,existing,1.Platinum,2.Rest of US,,,2,4,2,0,439.0,No Nice have skill,7364.0,No Nice have skill,11.7,,0,0,1.0,4290
+1213,existing,1.Platinum,2.Rest of US,,,1,1,1,0,296.0,No Nice have skill,756.0,No Nice have skill,11.7,,0,0,1.0,1499
+1214,existing,1.Platinum,2.Rest of US,,,2,4,2,0,439.0,No Nice have skill,7364.0,No Nice have skill,11.7,,0,0,1.0,1920
+1215,existing,1.Platinum,2.Rest of US,,,3,5,2,1,1479.0,9808.0,6563.0,17893.0,11.7,,0,0,1.0,1571
+1216,existing,1.Platinum,2.Rest of US,,,2,4,2,0,439.0,No Nice have skill,7364.0,No Nice have skill,11.7,,0,0,1.0,1921
+1217,existing,1.Platinum,2.Rest of US,,,2,3,2,0,50.0,No Nice have skill,6864.0,No Nice have skill,11.7,,0,0,1.0,1803
+1219,existing,1.Platinum,2.Rest of US,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,1987
+1220,existing,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,11.7,,0,1,1.0,2001
+1223,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,3580
+1224,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,4391
+1225,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,5935
+1226,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,61.0,No Nice have skill,11.7,,0,0,1.0,3819
+1227,existing,1.Platinum,1.Bay Area,Mobile,,1,0,1,0,0.0,No Nice have skill,183.0,No Nice have skill,11.7,,0,0,1.0,6549
+1228,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,1335
+1229,existing,1.Platinum,1.Bay Area,,,2,2,2,0,0.0,No Nice have skill,61.0,No Nice have skill,11.7,,0,0,1.0,3753
+1230,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,0.0,4720
+1231,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,1559
+1232,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,1556
+1233,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,3466
+1234,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,3531
+1235,existing,1.Platinum,1.Bay Area,Mobile,,2,1,2,0,0.0,No Nice have skill,10.0,No Nice have skill,11.7,,0,0,1.0,4161
+1236,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,184.0,No Nice have skill,11.7,,0,0,1.0,6353
+1237,existing,1.Platinum,1.Bay Area,,,2,2,2,0,0.0,No Nice have skill,61.0,No Nice have skill,11.7,,0,0,1.0,3566
+1238,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,6028
+1239,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,1334
+1240,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,,0,0,1.0,5825
+1241,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,61.0,No Nice have skill,11.7,,0,0,1.0,4123
+1242,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,4592
+1243,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,,0,0,1.0,5824
+1244,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,10.0,No Nice have skill,11.7,,0,0,1.0,4149
+1246,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,61.0,No Nice have skill,11.7,,0,0,1.0,3848
+1247,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,10.0,No Nice have skill,11.7,,0,0,1.0,4807
+1248,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,2773
+1249,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,3579
+1250,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,3585
+1251,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,1560
+1252,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,4315
+1253,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,10.0,No Nice have skill,11.7,,0,0,1.0,4806
+1254,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,3464
+1255,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,6667
+1256,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,3467
+1257,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,4034
+1258,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,4314
+1259,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,0.0,No Nice have skill,61.0,No Nice have skill,11.7,,0,0,1.0,3797
+1260,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,5613
+1261,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1877.0,No Nice have skill,11.7,,0,0,1.0,1332
+1262,existing,1.Platinum,1.Bay Area,Mobile,,1,0,1,0,0.0,No Nice have skill,260.0,No Nice have skill,11.7,,0,0,1.0,4571
+1263,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,6102
+1264,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,3564
+1265,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,1558
+1266,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,5615
+1267,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,3964
+1268,existing,1.Platinum,1.Bay Area,Mobile,,1,0,1,0,0.0,No Nice have skill,183.0,No Nice have skill,11.7,,0,0,1.0,6548
+1269,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,1557
+1270,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,3987
+1271,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,1333
+1273,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,3603
+1274,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,1.0,3463
+1275,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,,0,0,1.0,2774
+1276,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,3390
+1277,existing,1.Platinum,1.Bay Area,,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,,0,0,1.0,1561
+1833,new,1.Platinum,2.Rest of US,DevOps,p0,4,3,3,1,13.0,0,5.0,321.0,29.2,40.0,0,2,0.0,7583
+1834,new,1.Platinum,2.Rest of US,Full Stack,p0,6,7,4,2,1.0,0,3.0,154.0,29.2,40.0,0,2,0.0,7584
+1835,new,1.Platinum,2.Rest of US,Web Frontend,p0,4,4,3,1,0.0,0,202.0,480.0,29.2,40.0,0,2,1.0,7582
+1836,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,3,4,2,1,75.0,284.0,252.0,7078.0,56.6,40.0,0,0,1.0,2877
+1837,existing,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,3,4,3,0,6.0,No Nice have skill,203.0,No Nice have skill,56.6,40.0,0,0,1.0,3779
+1838,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,3,4,1,2,4251.0,1375.0,15643.0,6140.0,56.6,40.0,0,1,1.0,6584
+1839,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,2,3,1,1,3467.0,4251.0,8821.0,15643.0,56.6,40.0,0,0,1.0,7276
+1840,existing,1.Platinum,1.Bay Area,Web Frontend,p0,4,4,3,1,0.0,3467.0,63.0,6024.0,56.6,40.0,0,0,1.0,8850
+1841,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,6,7,3,3,719.0,33.0,5264.0,662.0,56.6,40.0,0,2,0.0,6029
+1842,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,3,4,1,2,4251.0,1375.0,15643.0,6140.0,56.6,40.0,0,1,1.0,6585
+1843,existing,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,6,7,3,3,257.0,45.0,2592.0,842.0,56.6,40.0,0,2,1.0,8250
+1844,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,4,4,2,2,1410.0,0,10025.0,787.0,56.6,40.0,0,2,0.0,9127
+1845,existing,1.Platinum,1.Bay Area,Web Frontend,p0,4,4,3,1,0.0,3467.0,63.0,6024.0,56.6,40.0,0,0,1.0,8815
+1846,existing,1.Platinum,1.Bay Area,Data Engineering,,2,2,1,1,883.0,4228.0,9383.0,13071.0,56.6,40.0,0,0,0.0,9178
+1847,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,6,7,3,3,257.0,45.0,1946.0,842.0,56.6,40.0,0,2,0.0,6030
+1848,existing,1.Platinum,1.Bay Area,Web Frontend,p0,4,4,3,1,0.0,3467.0,63.0,6024.0,56.6,40.0,0,0,0.0,7757
+1849,new,1.Platinum,1.Bay Area,Full Stack,p0,6,5,4,2,0.0,0,14.0,1385.0,56.6,40.0,0,2,1.0,5098
+1850,new,1.Platinum,1.Bay Area,Full Stack,p0,8,7,4,4,0.0,0,14.0,10.0,56.6,40.0,0,2,0.0,5669
+1851,new,1.Platinum,1.Bay Area,UI/UX Developer,p0,8,7,6,2,0.0,0,328.0,319.0,56.6,40.0,0,2,1.0,5279
+1852,new,1.Platinum,2.Rest of US,Data Engineering,p0,5,5,3,2,0.0,213.0,187.0,94.0,29.2,40.0,0,2,1.0,3194
+1853,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,10,11,4,6,31.0,0,4519.0,9.0,29.2,40.0,0,2,1.0,2783
+1854,new,1.Platinum,2.Rest of US,Web Frontend,p0,7,10,2,5,33.0,1.0,9581.0,22.0,29.2,40.0,0,2,1.0,3411
+1856,new,1.Platinum,2.Rest of US,Web Frontend,p0,6,5,3,3,0.0,0,935.0,793.0,29.2,40.0,0,2,0.0,4376
+1857,existing,1.Platinum,1.Bay Area,QA,p0,6,1,4,2,0.0,0,1.0,51.0,56.6,40.0,0,2,0.0,8578
+1858,existing,1.Platinum,1.Bay Area,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,56.6,40.0,0,0,1.0,8694
+1859,existing,1.Platinum,1.Bay Area,QA,p0,4,1,4,0,0.0,No Nice have skill,1.0,No Nice have skill,56.6,40.0,0,0,1.0,9317
+1860,new,1.Platinum,1.Bay Area,Mobile,p0,9,5,3,6,873.0,0,497.0,0,56.6,40.0,0,2,0.0,7434
+1861,existing,1.Platinum,1.Bay Area,Mobile,p0,2,2,2,0,284.0,No Nice have skill,2078.0,No Nice have skill,56.6,40.0,0,0,1.0,8966
+1862,new,1.Platinum,1.Bay Area,Mobile,p0,4,4,1,3,873.0,1.0,1501.0,218.0,56.6,40.0,0,2,1.0,8378
+1863,new,1.Platinum,1.Bay Area,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,56.6,40.0,0,0,0.0,7435
+1864,new,1.Platinum,1.Bay Area,Mobile,p0,7,8,3,4,10.0,0,174.0,0,56.6,40.0,0,2,0.0,7436
+1865,existing,1.Platinum,1.Bay Area,QA,p0,5,1,4,1,0.0,0,1.0,0,56.6,40.0,0,2,1.0,9371
+1866,existing,1.Platinum,1.Bay Area,Mobile,p0,8,4,3,5,873.0,0,497.0,0,56.6,40.0,0,2,1.0,9216
+1867,new,1.Platinum,1.Bay Area,Web Frontend,p0,5,6,4,1,78.0,645.0,1432.0,1558.0,56.6,40.0,0,2,0.0,7832
+1868,new,1.Platinum,1.Bay Area,DevOps,p0,2,3,2,0,0.0,No Nice have skill,3621.0,No Nice have skill,56.6,40.0,0,0,0.0,7833
+1869,new,1.Platinum,1.Bay Area,Backend Systems,p0,5,2,4,1,0.0,0,4.0,368.0,56.6,40.0,0,2,0.0,6960
+1870,new,1.Platinum,1.Bay Area,Data Engineering,,12,9,8,4,0.0,0,0.0,35.0,56.6,40.0,0,2,0.0,8581
+1871,new,1.Platinum,1.Bay Area,DevOps,p0,5,6,3,2,29.0,0,563.0,441.0,56.6,40.0,0,2,0.0,6057
+1872,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,2,3,1,1,4251.0,1442.0,15643.0,4615.0,56.6,40.0,0,1,0.0,6517
+1873,new,1.Platinum,1.Bay Area,Full Stack,p0,2,1,1,1,64.0,0,377.0,235.0,56.6,40.0,0,0,0.0,6516
+1874,new,1.Platinum,2.Rest of US,Data Engineering,p0,5,3,2,3,2921.0,0,10631.0,2.0,29.2,40.0,0,2,0.0,6275
+1875,new,1.Platinum,2.Rest of US,DevOps,p0,7,3,6,1,0.0,0,0.0,311.0,29.2,40.0,0,2,0.0,7228
+1876,new,1.Platinum,2.Rest of US,DevOps,p0,6,4,6,0,0.0,No Nice have skill,11.0,No Nice have skill,29.2,40.0,0,0,0.0,7231
+1877,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,5,3,3,0.0,0,253.0,643.0,29.2,40.0,0,2,0.0,7227
+1878,new,1.Platinum,1.Bay Area,Data Engineering,p0,3,2,3,0,0.0,No Nice have skill,45.0,No Nice have skill,56.6,40.0,0,0,1.0,8056
+1879,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,1,3,1,0.0,6922.0,343.0,2547.0,56.6,40.0,0,0,0.0,7010
+1880,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,2,3,1,0.0,6922.0,45.0,2547.0,56.6,40.0,0,0,0.0,7009
+1881,new,1.Platinum,1.Bay Area,Web Frontend,,4,6,2,2,105.0,1278.0,12001.0,3468.0,56.6,40.0,0,2,0.0,7485
+1882,existing,1.Platinum,1.Bay Area,Backend Systems,p0,2,2,2,0,1224.0,No Nice have skill,5352.0,No Nice have skill,56.6,40.0,0,0,0.0,8837
+1883,existing,1.Platinum,1.Bay Area,Data Engineering,p0,4,2,2,2,0.0,341.0,63.0,698.0,56.6,40.0,0,0,1.0,8983
+1884,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,2,2,2,0.0,341.0,63.0,698.0,56.6,40.0,0,0,0.0,7487
+1885,new,1.Platinum,1.Bay Area,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,56.6,40.0,0,0,1.0,7953
+1886,new,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,56.6,40.0,0,0,1.0,7859
+1887,new,1.Platinum,1.Bay Area,Full Stack,p0,3,3,3,0,0.0,No Nice have skill,2130.0,No Nice have skill,56.6,40.0,0,0,1.0,7791
+1888,new,1.Platinum,1.Bay Area,Mobile,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,56.6,40.0,0,0,0.0,7484
+1889,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,2,2,2,0.0,341.0,63.0,129.0,56.6,40.0,0,2,1.0,8466
+1890,new,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,56.6,40.0,0,0,1.0,7790
+1891,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,2,4,0,0.0,No Nice have skill,21.0,No Nice have skill,56.6,40.0,0,0,0.0,7852
+1892,existing,1.Platinum,1.Bay Area,Backend Systems,p0,2,2,2,0,1224.0,No Nice have skill,5352.0,No Nice have skill,56.6,40.0,0,0,1.0,9028
+1893,new,1.Platinum,1.Bay Area,Full Stack,p0,5,5,4,1,63.0,5048.0,1031.0,15171.0,56.6,40.0,0,2,0.0,7851
+1894,new,1.Platinum,1.Bay Area,Mobile,p0,2,1,2,0,873.0,No Nice have skill,581.0,No Nice have skill,56.6,40.0,0,0,0.0,7483
+1895,new,1.Platinum,1.Bay Area,Full Stack,p0,4,6,4,0,2.0,No Nice have skill,1099.0,No Nice have skill,56.6,40.0,0,0,1.0,7486
+1917,new,1.Platinum,2.Rest of US,Backend Systems,,3,1,1,2,645.0,0,1558.0,2.0,29.2,,0,2,0.0,6706
+1918,new,1.Platinum,2.Rest of US,Web Frontend,p1,2,3,2,0,321.0,No Nice have skill,4523.0,No Nice have skill,29.2,40.0,0,0,1.0,2449
+1919,existing,1.Platinum,2.Rest of US,Web Backend,p0,4,2,1,3,645.0,0,1558.0,337.0,29.2,40.0,0,2,0.0,9353
+1920,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,4,3,3,1,1.0,0,36.0,32.0,29.2,40.0,0,2,0.0,6651
+1921,new,1.Platinum,2.Rest of US,Web Backend,p0,4,2,1,3,645.0,0,1558.0,337.0,29.2,40.0,0,2,1.0,6428
+1923,existing,1.Platinum,2.Rest of US,UI/UX Developer,,3,1,3,0,0.0,No Nice have skill,35.0,No Nice have skill,29.2,40.0,0,0,0.0,8091
+1924,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,2,1,2,0,0.0,No Nice have skill,8.0,No Nice have skill,29.2,40.0,0,0,1.0,7620
+1925,existing,1.Platinum,2.Rest of US,Cloud - Solutions Architecture,,2,1,2,0,0.0,No Nice have skill,717.0,No Nice have skill,29.2,40.0,0,0,0.0,8980
+1926,new,1.Platinum,2.Rest of US,Mobile,,3,2,2,1,0.0,0,341.0,78.0,29.2,40.0,0,0,0.0,6276
+1927,existing,1.Platinum,2.Rest of US,Web Frontend,,1,2,1,0,2214.0,No Nice have skill,4939.0,No Nice have skill,29.2,40.0,0,0,1.0,9094
+1928,new,1.Platinum,2.Rest of US,Web Frontend,,9,5,5,4,0.0,0,38.0,7.0,29.2,40.0,0,2,0.0,6798
+1929,new,1.Platinum,2.Rest of US,Web Frontend,,1,2,1,0,2214.0,No Nice have skill,4939.0,No Nice have skill,29.2,40.0,0,0,1.0,8017
+1931,new,1.Platinum,2.Rest of US,Web Frontend,,3,3,3,0,0.0,No Nice have skill,2130.0,No Nice have skill,29.2,40.0,0,0,1.0,8300
+1933,new,1.Platinum,2.Rest of US,Web Frontend,,3,3,3,0,6.0,No Nice have skill,137.0,No Nice have skill,29.2,40.0,0,0,1.0,7801
+1934,new,1.Platinum,2.Rest of US,Web Frontend,,10,6,10,0,0.0,No Nice have skill,2.0,No Nice have skill,29.2,40.0,0,2,1.0,8127
+1935,existing,1.Platinum,2.Rest of US,Web Frontend,,1,1,1,0,1480.0,No Nice have skill,2062.0,No Nice have skill,29.2,40.0,0,0,1.0,9095
+1936,new,1.Platinum,2.Rest of US,Web Frontend,,11,6,11,0,0.0,No Nice have skill,0.0,No Nice have skill,29.2,40.0,0,2,1.0,7115
+1937,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),,10,11,3,7,2.0,0,165.0,0,56.6,40.0,0,2,0.0,7163
+1938,new,1.Platinum,2.Rest of US,Web Backend,,14,6,8,6,0.0,0,0.0,0,29.2,40.0,0,2,0.0,7397
+1939,new,1.Platinum,2.Rest of US,Backend Systems,,6,10,4,2,0.0,0,243.0,3621.0,29.2,40.0,0,2,0.0,8014
+1940,new,1.Platinum,2.Rest of US,Backend Systems,,7,5,6,1,0.0,0,49.0,248.0,29.2,40.0,0,2,0.0,8016
+1941,new,1.Platinum,2.Rest of US,Backend Systems,,9,7,6,3,0.0,0,28.0,109.0,29.2,40.0,0,2,0.0,8316
+1942,new,1.Platinum,2.Rest of US,Cloud - Networking,,1,1,1,0,1656.0,No Nice have skill,245.0,No Nice have skill,29.2,,0,0,0.0,8317
+1949,new,1.Platinum,3.Top 30 GDP,Web Backend,,7,6,5,2,0.0,135.0,0.0,10215.0,5.8,,0,2,0.0,6172
+1950,new,1.Platinum,2.Rest of US,Backend Systems,p0,7,4,3,4,0.0,0,1246.0,8.0,29.2,,0,2,0.0,7751
+1951,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,4,4,3,1,0.0,3749.0,13.0,4285.0,5.8,40.0,0,0,0.0,7812
+1952,new,1.Platinum,1.Bay Area,,,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,56.6,,0,1,0.0,8018
+1953,new,1.Platinum,2.Rest of US,Other,p0,2,0,1,1,0.0,0,20.0,6732.0,29.2,40.0,0,0,0.0,8225
+1954,existing,1.Platinum,2.Rest of US,Web Frontend,p0,2,3,2,0,10.0,No Nice have skill,834.0,No Nice have skill,29.2,40.0,0,0,0.0,6309
+1955,existing,1.Platinum,2.Rest of US,Web Frontend,p0,4,5,4,0,29.0,No Nice have skill,6025.0,No Nice have skill,29.2,40.0,0,0,0.0,6078
+1956,existing,1.Platinum,1.Bay Area,Other,p0,2,2,2,0,0.0,No Nice have skill,382.0,No Nice have skill,56.6,40.0,0,0,1.0,8030
+1957,existing,1.Platinum,1.Bay Area,Web Backend,p0,3,5,1,2,5048.0,439.0,15171.0,7364.0,56.6,40.0,0,1,1.0,8031
+1958,existing,1.Platinum,1.Bay Area,DevOps,p0,8,6,5,3,0.0,0,241.0,73.0,56.6,40.0,0,2,1.0,8032
+1960,new,1.Platinum,1.Bay Area,Data Engineering,p0,2,3,2,0,2921.0,No Nice have skill,10631.0,No Nice have skill,56.6,40.0,0,0,0.0,6703
+1961,new,1.Platinum,1.Bay Area,Web Frontend,p0,4,5,4,0,29.0,No Nice have skill,6025.0,No Nice have skill,56.6,40.0,0,0,1.0,6988
+1962,existing,1.Platinum,1.Bay Area,Web Frontend,p0,4,5,4,0,29.0,No Nice have skill,6025.0,No Nice have skill,56.6,40.0,0,0,1.0,8051
+1963,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,5,3,3,2,0.0,0,118.0,308.0,56.6,40.0,0,2,1.0,6836
+1964,existing,1.Platinum,1.Bay Area,Other,p0,2,3,1,1,6922.0,9808.0,16794.0,17893.0,56.6,40.0,0,1,1.0,8141
+1965,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,3,2,2,2921.0,0,10631.0,127.0,56.6,40.0,0,2,0.0,6700
+1966,existing,1.Platinum,1.Bay Area,Web Backend,p0,7,5,2,5,0.0,0,308.0,258.0,11.7,40.0,0,2,0.0,8685
+1967,new,1.Platinum,1.Bay Area,Other,p0,4,3,3,1,0.0,0,824.0,470.0,56.6,40.0,0,2,1.0,6771
+1968,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,8,11,4,4,0.0,14.0,189.0,190.0,29.2,40.0,0,2,0.0,9179
+1969,existing,1.Platinum,2.Rest of US,Mobile,p0,3,2,3,0,0.0,No Nice have skill,193.0,No Nice have skill,29.2,40.0,0,0,0.0,9180
+1970,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,9,11,3,6,30.0,0,646.0,4.0,29.2,40.0,0,2,0.0,2824
+1971,existing,1.Platinum,2.Rest of US,Backend Systems,p0,1,1,1,0,6922.0,No Nice have skill,2547.0,No Nice have skill,29.2,40.0,0,0,0.0,8797
+1972,existing,1.Platinum,2.Rest of US,Full Stack,p0,2,2,2,0,1278.0,No Nice have skill,3468.0,No Nice have skill,29.2,40.0,0,0,0.0,8796
+1973,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p1,6,7,3,3,180.0,106.0,139.0,753.0,29.2,40.0,0,2,1.0,2932
+1974,existing,1.Platinum,1.Bay Area,Backend Systems,p1,3,0,1,2,0.0,0,2309.0,437.0,56.6,40.0,0,0,0.0,4468
+1975,existing,1.Platinum,1.Bay Area,Cloud - Networking,p0,5,4,5,0,0.0,No Nice have skill,226.0,No Nice have skill,56.6,40.0,0,0,0.0,8751
+1976,existing,1.Platinum,3.Top 30 GDP,Web Frontend,p0,5,7,3,2,26.0,0,2437.0,181.0,5.9,40.0,0,2,1.0,7235
+1977,existing,1.Platinum,3.Top 30 GDP,Web Frontend,p0,4,7,3,1,26.0,3467.0,2437.0,8821.0,5.8,40.0,0,0,0.0,4332
+1978,existing,1.Platinum,3.Top 30 GDP,Web Backend,p0,4,3,2,2,226.0,0,4110.0,371.0,5.8,40.0,0,2,0.0,4333
+1980,new,1.Platinum,3.Top 30 GDP,Mobile,p0,2,1,1,1,873.0,0,1501.0,630.0,5.8,40.0,0,0,0.0,6970
+1981,new,1.Platinum,3.Top 30 GDP,Mobile,p0,3,3,2,1,81.0,0,2066.0,630.0,5.8,40.0,0,0,0.0,6971
+1982,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,1,1,1,0,83.0,No Nice have skill,772.0,No Nice have skill,5.8,40.0,0,0,0.0,6972
+1983,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,2,2,2,0,38.0,No Nice have skill,545.0,No Nice have skill,5.8,40.0,0,0,1.0,6464
+1985,new,1.Platinum,3.Top 30 GDP,Mobile,p0,3,3,2,1,19.0,0,442.0,630.0,5.8,40.0,0,0,0.0,6969
+1986,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,6,4,5,1,0.0,0,7.0,5857.0,5.8,40.0,0,2,0.0,6235
+1987,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,5,2,4,1,0.0,0,23.0,5857.0,5.8,40.0,0,2,0.0,6234
+1988,existing,1.Platinum,2.Rest of US,Cloud - Solutions Architecture,p0,5,3,4,1,0.0,0,406.0,630.0,29.2,40.0,0,2,0.0,7300
+1989,existing,1.Platinum,2.Rest of US,DevOps,p0,5,2,2,3,0.0,0,891.0,16.0,29.2,40.0,0,2,0.0,9013
+1990,new,1.Platinum,2.Rest of US,DevOps,p0,5,2,2,3,0.0,0,891.0,16.0,29.2,40.0,0,2,1.0,6859
+1991,existing,1.Platinum,2.Rest of US,Other,p0,2,1,2,0,0.0,No Nice have skill,794.0,No Nice have skill,29.2,40.0,0,0,0.0,8800
+1992,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,2,2,2,0,280.0,No Nice have skill,1690.0,No Nice have skill,29.2,40.0,0,0,0.0,8798
+1993,new,1.Platinum,2.Rest of US,Cloud - Solutions Architecture,p0,5,2,2,3,0.0,0,891.0,1.0,29.2,40.0,0,2,1.0,6357
+1994,existing,1.Platinum,2.Rest of US,Other,p0,2,2,2,0,1278.0,No Nice have skill,3468.0,No Nice have skill,29.2,40.0,0,0,0.0,8799
+1995,new,1.Platinum,2.Rest of US,Full Stack,p0,4,4,3,1,0.0,1125.0,7.0,6892.0,29.2,40.0,0,2,1.0,6937
+1996,new,1.Platinum,2.Rest of US,Full Stack,p0,4,4,3,1,0.0,1125.0,7.0,6892.0,29.2,40.0,0,2,1.0,7236
+1997,new,1.Platinum,2.Rest of US,Full Stack,p0,2,3,2,0,69.0,No Nice have skill,1005.0,No Nice have skill,29.2,40.0,0,0,1.0,6615
+1998,new,1.Platinum,2.Rest of US,Data Engineering,p0,7,7,4,3,10.0,0,2180.0,45.0,29.2,40.0,0,2,0.0,7761
+1999,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,5,5,4,1,0.0,752.0,1497.0,1103.0,29.2,40.0,0,2,0.0,7624
+2000,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,7,7,4,3,10.0,0,2180.0,15.0,29.2,40.0,0,2,0.0,7763
+2001,new,1.Platinum,2.Rest of US,Data Engineering,p0,6,4,4,2,0.0,0,361.0,515.0,29.2,40.0,0,2,0.0,7765
+2002,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,5,4,2,0.0,0,131.0,1364.0,29.2,40.0,0,2,0.0,7764
+2003,new,1.Platinum,1.Bay Area,Web Backend,p0,6,6,4,2,1.0,1375.0,22.0,6140.0,56.6,40.0,0,2,1.0,7961
+2004,new,1.Platinum,1.Bay Area,Web Backend,p0,7,6,5,2,0.0,0,755.0,211.0,56.6,40.0,0,2,0.0,8533
+2005,new,1.Platinum,1.Bay Area,Full Stack,p0,5,7,4,1,14.0,148.0,4059.0,11204.0,56.6,40.0,0,2,0.0,8976
+2006,new,1.Platinum,1.Bay Area,Web Frontend,p0,5,5,2,3,105.0,0,12001.0,70.0,56.6,40.0,0,2,0.0,8531
+2007,new,1.Platinum,1.Bay Area,Other,p0,1,0,1,0,0.0,No Nice have skill,143.0,No Nice have skill,56.6,40.0,0,0,0.0,8956
+2008,new,1.Platinum,1.Bay Area,Other,p0,1,0,1,0,0.0,No Nice have skill,143.0,No Nice have skill,56.6,40.0,0,0,0.0,8954
+2027,new,1.Platinum,3.Top 30 GDP,Web Frontend,p1,4,5,1,3,0.0,84.0,511.0,773.0,5.8,40.0,0,0,0.0,9147
+2028,new,1.Platinum,3.Top 30 GDP,Machine Learning,p0,2,1,2,0,0.0,No Nice have skill,910.0,No Nice have skill,5.8,40.0,0,0,0.0,5921
+2029,new,1.Platinum,3.Top 30 GDP,Machine Learning,p1,1,1,1,0,1620.0,No Nice have skill,6514.0,No Nice have skill,5.8,40.0,0,0,0.0,9148
+2032,existing,1.Platinum,3.Top 30 GDP,Backend Systems,p0,7,4,3,4,33.0,0,4256.0,2.0,5.9,,0,2,1.0,8329
+2033,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,5,8,2,3,105.0,4.0,12001.0,143.0,5.8,,0,2,1.0,6133
+2034,existing,1.Platinum,3.Top 30 GDP,Backend Systems,p0,7,4,3,4,33.0,0,4256.0,2.0,5.9,,0,2,1.0,8100
+2035,existing,1.Platinum,3.Top 30 GDP,Backend Systems,p0,6,4,3,3,33.0,0,4256.0,134.0,5.9,,0,2,1.0,7448
+2037,existing,1.Platinum,1.Bay Area,Backend Systems,p0,3,3,2,1,0.0,821.0,2590.0,4228.0,56.6,,0,0,0.0,8177
+2039,existing,1.Platinum,1.Bay Area,QA,,1,1,1,0,793.0,No Nice have skill,2281.0,No Nice have skill,11.7,,0,0,1.0,6835
+2041,existing,1.Platinum,1.Bay Area,DevOps,p0,4,3,3,1,0.0,0,1075.0,1232.0,11.7,40.0,0,2,0.0,6529
+2043,existing,1.Platinum,1.Bay Area,Mobile,p0,2,1,2,0,0.0,No Nice have skill,592.0,No Nice have skill,11.7,40.0,0,0,1.0,6510
+2044,existing,1.Platinum,1.Bay Area,Backend Systems,p0,4,5,3,1,8.0,404.0,2004.0,5247.0,11.7,,0,0,0.0,6528
+2046,new,1.Platinum,1.Bay Area,Backend Systems,p0,3,3,1,2,752.0,0,1103.0,2863.0,56.6,,0,2,0.0,5244
+2047,new,1.Platinum,1.Bay Area,Data Engineering,p0,6,6,2,4,2921.0,0,10631.0,88.0,56.6,,0,2,1.0,5245
+2048,new,1.Platinum,4.Others,DevOps,p0,4,3,2,2,216.0,0,214.0,110.0,1.9,40.0,0,2,0.0,4236
+2049,new,1.Platinum,4.Others,,,7,7,3,4,54.0,1.0,465.0,167.0,1.9,,0,2,1.0,3729
+2050,new,1.Platinum,4.Others,,,2,2,2,0,1375.0,No Nice have skill,6140.0,No Nice have skill,1.9,,0,0,1.0,4241
+2051,new,1.Platinum,4.Others,Web Frontend,p0,3,3,3,0,41.0,No Nice have skill,3664.0,No Nice have skill,1.9,40.0,0,0,0.0,4234
+2052,new,1.Platinum,4.Others,Web Backend,p0,5,6,1,4,645.0,20.0,1558.0,1212.0,1.9,40.0,0,2,0.0,4235
+2053,existing,1.Platinum,2.Rest of US,Data Engineering,p0,6,5,4,2,0.0,0,319.0,345.0,29.2,40.0,0,2,0.0,6107
+2054,new,1.Platinum,2.Rest of US,Data Engineering,p0,6,5,4,2,0.0,0,319.0,345.0,29.2,40.0,0,2,1.0,4287
+2055,new,1.Platinum,2.Rest of US,Data Engineering,p0,11,9,5,6,0.0,0,99.0,0,29.2,,0,2,0.0,4311
+2056,new,1.Platinum,2.Rest of US,Data Engineering,p1,4,2,2,2,0.0,0,876.0,2887.0,29.2,,0,2,0.0,4313
+2058,new,1.Platinum,2.Rest of US,Full Stack,,2,3,2,0,374.0,No Nice have skill,6302.0,No Nice have skill,29.2,,0,0,0.0,4597
+2059,new,1.Platinum,2.Rest of US,Full Stack,,2,3,2,0,374.0,No Nice have skill,6302.0,No Nice have skill,29.2,,0,0,0.0,4598
+2060,new,1.Platinum,3.Top 30 GDP,Backend Systems,p0,12,10,7,5,0.0,0,45.0,14.0,5.8,,0,2,0.0,4790
+2061,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,8,8,6,2,0.0,0,7.0,831.0,5.8,,0,2,0.0,4789
+2062,new,1.Platinum,3.Top 30 GDP,Mobile,p0,2,1,2,0,873.0,No Nice have skill,607.0,No Nice have skill,2.0,40.0,0,0,1.0,4157
+2063,new,1.Platinum,3.Top 30 GDP,Mobile,p0,3,2,2,1,284.0,284.0,1874.0,2554.0,5.8,40.0,0,0,1.0,4827
+2064,new,1.Platinum,3.Top 30 GDP,Mobile,p0,2,2,2,0,284.0,No Nice have skill,1874.0,No Nice have skill,2.0,40.0,0,0,1.0,4158
+2065,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,9,4,2,4.0,312.0,2881.0,629.0,29.2,,0,2,0.0,4878
+2066,new,1.Platinum,2.Rest of US,Full Stack,p0,6,5,3,3,112.0,0,3814.0,38.0,29.2,,0,2,0.0,4872
+2067,new,1.Platinum,2.Rest of US,Backend Systems,p0,8,5,2,6,2921.0,0,10631.0,3.0,29.2,,0,2,0.0,4874
+2068,new,1.Platinum,2.Rest of US,Web Frontend,p0,2,2,2,0,178.0,No Nice have skill,11545.0,No Nice have skill,29.2,,0,0,0.0,4875
+2069,new,1.Platinum,2.Rest of US,Backend Systems,p0,6,6,3,3,0.0,11.0,73.0,3242.0,29.2,,0,2,0.0,5888
+2070,new,1.Platinum,2.Rest of US,Mobile,p0,3,2,2,1,284.0,284.0,1874.0,2554.0,29.2,,0,0,1.0,6150
+2071,new,1.Platinum,2.Rest of US,Mobile,p0,3,2,2,1,284.0,284.0,1874.0,2554.0,29.2,,0,0,1.0,6313
+2072,existing,1.Platinum,2.Rest of US,Backend Systems,p0,5,1,3,2,0.0,0,170.0,292.0,11.7,,0,2,0.0,8746
+2073,existing,1.Platinum,2.Rest of US,Mobile,p0,2,2,2,0,284.0,No Nice have skill,2078.0,No Nice have skill,11.7,,0,0,1.0,8330
+2074,new,1.Platinum,2.Rest of US,Mobile,p0,3,2,2,1,284.0,284.0,1874.0,2554.0,29.2,,0,0,1.0,6324
+2075,existing,1.Platinum,2.Rest of US,Mobile,p1,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,,0,0,0.0,8575
+2076,existing,1.Platinum,2.Rest of US,Backend Systems,p1,6,4,3,3,0.0,0,21.0,220.0,11.7,,0,2,0.0,9167
+2077,existing,1.Platinum,2.Rest of US,Backend Systems,,4,5,2,2,926.0,0,2146.0,67.0,11.7,,0,2,1.0,8007
+2079,new,1.Platinum,2.Rest of US,,,4,2,4,0,0.0,No Nice have skill,403.0,No Nice have skill,29.2,,0,0,1.0,5972
+2080,existing,1.Platinum,2.Rest of US,,p0,5,2,3,2,0.0,0,690.0,437.0,29.2,,0,2,1.0,6555
+2081,new,1.Platinum,3.Top 30 GDP,DevOps,p0,8,8,3,5,0.0,0,1280.0,15.0,5.8,,0,2,0.0,6827
+2082,new,1.Platinum,2.Rest of US,Other,p0,6,6,4,2,0.0,6.0,14.0,234.0,29.2,,0,2,0.0,7197
+2083,new,1.Platinum,2.Rest of US,Backend Systems,p0,6,7,3,3,129.0,0,3207.0,12.0,29.2,,0,2,0.0,7275
+2084,new,1.Platinum,3.Top 30 GDP,DevOps,,5,3,3,2,0.0,0,173.0,14.0,5.8,,0,2,0.0,7649
+2085,new,1.Platinum,3.Top 30 GDP,Backend Systems,p0,5,5,3,2,0.0,0,191.0,67.0,5.8,,0,2,0.0,7723
+2088,new,1.Platinum,2.Rest of US,Full Stack,p1,6,7,2,4,79.0,0,1024.0,121.0,29.2,,0,2,0.0,7911
+2089,new,1.Platinum,2.Rest of US,,,3,4,3,0,9.0,No Nice have skill,291.0,No Nice have skill,29.2,,0,0,1.0,8506
+2091,new,1.Platinum,4.Others,Backend Systems,p0,3,5,2,1,825.0,4251.0,7895.0,15643.0,1.9,,0,2,0.0,8461
+2094,new,1.Platinum,2.Rest of US,Full Stack,p1,6,6,3,3,139.0,141.0,1029.0,10156.0,29.2,,0,2,0.0,9312
+2145,new,1.Platinum,1.Bay Area,Mobile,p0,5,2,3,2,873.0,0,497.0,126.0,,40.0,0,2,0.0,684
+2213,new,1.Platinum,1.Bay Area,Mobile,p1,7,4,5,2,81.0,0,711.0,126.0,,40.0,0,2,0.0,685
+2228,new,1.Platinum,1.Bay Area,Web Backend,p0,11,10,8,3,0.0,32.0,0.0,143.0,29.2,40.0,0,2,0.0,883
+2235,new,1.Platinum,2.Rest of US,Web Backend,p0,2,1,2,0,0.0,No Nice have skill,1012.0,No Nice have skill,23.4,40.0,0,0,0.0,968
+2242,new,1.Platinum,1.Bay Area,Data Engineering,p0,7,6,5,2,0.0,18.0,61.0,1656.0,29.2,40.0,0,2,0.0,884
+2244,new,1.Platinum,2.Rest of US,Web Backend,p0,4,1,4,0,0.0,No Nice have skill,0.0,No Nice have skill,23.4,40.0,0,0,0.0,969
+2356,new,1.Platinum,1.Bay Area,Web Backend,p0,7,4,3,4,0.0,0,1926.0,5.0,,40.0,0,2,1.0,683
+2357,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,6,5,3,3,323.0,0,3784.0,213.0,29.2,40.0,0,2,0.0,882
+2385,existing,1.Platinum,2.Rest of US,Web Frontend,p0,4,5,4,0,29.0,No Nice have skill,6025.0,No Nice have skill,29.2,40.0,0,0,1.0,5896
+2455,existing,1.Platinum,2.Rest of US,Full Stack,p1,12,7,6,6,0.0,0,36.0,4.0,11.7,40.0,0,2,0.0,8270
+2456,existing,1.Platinum,2.Rest of US,Full Stack,p1,12,7,6,6,0.0,0,36.0,4.0,11.7,40.0,0,2,1.0,8373
+2457,existing,1.Platinum,2.Rest of US,Full Stack,p1,10,6,6,4,0.0,0,36.0,23.0,11.7,40.0,0,2,0.0,8271
+2458,existing,1.Platinum,2.Rest of US,Full Stack,p1,3,2,3,0,0.0,No Nice have skill,2448.0,No Nice have skill,11.7,40.0,0,0,1.0,8867
+2459,existing,1.Platinum,2.Rest of US,QA,p0,5,3,2,3,0.0,0,483.0,686.0,11.7,40.0,0,2,0.0,8975
+2460,existing,1.Platinum,2.Rest of US,UI/UX Developer,,3,1,3,0,0.0,No Nice have skill,0.0,No Nice have skill,11.7,40.0,0,0,1.0,9397
+2461,existing,1.Platinum,2.Rest of US,Designer,p1,1,1,1,0,509.0,No Nice have skill,641.0,No Nice have skill,11.7,40.0,0,0,0.0,8289
+2462,existing,1.Platinum,2.Rest of US,Other,p1,5,4,1,4,6922.0,0,16794.0,33.0,11.7,40.0,0,1,0.0,8273
+2463,existing,1.Platinum,2.Rest of US,Machine Learning,p1,8,6,4,4,0.0,0,77.0,152.0,11.7,40.0,0,2,0.0,8272
+2464,existing,1.Platinum,2.Rest of US,Full Stack,p0,10,10,5,5,0.0,0,1874.0,79.0,11.7,40.0,0,2,1.0,8106
+2465,existing,1.Platinum,2.Rest of US,Full Stack,p0,10,10,5,5,0.0,0,1874.0,79.0,11.7,40.0,0,2,1.0,8108
+2466,existing,1.Platinum,2.Rest of US,Full Stack,p0,5,4,5,0,0.0,No Nice have skill,732.0,No Nice have skill,11.7,40.0,0,0,1.0,8257
+2561,new,1.Platinum,2.Rest of US,Web Backend,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,40.0,0,1,0.0,1370
+2562,new,1.Platinum,2.Rest of US,Web Backend,p0,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,56.6,40.0,0,1,0.0,1367
+2563,new,1.Platinum,2.Rest of US,Web Backend,p0,1,0,1,0,0.0,No Nice have skill,2069.0,No Nice have skill,56.6,40.0,0,0,0.0,1368
+2564,new,1.Platinum,2.Rest of US,Web Backend,p0,1,1,1,0,645.0,No Nice have skill,1558.0,No Nice have skill,56.6,40.0,0,0,0.0,1369
+2570,new,1.Platinum,1.Bay Area,Web Frontend,p1,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,56.6,40.0,0,0,0.0,1411
+2646,new,1.Platinum,2.Rest of US,Data Engineering,p1,7,3,4,3,0.0,0,2.0,0,29.2,40.0,0,2,0.0,1775
+2647,new,1.Platinum,2.Rest of US,Web Backend,p1,2,3,2,0,68.0,No Nice have skill,2540.0,No Nice have skill,29.2,40.0,0,0,0.0,2084
+2648,new,1.Platinum,2.Rest of US,Web Frontend,p1,6,6,4,2,29.0,0,6025.0,883.0,29.2,40.0,0,2,0.0,1769
+2674,new,1.Platinum,3.Top 30 GDP,Web Frontend,p1,5,6,4,1,18.0,6582.0,3303.0,1109.0,4.7,40.0,0,2,0.0,1833
+2675,new,1.Platinum,3.Top 30 GDP,Web Backend,p1,9,6,1,8,752.0,0,1103.0,2.0,4.7,40.0,0,2,0.0,1832
+2681,existing,1.Platinum,2.Rest of US,Web Frontend,p1,9,8,3,6,146.0,0,961.0,1.0,29.2,40.0,0,2,0.0,8774
+2682,existing,1.Platinum,2.Rest of US,DevOps,p0,3,3,3,0,0.0,No Nice have skill,136.0,No Nice have skill,29.2,40.0,0,0,1.0,4262
+2685,existing,1.Platinum,1.Bay Area,Other,p0,3,3,3,0,0.0,No Nice have skill,210.0,No Nice have skill,56.6,40.0,0,0,1.0,3825
+2686,existing,1.Platinum,1.Bay Area,Data Engineering,p0,6,4,5,1,0.0,148.0,14.0,11204.0,56.6,40.0,0,2,0.0,3823
+2687,new,1.Platinum,1.Bay Area,Mobile,p0,5,2,2,3,0.0,0,561.0,0,56.6,40.0,0,2,1.0,2284
+2688,existing,1.Platinum,1.Bay Area,Data Engineering,p0,4,3,4,0,0.0,No Nice have skill,58.0,No Nice have skill,56.6,40.0,0,0,0.0,3824
+2693,new,1.Platinum,1.Bay Area,Full Stack,p0,6,4,4,2,1.0,0,99.0,126.0,56.6,40.0,0,2,0.0,5344
+2703,new,1.Platinum,1.Bay Area,Web Frontend,p0,10,11,2,8,105.0,0,12001.0,1.0,56.6,40.0,0,2,1.0,1969
+2718,new,1.Platinum,1.Bay Area,Full Stack,p0,9,13,2,7,33.0,0,9581.0,2.0,56.6,40.0,0,2,0.0,2019
+2719,existing,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,40.0,0,1,0.0,4086
+2720,existing,1.Platinum,1.Bay Area,Full Stack,p0,4,6,2,2,33.0,132.0,9581.0,1712.0,56.6,40.0,0,2,0.0,4036
+2721,new,1.Platinum,1.Bay Area,QA,p0,3,2,3,0,0.0,No Nice have skill,232.0,No Nice have skill,56.6,40.0,0,0,0.0,4015
+2722,existing,1.Platinum,1.Bay Area,QA,p1,3,0,3,0,0.0,No Nice have skill,1.0,No Nice have skill,56.6,40.0,0,0,0.0,8400
+2723,new,1.Platinum,1.Bay Area,Web Backend,p0,5,4,1,4,752.0,0,1103.0,5.0,56.6,40.0,0,2,0.0,6592
+2724,existing,1.Platinum,1.Bay Area,Mobile,p1,3,5,2,1,19.0,436.0,442.0,21126.0,56.6,40.0,0,2,1.0,8399
+2725,new,1.Platinum,1.Bay Area,QA,p0,3,2,3,0,0.0,No Nice have skill,232.0,No Nice have skill,56.6,40.0,0,0,0.0,4016
+2726,new,1.Platinum,1.Bay Area,DevOps,p0,3,1,3,0,0.0,No Nice have skill,103.0,No Nice have skill,56.6,40.0,0,0,0.0,4017
+2727,new,1.Platinum,1.Bay Area,Web Frontend,p0,5,6,3,2,157.0,0,2234.0,334.0,56.6,40.0,0,2,0.0,3494
+2728,existing,1.Platinum,1.Bay Area,Web Frontend,p0,5,6,3,2,157.0,0,2234.0,334.0,56.6,40.0,0,2,1.0,7601
+2729,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,4,4,1,3,752.0,2.0,1103.0,625.0,56.6,40.0,0,2,0.0,3497
+2730,new,1.Platinum,1.Bay Area,DevOps,p0,2,1,2,0,0.0,No Nice have skill,148.0,No Nice have skill,56.6,40.0,0,0,1.0,6716
+2731,new,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,3,0,157.0,No Nice have skill,2234.0,No Nice have skill,56.6,40.0,0,0,1.0,7047
+2761,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,3,4,2,1,769.0,2342.0,2672.0,5158.0,29.2,30.0,0,0,1.0,4063
+2766,new,1.Platinum,2.Rest of US,DevOps,p0,7,6,3,4,33.0,0,1521.0,17.0,23.4,40.0,0,2,1.0,5064
+2768,new,1.Platinum,2.Rest of US,Web Frontend,p0,6,8,3,3,18.0,0,2385.0,653.0,29.2,40.0,0,2,0.0,3125
+2770,new,1.Platinum,2.Rest of US,Web Backend,p0,7,3,4,3,0.0,0,148.0,360.0,29.2,40.0,0,2,0.0,3126
+2792,new,1.Platinum,2.Rest of US,,,3,4,3,0,146.0,No Nice have skill,961.0,No Nice have skill,13.0,,0,0,1.0,9062
+2800,new,1.Platinum,3.Top 30 GDP,Web Frontend,p1,3,3,1,2,2214.0,0,4939.0,112.0,5.8,40.0,0,2,1.0,3734
+2803,new,1.Platinum,2.Rest of US,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,29.2,40.0,0,0,1.0,3681
+2804,new,1.Platinum,2.Rest of US,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,29.2,40.0,0,0,0.0,3680
+2805,existing,1.Platinum,2.Rest of US,Other,p0,2,1,2,0,0.0,No Nice have skill,528.0,No Nice have skill,29.2,40.0,0,0,1.0,6238
+2806,existing,1.Platinum,2.Rest of US,DevOps,p0,2,3,2,0,0.0,No Nice have skill,1274.0,No Nice have skill,29.2,40.0,0,0,0.0,7408
+2807,existing,1.Platinum,2.Rest of US,Backend Systems,p0,1,1,1,0,4315.0,No Nice have skill,8396.0,No Nice have skill,29.2,40.0,0,0,0.0,7119
+2808,existing,1.Platinum,2.Rest of US,Backend Systems,p0,2,2,2,0,1224.0,No Nice have skill,5352.0,No Nice have skill,11.7,40.0,0,0,0.0,8530
+2809,existing,1.Platinum,2.Rest of US,DevOps,p0,3,4,3,0,0.0,No Nice have skill,659.0,No Nice have skill,29.2,40.0,0,0,1.0,5745
+2810,existing,1.Platinum,2.Rest of US,Cloud - Solutions Architecture,,1,0,1,0,0.0,No Nice have skill,5789.0,No Nice have skill,29.2,,0,0,1.0,7657
+2811,new,1.Platinum,2.Rest of US,DevOps,p0,4,5,2,2,0.0,269.0,3621.0,3584.0,29.2,40.0,0,2,1.0,4056
+2812,existing,1.Platinum,2.Rest of US,Data Engineering,p0,6,6,5,2,0.0,92.0,262.0,1101.0,29.2,40.0,0,2,0.0,5744
+2813,existing,1.Platinum,2.Rest of US,,,1,1,1,0,1060.0,No Nice have skill,6518.0,No Nice have skill,29.2,,0,0,0.0,6462
+2814,existing,1.Platinum,2.Rest of US,Full Stack,p0,3,2,1,2,0.0,269.0,1627.0,3584.0,29.2,40.0,0,0,0.0,7407
+2815,existing,1.Platinum,2.Rest of US,DevOps,,2,2,2,0,216.0,No Nice have skill,99.0,No Nice have skill,29.2,40.0,0,0,1.0,6118
+2816,existing,1.Platinum,2.Rest of US,Backend Systems,p0,1,1,1,0,4315.0,No Nice have skill,8396.0,No Nice have skill,29.2,40.0,0,0,1.0,7888
+2817,existing,1.Platinum,2.Rest of US,,,1,1,1,0,1060.0,No Nice have skill,6518.0,No Nice have skill,29.2,,0,0,0.0,6461
+2818,existing,1.Platinum,2.Rest of US,DevOps,p0,3,4,3,0,0.0,No Nice have skill,659.0,No Nice have skill,29.2,40.0,0,0,1.0,7388
+2819,existing,1.Platinum,2.Rest of US,DevOps,p0,3,4,3,0,0.0,No Nice have skill,1006.0,No Nice have skill,29.2,40.0,0,0,1.0,5214
+2820,existing,1.Platinum,2.Rest of US,,p0,3,3,1,2,0.0,83.0,2845.0,806.0,29.2,40.0,0,0,0.0,6239
+2821,existing,1.Platinum,2.Rest of US,,p0,10,10,2,8,0.0,0,1274.0,1.0,29.2,40.0,0,2,1.0,6240
+2822,new,1.Platinum,2.Rest of US,DevOps,p0,4,3,3,1,0.0,714.0,107.0,4022.0,29.2,40.0,0,0,0.0,4097
+2823,new,1.Platinum,2.Rest of US,Other,p0,5,2,5,0,0.0,No Nice have skill,1.0,No Nice have skill,29.2,40.0,0,0,1.0,6349
+2824,new,1.Platinum,2.Rest of US,QA,p0,5,3,3,2,0.0,0,107.0,262.0,29.2,40.0,0,2,1.0,5254
+2825,new,1.Platinum,2.Rest of US,QA,p0,5,3,3,2,0.0,0,107.0,735.0,29.2,40.0,0,2,0.0,4106
+2826,new,1.Platinum,2.Rest of US,DevOps,p0,4,2,4,0,0.0,No Nice have skill,13.0,No Nice have skill,29.2,40.0,0,0,0.0,6323
+2827,new,1.Platinum,2.Rest of US,Other,p0,3,1,3,0,0.0,No Nice have skill,42.0,No Nice have skill,29.2,40.0,0,0,0.0,4368
+2828,existing,1.Platinum,2.Rest of US,PM,p0,2,1,2,0,0.0,No Nice have skill,485.0,No Nice have skill,29.2,40.0,0,0,0.0,7489
+2829,existing,1.Platinum,2.Rest of US,Backend Systems,p2,8,7,2,6,0.0,0,1940.0,6.0,29.2,40.0,0,2,0.0,8791
+2830,new,1.Platinum,2.Rest of US,Backend Systems,p0,6,4,4,2,0.0,389.0,239.0,3414.0,29.2,40.0,0,2,0.0,4096
+2831,new,1.Platinum,1.Bay Area,DevOps,,8,5,2,6,0.0,0,1479.0,15.0,56.6,40.0,0,2,0.0,4246
+2832,new,1.Platinum,2.Rest of US,Web Frontend,p0,4,5,1,3,4251.0,2.0,15643.0,146.0,29.2,40.0,0,2,0.0,4251
+2833,new,1.Platinum,2.Rest of US,Mobile,p0,3,4,1,2,1442.0,19.0,4615.0,511.0,29.2,40.0,0,2,1.0,4250
+2834,new,1.Platinum,2.Rest of US,Backend Systems,p0,7,6,3,4,0.0,1.0,5.0,64.0,29.2,40.0,0,2,0.0,4410
+2835,new,1.Platinum,2.Rest of US,DevOps,p0,7,7,3,4,0.0,3.0,1277.0,38.0,29.2,40.0,0,2,0.0,4398
+2836,new,1.Platinum,2.Rest of US,Backend Systems,p0,5,4,3,2,0.0,127.0,11.0,523.0,29.2,40.0,0,2,0.0,4409
+2837,new,1.Platinum,2.Rest of US,Full Stack,p0,8,5,5,3,0.0,0,63.0,23.0,29.2,40.0,0,2,0.0,4422
+2838,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,2,2,2,0,8.0,No Nice have skill,555.0,No Nice have skill,11.7,40.0,0,0,1.0,8855
+2839,existing,1.Platinum,2.Rest of US,Machine Learning,p0,3,3,2,1,0.0,9808.0,1785.0,514.0,29.2,40.0,0,0,1.0,6781
+2840,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,5,4,2,1.0,0,326.0,77.0,11.7,40.0,0,2,0.0,9058
+2844,existing,1.Platinum,2.Rest of US,Web Frontend,p0,6,8,1,5,4251.0,2.0,15643.0,13.0,29.2,40.0,0,2,0.0,5864
+2845,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,3,3,0,2.0,No Nice have skill,49.0,No Nice have skill,29.2,40.0,0,0,0.0,5544
+2846,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,4,4,4,0,0.0,No Nice have skill,527.0,No Nice have skill,29.2,40.0,0,0,0.0,4543
+2847,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,7,3,3,0.0,0,0.0,0,29.2,40.0,0,2,0.0,5543
+2848,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,6,6,3,3,2.0,141.0,279.0,10156.0,29.2,40.0,0,2,1.0,5547
+2849,existing,1.Platinum,2.Rest of US,Web Frontend,p0,3,4,1,2,4251.0,17.0,15643.0,92.0,29.2,40.0,0,1,1.0,5003
+2850,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,4,2,1,79.0,752.0,1024.0,1103.0,29.2,40.0,0,0,0.0,7743
+2851,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,8,10,4,4,0.0,15.0,285.0,193.0,29.2,40.0,0,2,0.0,5545
+2853,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,5,7,2,3,105.0,4.0,12001.0,118.0,29.2,40.0,0,2,1.0,7387
+2854,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,4,2,1,75.0,645.0,518.0,1558.0,29.2,40.0,0,0,1.0,7281
+2855,new,1.Platinum,2.Rest of US,Web Frontend,p0,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,40.0,0,1,1.0,4544
+2856,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,4,2,1,75.0,645.0,518.0,1558.0,11.7,40.0,0,0,1.0,8724
+2857,existing,1.Platinum,2.Rest of US,Web Frontend,p0,5,6,1,4,4251.0,2.0,15643.0,2.0,29.2,40.0,0,2,1.0,5591
+2859,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,2,2,2,0,8.0,No Nice have skill,555.0,No Nice have skill,11.7,40.0,0,0,1.0,8756
+2860,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,3,4,1,2,752.0,83.0,1103.0,803.0,29.2,40.0,0,0,0.0,4541
+2861,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,2,2,1,0.0,645.0,71.0,1558.0,29.2,40.0,0,0,1.0,5541
+2862,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p1,9,11,2,7,1479.0,0,6563.0,17.0,56.6,40.0,0,2,0.0,4600
+2863,existing,1.Platinum,2.Rest of US,Backend Systems,p1,2,2,2,0,44.0,No Nice have skill,281.0,No Nice have skill,29.2,40.0,0,0,0.0,9030
+2864,new,1.Platinum,2.Rest of US,QA,p0,6,5,3,3,0.0,8.0,61.0,451.0,29.2,40.0,0,2,0.0,7786
+2865,new,1.Platinum,2.Rest of US,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,29.2,40.0,0,0,1.0,8374
+2866,new,1.Platinum,2.Rest of US,Mobile,p0,2,2,2,0,878.0,No Nice have skill,6663.0,No Nice have skill,29.2,40.0,0,0,0.0,7785
+2868,new,1.Platinum,2.Rest of US,Mobile,p0,2,1,2,0,873.0,No Nice have skill,607.0,No Nice have skill,29.2,40.0,0,0,0.0,4551
+2869,new,1.Platinum,2.Rest of US,Mobile,p0,2,2,2,0,284.0,No Nice have skill,1874.0,No Nice have skill,29.2,40.0,0,0,0.0,7783
+2870,new,1.Platinum,2.Rest of US,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,29.2,40.0,0,0,1.0,8544
+2872,existing,1.Platinum,2.Rest of US,Cloud - Solutions Architecture,p1,6,4,1,5,0.0,0,1064.0,2.0,29.2,40.0,0,2,0.0,9027
+2873,new,1.Platinum,1.Bay Area,Other,p0,7,5,4,3,0.0,0,15.0,5.0,56.6,40.0,0,2,1.0,4580
+2874,new,1.Platinum,1.Bay Area,Web Frontend,p0,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,1.9,40.0,0,1,1.0,5548
+2875,existing,1.Platinum,1.Bay Area,Backend Systems,p0,3,2,3,0,0.0,No Nice have skill,215.0,No Nice have skill,11.7,40.0,0,0,1.0,8012
+2876,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,11.7,40.0,0,0,1.0,6583
+2877,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,11.7,40.0,0,0,1.0,8011
+2878,existing,1.Platinum,1.Bay Area,Backend Systems,p0,6,3,6,0,0.0,No Nice have skill,4.0,No Nice have skill,11.7,40.0,0,0,1.0,6142
+2879,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,11.7,40.0,0,0,1.0,6494
+2880,new,1.Platinum,1.Bay Area,Backend Systems,p0,6,3,6,0,0.0,No Nice have skill,4.0,No Nice have skill,1.9,40.0,0,0,1.0,5574
+2881,existing,1.Platinum,1.Bay Area,Mobile,p0,2,3,2,0,23.0,No Nice have skill,1668.0,No Nice have skill,2.0,40.0,0,0,0.0,5903
+2882,existing,1.Platinum,1.Bay Area,Backend Systems,p0,5,3,3,2,0.0,0,215.0,369.0,11.7,40.0,0,2,1.0,7037
+2883,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,11.7,40.0,0,0,1.0,6346
+2884,existing,1.Platinum,1.Bay Area,Web Backend,p0,6,3,6,0,0.0,No Nice have skill,4.0,No Nice have skill,11.7,40.0,0,0,1.0,6233
+2885,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,11.7,40.0,0,0,1.0,6048
+2886,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,2.0,40.0,0,0,1.0,5840
+2887,new,1.Platinum,1.Bay Area,Backend Systems,p0,10,6,6,4,0.0,0,4.0,482.0,1.9,40.0,0,2,0.0,5217
+2888,new,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,1.9,40.0,0,0,1.0,5736
+2889,new,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,1.9,40.0,0,0,1.0,5664
+2890,new,1.Platinum,1.Bay Area,Web Frontend,p0,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,1.9,40.0,0,1,0.0,5757
+2891,new,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,2,1,574.0,1442.0,5797.0,4615.0,1.9,40.0,0,0,0.0,5216
+2892,new,1.Platinum,1.Bay Area,Mobile,p0,11,13,4,7,8.0,0,1902.0,0,56.6,40.0,0,2,0.0,6863
+2893,new,1.Platinum,1.Bay Area,Mobile,p0,10,12,4,6,8.0,0,1902.0,1.0,56.6,40.0,0,2,0.0,6861
+2895,existing,1.Platinum,4.Others,DevOps,p1,4,3,1,3,1656.0,0,549.0,16.0,2.0,40.0,0,2,0.0,8453
+2896,existing,1.Platinum,4.Others,,,3,2,3,0,0.0,No Nice have skill,107.0,No Nice have skill,1.9,,0,0,1.0,7164
+2957,existing,1.Platinum,3.Top 30 GDP,Web Frontend,p0,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,5.9,40.0,0,1,1.0,645
+2995,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),,5,7,5,0,0.0,No Nice have skill,160.0,No Nice have skill,56.6,40.0,0,2,1.0,700
+3001,existing,1.Platinum,3.Top 30 GDP,Web Frontend,p0,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,5.9,20.0,0,1,1.0,1005
+3042,existing,1.Platinum,1.Bay Area,DevOps,,4,3,4,0,0.0,No Nice have skill,19.0,No Nice have skill,56.6,,0,0,0.0,1106
+3115,existing,1.Platinum,3.Top 30 GDP,Fullstack (FE-heavy),p0,3,4,3,0,84.0,No Nice have skill,1306.0,No Nice have skill,5.9,20.0,0,0,0.0,1809
+3261,new,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,1971.0,No Nice have skill,1830.0,No Nice have skill,56.6,40.0,0,0,0.0,1662
+3262,new,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,56.6,40.0,0,0,0.0,1661
+3275,new,1.Platinum,2.Rest of US,,p0,2,2,1,1,0.0,1125.0,326.0,6892.0,23.4,40.0,0,0,0.0,1793
+3292,new,1.Platinum,2.Rest of US,Full Stack,p0,7,9,5,2,46.0,50.0,75.0,6864.0,29.2,40.0,0,2,1.0,1854
+3307,new,1.Platinum,4.Others,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,1.6,40.0,0,0,0.0,2103
+3309,new,1.Platinum,2.Rest of US,Full Stack,p0,7,8,4,3,4.0,96.0,1313.0,3020.0,29.2,40.0,0,2,0.0,2120
+3392,new,1.Platinum,2.Rest of US,,,1,1,1,0,1442.0,No Nice have skill,4615.0,No Nice have skill,23.4,40.0,0,0,0.0,3755
+4076,existing,1.Platinum,3.Top 30 GDP,,,2,0,1,1,0.0,0,216.0,2324.0,5.9,,0,0,1.0,8476
+4077,existing,1.Platinum,3.Top 30 GDP,Backend Systems,p0,2,2,2,0,8.0,No Nice have skill,149.0,No Nice have skill,5.9,40.0,0,0,0.0,6919
+4078,existing,1.Platinum,3.Top 30 GDP,,,2,3,1,1,4251.0,752.0,15643.0,1103.0,5.9,,0,1,0.0,9070
+4079,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,1,752.0,1060.0,1103.0,6518.0,5.9,40.0,0,0,1.0,8590
+4080,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,1,1513.0,1060.0,3385.0,6518.0,5.9,,0,0,0.0,9196
+4081,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,1,752.0,1060.0,1103.0,6518.0,5.9,,0,0,0.0,7772
+4082,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,0.0,1060.0,4839.0,6518.0,5.9,,0,0,0.0,9192
+4083,existing,1.Platinum,3.Top 30 GDP,DevOps,p0,3,3,3,0,0.0,No Nice have skill,1075.0,No Nice have skill,5.9,40.0,0,0,0.0,4072
+4084,existing,1.Platinum,3.Top 30 GDP,,,3,2,2,1,0.0,1060.0,483.0,6518.0,5.9,,0,0,1.0,8010
+4085,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,1,1513.0,1060.0,3385.0,6518.0,5.9,40.0,0,0,1.0,8737
+4086,existing,1.Platinum,3.Top 30 GDP,,,1,2,1,1,4251.0,4251.0,15643.0,15643.0,5.9,,0,1,0.0,9252
+4087,existing,1.Platinum,3.Top 30 GDP,Mobile,p0,2,2,1,1,1513.0,752.0,3385.0,1103.0,5.9,40.0,0,0,1.0,6712
+4088,existing,1.Platinum,3.Top 30 GDP,,,3,1,2,1,793.0,0,442.0,2324.0,5.9,,0,0,1.0,8431
+4089,existing,1.Platinum,3.Top 30 GDP,,,2,3,1,1,4251.0,5048.0,15643.0,15171.0,5.9,,0,1,1.0,8434
+4090,existing,1.Platinum,3.Top 30 GDP,Backend Systems,p0,2,2,1,1,752.0,1513.0,1103.0,3385.0,5.9,40.0,0,0,1.0,6215
+4091,existing,1.Platinum,3.Top 30 GDP,QA,p0,2,2,1,1,793.0,1060.0,808.0,6518.0,5.9,40.0,0,0,1.0,6216
+4092,existing,1.Platinum,3.Top 30 GDP,,,3,2,2,1,47.0,0,1211.0,1866.0,5.9,,0,0,1.0,8190
+4093,existing,1.Platinum,3.Top 30 GDP,,,1,1,1,1,1060.0,1060.0,6518.0,6518.0,5.9,,0,0,0.0,9251
+4094,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,1,752.0,1060.0,1103.0,6518.0,5.9,,0,0,0.0,9195
+4096,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,1,1513.0,1060.0,3385.0,6518.0,5.9,,0,0,0.0,9255
+4097,existing,1.Platinum,3.Top 30 GDP,,,1,2,1,1,4251.0,4251.0,15643.0,15643.0,5.9,,0,1,0.0,9069
+4098,existing,1.Platinum,3.Top 30 GDP,,,1,1,1,1,1060.0,1060.0,6518.0,6518.0,5.9,,0,0,0.0,9073
+4099,existing,1.Platinum,3.Top 30 GDP,,,1,0,1,1,0.0,0,4839.0,4839.0,5.9,,0,0,0.0,9250
+4101,existing,1.Platinum,3.Top 30 GDP,Other,p0,3,4,1,2,0.0,25.0,5340.0,477.0,5.9,40.0,0,0,1.0,6217
+4102,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,0.0,1060.0,76.0,6518.0,5.9,,0,0,1.0,7690
+4103,existing,1.Platinum,3.Top 30 GDP,Mobile,p0,2,2,1,1,1513.0,752.0,3385.0,1103.0,5.9,40.0,0,0,1.0,6214
+4106,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,1513.0,0,3385.0,1866.0,5.9,40.0,0,0,0.0,8194
+4107,existing,1.Platinum,3.Top 30 GDP,Backend Systems,p0,2,2,1,1,752.0,1513.0,1103.0,3385.0,5.9,40.0,0,0,1.0,6678
+4108,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,793.0,0,808.0,2324.0,5.9,,0,0,1.0,8520
+4110,existing,1.Platinum,3.Top 30 GDP,Other,p0,2,2,1,1,1513.0,540.0,3385.0,3841.0,5.9,40.0,0,0,1.0,6065
+4111,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,752.0,0,1103.0,1866.0,5.9,40.0,0,0,1.0,8193
+4112,existing,1.Platinum,3.Top 30 GDP,QA,p0,3,2,2,1,793.0,1060.0,278.0,6518.0,5.9,40.0,0,0,1.0,6213
+4113,existing,1.Platinum,3.Top 30 GDP,,,2,0,1,1,0.0,0,76.0,2324.0,5.9,,0,0,1.0,7689
+4114,existing,1.Platinum,3.Top 30 GDP,Other,p0,4,1,3,1,0.0,1060.0,51.0,6518.0,5.9,40.0,0,0,1.0,6925
+4115,existing,1.Platinum,3.Top 30 GDP,,,1,1,1,1,752.0,752.0,1103.0,1103.0,5.9,,0,0,0.0,9253
+4116,existing,1.Platinum,3.Top 30 GDP,,,2,3,1,1,4251.0,5048.0,15643.0,15171.0,5.9,,0,1,1.0,8192
+4117,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,2,1060.0,47.0,6518.0,1211.0,5.9,,0,0,0.0,9193
+4118,existing,1.Platinum,3.Top 30 GDP,,,2,0,1,1,0.0,0,4839.0,76.0,5.9,,0,0,1.0,6596
+4119,existing,1.Platinum,3.Top 30 GDP,,,2,2,1,1,752.0,1060.0,1103.0,6518.0,5.9,40.0,0,0,1.0,8642
+4120,existing,1.Platinum,3.Top 30 GDP,Mobile,p0,3,3,1,2,1513.0,178.0,3385.0,490.0,5.9,40.0,0,0,1.0,6924
+4121,existing,1.Platinum,3.Top 30 GDP,Web Backend,p0,2,2,2,0,178.0,No Nice have skill,498.0,No Nice have skill,5.9,40.0,0,0,0.0,3764
+4122,existing,1.Platinum,3.Top 30 GDP,DevOps,p0,4,5,1,3,0.0,18.0,5340.0,422.0,5.9,40.0,0,2,0.0,4389
+4123,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,793.0,793.0,2281.0,808.0,5.9,,0,0,1.0,7602
+4124,existing,1.Platinum,3.Top 30 GDP,,,1,2,1,1,4251.0,4251.0,15643.0,15643.0,5.9,,0,1,0.0,9194
+4125,existing,1.Platinum,3.Top 30 GDP,,,3,1,2,1,0.0,793.0,483.0,625.0,5.9,,0,0,0.0,8118
+4126,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,0.0,1060.0,4839.0,6518.0,5.9,,0,0,1.0,8191
+4127,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,793.0,0,808.0,2324.0,5.9,,0,0,0.0,9072
+4128,existing,1.Platinum,3.Top 30 GDP,,,2,1,1,1,0.0,0,714.0,326.0,5.9,,0,0,0.0,8189
+4129,existing,1.Platinum,4.Others,Other,p1,6,3,4,2,0.0,825.0,2.0,7895.0,2.0,,0,0,0.0,3058
+4131,existing,1.Platinum,4.Others,,,2,2,1,1,793.0,1060.0,808.0,6518.0,2.0,,0,0,1.0,7918
+4132,existing,1.Platinum,4.Others,Other,p0,1,0,1,0,0.0,No Nice have skill,988.0,No Nice have skill,2.0,40.0,0,0,0.0,5286
+4133,existing,1.Platinum,4.Others,,,2,2,1,1,793.0,1060.0,808.0,6518.0,2.0,,0,0,1.0,9155
+4134,existing,1.Platinum,4.Others,Other,p1,1,2,1,0,0.0,No Nice have skill,5340.0,No Nice have skill,2.0,40.0,0,0,0.0,4555
+4135,existing,1.Platinum,4.Others,Other,p0,3,2,2,1,0.0,0,980.0,1866.0,2.0,,0,0,0.0,8242
+4136,existing,1.Platinum,4.Others,,,3,3,1,2,284.0,49.0,2554.0,441.0,2.0,,0,0,1.0,8790
+4137,existing,1.Platinum,4.Others,,p0,3,1,2,1,873.0,0,581.0,1866.0,2.0,40.0,0,0,1.0,8429
+4138,existing,1.Platinum,4.Others,,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,2.0,40.0,0,0,0.0,6146
+4139,existing,1.Platinum,4.Others,,p0,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,2.0,40.0,0,0,1.0,7363
+4140,existing,1.Platinum,4.Others,Mobile,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,2.0,40.0,0,0,0.0,7320
+4141,existing,1.Platinum,4.Others,Designer,p1,1,1,1,0,509.0,No Nice have skill,915.0,No Nice have skill,2.0,40.0,0,0,0.0,4288
+4142,existing,1.Platinum,4.Others,,p0,3,2,2,1,284.0,1971.0,2078.0,50.0,2.0,40.0,0,0,1.0,7640
+4143,existing,1.Platinum,4.Others,,,1,1,1,0,793.0,No Nice have skill,2281.0,No Nice have skill,2.0,,0,0,0.0,3358
+4144,existing,1.Platinum,4.Others,,,2,2,1,1,284.0,1971.0,7078.0,493.0,2.0,,0,0,0.0,8788
+4145,existing,1.Platinum,4.Others,,p0,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,2.0,40.0,0,0,1.0,5412
+4146,existing,1.Platinum,4.Others,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,2.0,40.0,0,0,1.0,7866
+4147,existing,1.Platinum,4.Others,Other,p0,1,1,1,0,793.0,No Nice have skill,2281.0,No Nice have skill,2.0,40.0,0,0,1.0,3618
+4148,existing,1.Platinum,4.Others,Mobile,,3,1,3,0,0.0,No Nice have skill,323.0,No Nice have skill,2.0,40.0,0,0,1.0,3880
+4149,existing,1.Platinum,4.Others,Other,p1,2,2,2,0,87.0,No Nice have skill,1150.0,No Nice have skill,2.0,40.0,0,0,0.0,3532
+4150,existing,1.Platinum,4.Others,Web Backend,,2,1,1,1,0.0,1060.0,200.0,6518.0,2.0,,0,0,0.0,7781
+4151,existing,1.Platinum,4.Others,Full Stack,p0,1,1,1,1,1060.0,1060.0,6518.0,6518.0,2.0,40.0,0,0,0.0,7782
+4152,new,1.Platinum,2.Rest of US,,,7,7,5,2,0.0,105.0,21.0,12001.0,29.2,,0,2,0.0,8226
+4154,new,1.Platinum,3.Top 30 GDP,Mobile,p0,3,1,2,1,873.0,873.0,607.0,1501.0,5.8,40.0,0,0,0.0,4820
+4155,existing,1.Platinum,3.Top 30 GDP,Mobile,p0,3,2,2,1,284.0,284.0,1874.0,2554.0,5.9,40.0,0,0,0.0,6271
+4156,existing,1.Platinum,3.Top 30 GDP,Mobile,p0,2,1,1,1,1971.0,1971.0,754.0,1742.0,5.9,40.0,0,0,1.0,7792
+4157,existing,1.Platinum,3.Top 30 GDP,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,5.9,40.0,0,0,0.0,7810
+4158,new,1.Platinum,3.Top 30 GDP,Mobile,p0,3,2,2,1,284.0,0,656.0,6045.0,5.8,,0,0,0.0,4870
+4159,new,1.Platinum,3.Top 30 GDP,Mobile,p0,4,2,3,1,0.0,0,105.0,4011.0,5.8,40.0,0,2,0.0,4849
+4160,new,1.Platinum,3.Top 30 GDP,Mobile,p0,6,7,4,2,0.0,0,460.0,1369.0,5.8,,0,2,0.0,4871
+4162,new,1.Platinum,3.Top 30 GDP,,,5,5,3,2,82.0,0,1158.0,97.0,5.8,,0,2,0.0,6171
+4164,new,1.Platinum,2.Rest of US,,,4,6,3,1,84.0,6922.0,3624.0,16794.0,29.2,,0,2,0.0,7533
+4165,new,1.Platinum,2.Rest of US,,,9,8,8,1,0.0,1442.0,2.0,4615.0,7.4,,0,2,0.0,8164
+4210,existing,1.Platinum,2.Rest of US,UI/UX Developer,,1,1,1,0,509.0,No Nice have skill,641.0,No Nice have skill,11.7,,0,0,1.0,2567
+4211,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,3,3,3,0,47.0,No Nice have skill,1102.0,No Nice have skill,29.2,40.0,0,0,0.0,2339
+4213,existing,1.Platinum,2.Rest of US,Other,,1,0,1,0,0.0,No Nice have skill,2255.0,No Nice have skill,11.7,,0,0,1.0,2634
+4240,new,1.Platinum,1.Bay Area,Mobile,p0,4,5,2,2,1479.0,7.0,6563.0,103.0,56.6,40.0,0,2,0.0,2202
+4241,new,1.Platinum,1.Bay Area,Mobile,p0,6,7,1,5,1442.0,0,4615.0,6.0,56.6,40.0,0,2,0.0,2133
+4254,new,1.Platinum,2.Rest of US,Web Frontend,p0,4,6,2,2,141.0,321.0,12055.0,2353.0,29.2,40.0,0,2,1.0,1202
+4255,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,8,6,1,7,5048.0,0,15171.0,1.0,29.2,40.0,0,2,1.0,1201
+4256,new,1.Platinum,1.Bay Area,Full Stack,p0,2,1,2,0,0.0,No Nice have skill,1281.0,No Nice have skill,56.6,40.0,0,0,0.0,1210
+4276,new,1.Platinum,2.Rest of US,Mobile,p0,8,6,4,4,25.0,0,401.0,14.0,29.2,40.0,0,2,0.0,1319
+4277,new,1.Platinum,2.Rest of US,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1877.0,No Nice have skill,29.2,40.0,0,0,0.0,1320
+4278,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,10,11,4,6,11.0,0,351.0,4.0,29.2,40.0,0,2,1.0,1321
+4279,new,1.Platinum,2.Rest of US,Web Frontend,p0,2,3,1,1,4251.0,296.0,15643.0,756.0,29.2,40.0,0,1,0.0,1550
+4290,new,1.Platinum,2.Rest of US,Web Backend,p0,4,4,2,2,674.0,45.0,3872.0,5356.0,4.7,40.0,0,0,1.0,1391
+4305,new,1.Platinum,2.Rest of US,Full Stack,p0,5,5,3,2,22.0,0,387.0,112.0,29.2,40.0,0,2,0.0,1417
+4306,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,2,3,1,1,4251.0,3467.0,15643.0,8821.0,29.2,40.0,0,1,0.0,2894
+4308,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,2,3,1,1,4251.0,3467.0,15643.0,8821.0,29.2,40.0,0,1,1.0,2579
+4352,new,1.Platinum,1.Bay Area,Full Stack,p0,4,4,3,1,96.0,0,3020.0,84.0,56.6,40.0,0,2,1.0,1631
+4353,new,1.Platinum,1.Bay Area,Web Backend,p0,2,1,1,1,1125.0,0,6892.0,84.0,56.6,40.0,0,0,0.0,1800
+4359,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,3,3,2,1,1.0,0,53.0,2324.0,56.6,40.0,0,2,0.0,1655
+4372,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,3,3,3,0,1.0,No Nice have skill,844.0,No Nice have skill,29.2,40.0,0,0,0.0,1739
+4375,new,1.Platinum,2.Rest of US,UI/UX Developer,p0,2,1,2,0,509.0,No Nice have skill,234.0,No Nice have skill,29.2,40.0,0,0,0.0,1758
+4376,new,1.Platinum,2.Rest of US,Web Frontend,p0,3,3,1,2,3467.0,16.0,4743.0,5134.0,29.2,40.0,0,0,0.0,1746
+4377,new,1.Platinum,2.Rest of US,Backend Systems,p0,5,7,2,3,16.0,84.0,5134.0,576.0,29.2,40.0,0,2,0.0,1743
+4383,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,7,8,2,5,615.0,5.0,379.0,128.0,11.7,40.0,0,2,0.0,7309
+4384,existing,1.Platinum,2.Rest of US,Full Stack,p0,10,9,3,7,5.0,0,3997.0,0,29.2,40.0,0,2,1.0,2283
+4385,existing,1.Platinum,2.Rest of US,QA,p0,4,3,4,0,0.0,No Nice have skill,21.0,No Nice have skill,11.7,40.0,0,0,0.0,6666
+4386,existing,1.Platinum,2.Rest of US,Full Stack,p0,2,0,2,0,0.0,No Nice have skill,51.0,No Nice have skill,29.2,40.0,0,0,1.0,2376
+4387,existing,1.Platinum,2.Rest of US,Web Backend,p0,5,7,4,1,0.0,213.0,1242.0,1698.0,29.2,40.0,0,2,0.0,2144
+4388,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,4,2,4,0,0.0,No Nice have skill,5.0,No Nice have skill,11.7,40.0,0,0,1.0,3713
+4389,existing,1.Platinum,2.Rest of US,UI/UX Developer,p0,5,3,5,0,0.0,No Nice have skill,10.0,No Nice have skill,11.7,40.0,0,0,0.0,9262
+4390,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,5,3,3,2,0.0,0,13.0,203.0,11.7,40.0,0,2,1.0,6654
+4393,existing,1.Platinum,2.Rest of US,Web Frontend,p0,3,4,2,1,292.0,1656.0,2582.0,197.0,11.7,40.0,0,0,0.0,6366
+4394,existing,1.Platinum,2.Rest of US,QA,p0,5,6,5,0,0.0,No Nice have skill,1.0,No Nice have skill,11.7,40.0,0,0,0.0,7316
+4395,existing,1.Platinum,2.Rest of US,Other,p0,1,0,1,0,0.0,No Nice have skill,381.0,No Nice have skill,11.7,40.0,0,0,1.0,7708
+4396,new,1.Platinum,2.Rest of US,Full Stack,p0,8,8,3,5,5.0,0,3997.0,0,29.2,40.0,0,2,1.0,1774
+4397,existing,1.Platinum,2.Rest of US,Web Backend,p0,6,7,2,4,615.0,9.0,379.0,169.0,11.7,40.0,0,2,1.0,4673
+4398,existing,1.Platinum,2.Rest of US,Other,p0,3,0,3,0,0.0,No Nice have skill,94.0,No Nice have skill,11.7,40.0,0,0,1.0,7474
+4399,existing,1.Platinum,2.Rest of US,Web Backend,p0,2,4,2,0,102.0,No Nice have skill,1113.0,No Nice have skill,11.7,40.0,0,0,1.0,3013
+4400,existing,1.Platinum,2.Rest of US,Full Stack,p0,6,7,5,1,0.0,9808.0,565.0,17893.0,11.7,40.0,0,2,1.0,3960
+4401,existing,1.Platinum,2.Rest of US,QA,p0,3,2,3,0,0.0,No Nice have skill,9.0,No Nice have skill,11.7,40.0,0,0,1.0,9256
+4402,existing,1.Platinum,2.Rest of US,Full Stack,p0,7,9,3,4,38.0,6.0,6538.0,1566.0,11.7,40.0,0,2,0.0,3749
+4403,existing,1.Platinum,2.Rest of US,Web Backend,p0,2,2,2,0,0.0,No Nice have skill,275.0,No Nice have skill,11.7,40.0,0,0,1.0,7308
+4404,existing,1.Platinum,2.Rest of US,Other,p0,3,2,3,0,0.0,No Nice have skill,38.0,No Nice have skill,11.7,40.0,0,0,1.0,4274
+4405,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,4,2,4,0,0.0,No Nice have skill,103.0,No Nice have skill,11.7,40.0,0,0,0.0,5447
+4406,existing,1.Platinum,2.Rest of US,Web Backend,p0,2,3,2,0,50.0,No Nice have skill,6864.0,No Nice have skill,11.7,40.0,0,0,1.0,5837
+4407,existing,1.Platinum,2.Rest of US,Full Stack,p0,6,9,4,2,2.0,88.0,276.0,350.0,11.7,40.0,0,2,0.0,8890
+4408,existing,1.Platinum,2.Rest of US,Backend Systems,p0,5,2,2,3,1156.0,0,195.0,75.0,11.7,40.0,0,2,1.0,5656
+4409,existing,1.Platinum,2.Rest of US,Web Frontend,p0,4,4,2,2,1479.0,0,6563.0,182.0,11.7,40.0,0,2,0.0,8888
+4410,existing,1.Platinum,2.Rest of US,Web Frontend,p0,7,8,4,3,0.0,1.0,318.0,1915.0,11.7,40.0,0,2,1.0,4081
+4411,existing,1.Platinum,2.Rest of US,Web Frontend,p0,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,11.7,40.0,0,1,0.0,4452
+4412,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,5,6,3,2,0.0,541.0,370.0,6042.0,11.7,40.0,0,2,1.0,3610
+4413,existing,1.Platinum,2.Rest of US,Web Backend,p0,5,6,5,0,2.0,No Nice have skill,159.0,No Nice have skill,11.7,40.0,0,0,1.0,3963
+4414,existing,1.Platinum,2.Rest of US,Web Backend,p0,6,5,2,4,50.0,0,6864.0,9.0,29.2,40.0,0,2,1.0,2375
+4415,existing,1.Platinum,2.Rest of US,Other,p0,4,3,3,1,0.0,3188.0,38.0,8619.0,11.7,40.0,0,0,1.0,3549
+4416,existing,1.Platinum,2.Rest of US,QA,p0,5,2,3,2,0.0,0,9.0,110.0,11.7,40.0,0,2,0.0,8892
+4417,existing,1.Platinum,2.Rest of US,DevOps,p0,3,3,3,0,0.0,No Nice have skill,1624.0,No Nice have skill,11.7,40.0,0,0,1.0,3892
+4418,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),,8,9,3,5,22.0,0,81.0,5.0,11.7,,0,2,1.0,4907
+4419,existing,1.Platinum,2.Rest of US,Web Frontend,p0,2,3,2,0,292.0,No Nice have skill,2582.0,No Nice have skill,11.7,40.0,0,0,1.0,6338
+4420,existing,1.Platinum,2.Rest of US,Web Frontend,p0,6,8,3,3,8.0,102.0,2641.0,49.0,11.7,40.0,0,2,0.0,8889
+4421,existing,1.Platinum,2.Rest of US,,,2,4,2,0,102.0,No Nice have skill,1113.0,No Nice have skill,11.7,,0,0,1.0,4860
+4422,existing,1.Platinum,2.Rest of US,Full Stack,p0,4,6,4,0,0.0,No Nice have skill,20.0,No Nice have skill,11.7,40.0,0,0,0.0,7317
+4423,existing,1.Platinum,2.Rest of US,Backend Systems,p0,5,2,2,3,1156.0,0,7630.0,75.0,11.7,40.0,0,2,1.0,5835
+4424,existing,1.Platinum,2.Rest of US,Other,p0,1,1,1,0,1620.0,No Nice have skill,6514.0,No Nice have skill,11.7,40.0,0,0,0.0,7555
+4425,existing,1.Platinum,2.Rest of US,Other,p0,2,0,2,0,0.0,No Nice have skill,51.0,No Nice have skill,11.7,40.0,0,0,1.0,3171
+4426,existing,1.Platinum,2.Rest of US,Web Frontend,p0,5,7,3,2,197.0,50.0,1964.0,6864.0,11.7,40.0,0,2,1.0,6083
+4427,existing,1.Platinum,2.Rest of US,Other,p0,3,0,3,0,0.0,No Nice have skill,94.0,No Nice have skill,11.7,40.0,0,0,1.0,7148
+4428,existing,1.Platinum,2.Rest of US,Full Stack,p0,9,9,1,8,4251.0,0,15643.0,0,11.7,40.0,0,2,1.0,2372
+4429,existing,1.Platinum,2.Rest of US,Other,p0,2,2,2,0,0.0,No Nice have skill,1962.0,No Nice have skill,11.7,40.0,0,0,0.0,5445
+4430,existing,1.Platinum,2.Rest of US,UI/UX Developer,p0,7,8,4,3,22.0,36.0,1243.0,422.0,11.7,40.0,0,2,0.0,7310
+4431,existing,1.Platinum,2.Rest of US,QA,p0,2,1,2,0,793.0,No Nice have skill,400.0,No Nice have skill,11.7,40.0,0,0,0.0,9322
+4432,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),,7,7,3,4,197.0,0,1964.0,0,11.7,40.0,0,2,1.0,4841
+4433,existing,1.Platinum,2.Rest of US,Web Backend,p0,5,5,3,2,29.0,0,563.0,85.0,11.7,40.0,0,2,0.0,8887
+4434,existing,1.Platinum,2.Rest of US,,,6,8,3,3,22.0,48.0,81.0,106.0,11.7,,0,2,1.0,4999
+4435,existing,1.Platinum,2.Rest of US,Full Stack,p0,9,10,3,6,5.0,0,3997.0,2.0,29.2,,0,2,1.0,2145
+4436,existing,1.Platinum,2.Rest of US,Web Frontend,p0,7,7,4,3,3.0,0,1086.0,45.0,11.7,40.0,0,2,0.0,7305
+4437,existing,1.Platinum,2.Rest of US,QA,p0,1,1,1,0,793.0,No Nice have skill,2281.0,No Nice have skill,11.7,40.0,0,0,0.0,4486
+4438,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,4,3,0,102.0,No Nice have skill,93.0,No Nice have skill,11.7,40.0,0,0,1.0,7913
+4439,existing,1.Platinum,2.Rest of US,Web Frontend,p0,4,4,3,1,1.0,1656.0,1060.0,197.0,11.7,40.0,0,2,1.0,5392
+4440,new,1.Platinum,2.Rest of US,Web Backend,p0,6,5,2,4,0.0,0,1062.0,42.0,29.2,40.0,0,2,0.0,1981
+4441,existing,1.Platinum,2.Rest of US,Web Backend,p0,6,7,2,4,615.0,9.0,379.0,169.0,11.7,40.0,0,2,1.0,4472
+4442,existing,1.Platinum,2.Rest of US,Web Backend,p0,2,3,2,0,50.0,No Nice have skill,6864.0,No Nice have skill,11.7,40.0,0,0,1.0,5051
+4444,existing,1.Platinum,2.Rest of US,Other,p0,3,0,3,0,0.0,No Nice have skill,94.0,No Nice have skill,11.7,40.0,0,0,1.0,7147
+4445,existing,1.Platinum,2.Rest of US,Other,p0,2,0,2,0,0.0,No Nice have skill,988.0,No Nice have skill,11.7,40.0,0,0,1.0,6370
+4446,existing,1.Platinum,2.Rest of US,Web Frontend,p0,7,9,2,5,1479.0,5.0,6563.0,3.0,11.7,40.0,0,2,1.0,9302
+4447,existing,1.Platinum,2.Rest of US,Backend Systems,p0,2,1,1,1,5048.0,0,15171.0,968.0,11.7,40.0,0,1,1.0,6241
+4448,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,5,3,3,2,0.0,0,13.0,203.0,11.7,40.0,0,2,1.0,6368
+4449,new,1.Platinum,2.Rest of US,Web Frontend,p0,9,12,4,5,0.0,2.0,3316.0,16.0,29.2,40.0,0,2,1.0,1773
+4450,existing,1.Platinum,2.Rest of US,Web Backend,p0,2,3,2,0,50.0,No Nice have skill,6864.0,No Nice have skill,11.7,40.0,0,0,1.0,5836
+4451,existing,1.Platinum,2.Rest of US,Web Backend,p0,6,8,4,2,2.0,117.0,149.0,286.0,11.7,40.0,0,2,0.0,7306
+4458,existing,1.Platinum,2.Rest of US,Backend Systems,p0,1,1,1,0,515.0,No Nice have skill,1299.0,No Nice have skill,11.7,40.0,0,0,0.0,4518
+4459,existing,1.Platinum,2.Rest of US,Machine Learning,p0,1,1,1,0,1620.0,No Nice have skill,6514.0,No Nice have skill,11.7,40.0,0,0,1.0,7880
+4460,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,8,7,3,5,38.0,0,442.0,156.0,29.2,40.0,0,2,1.0,1867
+4461,existing,1.Platinum,2.Rest of US,Machine Learning,p0,4,3,4,0,0.0,No Nice have skill,186.0,No Nice have skill,11.7,40.0,0,0,1.0,3112
+4462,existing,1.Platinum,2.Rest of US,Mobile,p0,5,5,1,4,1442.0,0,4615.0,1.0,11.7,40.0,0,2,0.0,6623
+4463,existing,1.Platinum,2.Rest of US,Other,p0,2,2,2,0,0.0,No Nice have skill,219.0,No Nice have skill,11.7,40.0,0,0,0.0,7614
+4464,existing,1.Platinum,2.Rest of US,Machine Learning,p0,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,1.0,2613
+4465,existing,1.Platinum,2.Rest of US,Web Backend,p0,7,6,2,5,0.0,0,3329.0,114.0,11.7,40.0,0,2,1.0,9320
+4466,existing,1.Platinum,2.Rest of US,Web Frontend,p0,6,8,5,1,0.0,1480.0,63.0,2062.0,11.7,40.0,0,2,1.0,7482
+4467,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,5,5,3,2,38.0,389.0,442.0,3414.0,29.2,40.0,0,2,1.0,2371
+4468,existing,1.Platinum,2.Rest of US,Full Stack,p0,2,4,2,0,33.0,No Nice have skill,9581.0,No Nice have skill,29.2,40.0,0,0,1.0,2464
+4469,existing,1.Platinum,2.Rest of US,Machine Learning,p0,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,0.0,2839
+4470,existing,1.Platinum,2.Rest of US,Other,p0,4,4,3,1,0.0,4315.0,50.0,8396.0,11.7,40.0,0,0,0.0,4006
+4471,existing,1.Platinum,2.Rest of US,Web Backend,p0,7,6,4,5,0.0,0,877.0,114.0,11.7,40.0,0,2,0.0,5915
+4472,existing,1.Platinum,2.Rest of US,Other,p0,4,4,3,1,0.0,9808.0,36.0,17893.0,11.7,40.0,0,0,0.0,3362
+4473,existing,1.Platinum,2.Rest of US,Machine Learning,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,0.0,4359
+4474,existing,1.Platinum,2.Rest of US,Web Frontend,p0,5,7,1,4,4251.0,3.0,15643.0,2278.0,11.7,40.0,0,2,1.0,6054
+4476,existing,1.Platinum,2.Rest of US,Full Stack,p0,1,1,1,0,533.0,No Nice have skill,2888.0,No Nice have skill,11.7,40.0,0,0,0.0,3541
+4477,existing,1.Platinum,2.Rest of US,Other,,1,1,1,0,1620.0,No Nice have skill,6514.0,No Nice have skill,11.7,,0,0,1.0,8180
+4478,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,40.0,0,1,0.0,3441
+4479,new,1.Platinum,2.Rest of US,Mobile,p0,2,1,1,1,873.0,0,1501.0,657.0,29.2,40.0,0,0,0.0,2340
+4480,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,40.0,0,1,1.0,6060
+4481,existing,1.Platinum,2.Rest of US,Machine Learning,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,0.0,6874
+4482,existing,1.Platinum,2.Rest of US,Machine Learning,p0,2,3,2,0,1370.0,No Nice have skill,6141.0,No Nice have skill,11.7,40.0,0,0,1.0,2511
+4483,existing,1.Platinum,2.Rest of US,,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,,0,0,1.0,3258
+4484,existing,1.Platinum,2.Rest of US,DevOps,p0,5,3,4,1,0.0,369.0,27.0,4093.0,11.7,40.0,0,0,0.0,3543
+4485,existing,1.Platinum,2.Rest of US,Machine Learning,p0,2,3,2,0,1370.0,No Nice have skill,6141.0,No Nice have skill,11.7,40.0,0,0,0.0,3608
+4486,existing,1.Platinum,2.Rest of US,Data Engineering,p0,1,1,1,0,1416.0,No Nice have skill,1155.0,No Nice have skill,11.7,40.0,0,0,1.0,7355
+4487,existing,1.Platinum,2.Rest of US,,p0,2,2,2,0,0.0,No Nice have skill,13.0,No Nice have skill,11.7,,0,0,0.0,9308
+4488,existing,1.Platinum,2.Rest of US,Machine Learning,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,1.0,6031
+4489,existing,1.Platinum,2.Rest of US,Web Backend,p1,5,7,4,1,0.0,1656.0,218.0,549.0,11.7,40.0,0,2,1.0,2919
+4490,existing,1.Platinum,2.Rest of US,Machine Learning,p0,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,0.0,3884
+4491,existing,1.Platinum,2.Rest of US,Data Engineering,p0,5,4,5,0,0.0,No Nice have skill,117.0,No Nice have skill,11.7,40.0,0,0,0.0,9066
+4492,existing,1.Platinum,2.Rest of US,Machine Learning,p0,2,3,2,0,1370.0,No Nice have skill,6141.0,No Nice have skill,11.7,40.0,0,0,0.0,6832
+4495,existing,1.Platinum,2.Rest of US,Web Backend,p0,7,6,3,4,0.0,0,1011.0,56.0,11.7,40.0,0,2,0.0,5242
+4496,existing,1.Platinum,2.Rest of US,Web Backend,p0,5,6,3,2,25.0,320.0,874.0,3504.0,11.7,40.0,0,2,1.0,6075
+4497,existing,1.Platinum,2.Rest of US,Machine Learning,p0,2,1,2,0,0.0,No Nice have skill,1785.0,No Nice have skill,11.7,40.0,0,0,1.0,2373
+4498,existing,1.Platinum,2.Rest of US,Machine Learning,p0,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,20.0,0,0,1.0,3646
+4499,existing,1.Platinum,2.Rest of US,Machine Learning,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,,0,0,1.0,5255
+4500,new,1.Platinum,2.Rest of US,Web Backend,p0,3,3,1,2,714.0,76.0,4022.0,1762.0,29.2,40.0,0,0,0.0,2374
+4501,existing,1.Platinum,2.Rest of US,Machine Learning,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,0.0,5563
+4502,existing,1.Platinum,2.Rest of US,Machine Learning,p0,2,3,2,0,1370.0,No Nice have skill,6141.0,No Nice have skill,11.7,20.0,0,0,0.0,3676
+4503,existing,1.Platinum,2.Rest of US,Web Backend,p0,2,3,1,1,9808.0,1620.0,17893.0,6514.0,11.7,40.0,0,1,1.0,2918
+4504,existing,1.Platinum,2.Rest of US,Web Backend,p0,6,5,1,5,4315.0,0,8396.0,114.0,11.7,40.0,0,2,0.0,5914
+4505,existing,1.Platinum,2.Rest of US,,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,,0,0,1.0,5122
+4506,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,1,1,0,4228.0,No Nice have skill,13071.0,No Nice have skill,11.7,40.0,0,1,1.0,3542
+4507,existing,1.Platinum,2.Rest of US,Machine Learning,,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,1.0,5880
+4508,existing,1.Platinum,2.Rest of US,Machine Learning,p0,3,3,3,0,0.0,No Nice have skill,1724.0,No Nice have skill,11.7,40.0,0,0,1.0,5934
+4514,new,1.Platinum,2.Rest of US,Web Backend,p0,2,1,2,0,0.0,No Nice have skill,740.0,No Nice have skill,29.2,50.0,0,0,0.0,1948
+4526,new,1.Platinum,1.Bay Area,Mobile,p0,3,3,1,2,284.0,0,2554.0,306.0,56.6,40.0,0,2,1.0,2026
+4527,new,1.Platinum,1.Bay Area,Mobile,p0,5,1,1,4,873.0,0,1501.0,0,56.6,40.0,0,2,1.0,2025
+4528,new,1.Platinum,1.Bay Area,Full Stack,p0,5,6,4,1,22.0,1442.0,3031.0,4615.0,56.6,40.0,0,2,0.0,2063
+4529,new,1.Platinum,1.Bay Area,Full Stack,p0,4,5,4,0,25.0,No Nice have skill,1085.0,No Nice have skill,56.6,40.0,0,0,0.0,2062
+4533,new,1.Platinum,1.Bay Area,Backend Systems,p0,4,4,4,0,3.0,No Nice have skill,77.0,No Nice have skill,56.6,40.0,0,0,0.0,2075
+4548,existing,1.Platinum,2.Rest of US,Full Stack,p0,3,5,3,0,84.0,No Nice have skill,3624.0,No Nice have skill,29.2,40.0,0,0,0.0,3733
+4549,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,40.0,0,1,1.0,5530
+4550,existing,1.Platinum,2.Rest of US,Web Frontend,p0,3,4,1,2,4251.0,645.0,15643.0,2828.0,29.2,40.0,0,1,1.0,4079
+4551,existing,1.Platinum,2.Rest of US,Web Frontend,,3,4,1,2,4251.0,645.0,15643.0,2828.0,29.2,,0,1,1.0,4386
+4552,existing,1.Platinum,2.Rest of US,Web Frontend,p0,3,4,2,1,1479.0,3467.0,6563.0,6024.0,29.2,40.0,0,0,1.0,5236
+4553,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,8,1,5,9808.0,5.0,17893.0,398.0,29.2,40.0,0,1,1.0,5266
+4554,new,1.Platinum,2.Rest of US,Web Frontend,p0,5,7,1,4,4251.0,2.0,15643.0,97.0,29.2,40.0,0,2,1.0,2176
+4555,existing,1.Platinum,2.Rest of US,Backend Systems,p0,2,2,2,0,92.0,No Nice have skill,1386.0,No Nice have skill,29.2,40.0,0,0,0.0,5224
+4612,new,1.Platinum,2.Rest of US,Web Backend,p0,4,2,1,3,645.0,0,1558.0,337.0,29.2,40.0,0,2,1.0,3480
+4613,new,1.Platinum,2.Rest of US,Web Backend,p0,6,5,4,2,4.0,0,1418.0,1572.0,29.2,40.0,0,2,0.0,3540
+4614,new,1.Platinum,2.Rest of US,Backend Systems,p0,5,5,4,1,4.0,6922.0,1418.0,14609.0,29.2,40.0,0,2,0.0,3830
+4615,existing,1.Platinum,3.Top 30 GDP,Backend Systems,,9,6,6,3,0.0,0,54.0,0,5.9,40.0,0,2,1.0,4686
+4616,new,1.Platinum,3.Top 30 GDP,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,5.8,40.0,0,0,1.0,3950
+4617,new,1.Platinum,3.Top 30 GDP,Mobile,p0,2,2,2,0,284.0,No Nice have skill,942.0,No Nice have skill,5.8,40.0,0,0,1.0,3698
+4618,new,1.Platinum,2.Rest of US,Mobile,p0,2,3,2,0,24.0,No Nice have skill,3565.0,No Nice have skill,29.2,40.0,0,0,1.0,4067
+4619,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,4,5,3,1,57.0,6922.0,664.0,8131.0,29.2,40.0,0,0,1.0,4151
+4620,new,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,3,0,0.0,No Nice have skill,890.0,No Nice have skill,56.6,40.0,0,0,0.0,4628
+4621,new,1.Platinum,1.Bay Area,Web Backend,p0,4,4,4,0,0.0,No Nice have skill,145.0,No Nice have skill,56.6,40.0,0,0,0.0,4627
+4622,new,1.Platinum,1.Bay Area,Full Stack,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,40.0,0,1,0.0,4919
+4624,new,1.Platinum,1.Bay Area,Data Engineering,p0,4,5,4,0,15.0,No Nice have skill,2040.0,No Nice have skill,56.6,40.0,0,0,0.0,4866
+4625,new,1.Platinum,1.Bay Area,Other,p0,5,4,3,2,0.0,0,126.0,770.0,56.6,40.0,0,2,0.0,4896
+4626,new,1.Platinum,1.Bay Area,Backend Systems,p0,3,2,3,0,0.0,No Nice have skill,372.0,No Nice have skill,56.6,40.0,0,0,0.0,5448
+4627,new,1.Platinum,1.Bay Area,Backend Systems,p0,3,3,3,0,3.0,No Nice have skill,280.0,No Nice have skill,56.6,40.0,0,0,0.0,5449
+4628,new,1.Platinum,1.Bay Area,DevOps,p0,4,3,4,0,0.0,No Nice have skill,400.0,No Nice have skill,56.6,40.0,0,0,0.0,5450
+4629,new,1.Platinum,1.Bay Area,Full Stack,p0,8,8,6,2,0.0,36.0,299.0,450.0,56.6,40.0,0,2,1.0,5735
+4630,new,1.Platinum,3.Top 30 GDP,DevOps,p0,1,2,1,0,0.0,No Nice have skill,5340.0,No Nice have skill,5.8,40.0,0,0,0.0,5768
+4631,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,3,3,3,0,4.0,No Nice have skill,1643.0,No Nice have skill,5.8,40.0,0,0,0.0,5764
+4632,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,3,2,3,0,0.0,No Nice have skill,383.0,No Nice have skill,5.8,40.0,0,0,0.0,5763
+4633,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,3,4,3,0,3.0,No Nice have skill,2569.0,No Nice have skill,5.8,40.0,0,0,0.0,5767
+4634,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,3,3,3,0,4.0,No Nice have skill,1643.0,No Nice have skill,5.8,40.0,0,0,0.0,5766
+4635,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p0,1,1,1,0,0.0,No Nice have skill,714.0,No Nice have skill,5.8,40.0,0,0,0.0,6990
+4636,new,1.Platinum,2.Rest of US,Other,p0,2,0,2,0,0.0,No Nice have skill,95.0,No Nice have skill,29.2,40.0,0,0,1.0,6520
+4637,new,1.Platinum,2.Rest of US,Other,p0,2,0,2,0,0.0,No Nice have skill,173.0,No Nice have skill,29.2,40.0,0,0,0.0,6519
+4638,new,1.Platinum,2.Rest of US,DevOps,p0,2,2,2,0,0.0,No Nice have skill,378.0,No Nice have skill,29.2,40.0,0,0,0.0,6518
+4639,new,1.Platinum,2.Rest of US,DevOps,p0,1,2,1,0,0.0,No Nice have skill,5340.0,No Nice have skill,29.2,40.0,0,0,0.0,6521
+4640,new,1.Platinum,1.Bay Area,QA,p0,6,5,6,0,0.0,No Nice have skill,14.0,No Nice have skill,56.6,40.0,0,2,0.0,6824
+4641,new,1.Platinum,2.Rest of US,Web Backend,p0,3,4,1,2,9808.0,21.0,17893.0,893.0,29.2,40.0,0,1,0.0,8886
+4642,new,1.Platinum,2.Rest of US,Full Stack,p0,3,2,3,0,0.0,No Nice have skill,0.0,No Nice have skill,29.2,40.0,0,0,0.0,9407
+4846,new,1.Platinum,1.Bay Area,Web Frontend,p0,5,7,3,2,54.0,0,5624.0,113.0,56.6,40.0,0,2,0.0,2050
+4847,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,4,4,2,2,23.0,52.0,153.0,5923.0,56.6,40.0,0,2,0.0,2049
+4892,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,4,4,4,0,3.0,No Nice have skill,142.0,No Nice have skill,29.2,40.0,0,0,0.0,2551
+4893,new,1.Platinum,2.Rest of US,Mobile,p0,5,1,2,3,0.0,0,616.0,123.0,29.2,40.0,0,2,0.0,2552
+4894,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,4,4,4,0,3.0,No Nice have skill,142.0,No Nice have skill,29.2,40.0,0,0,0.0,2540
+5119,existing,1.Platinum,3.Top 30 GDP,Web Backend,p1,6,6,2,4,541.0,0,6042.0,3.0,5.9,,0,2,0.0,6975
+5120,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,6,4,2,4,132.0,0,7318.0,0,1.5,,0,2,0.0,4189
+5121,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,4,0,4,0,0.0,No Nice have skill,8.0,No Nice have skill,1.5,,0,0,0.0,4185
+5122,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,6,6,3,3,50.0,0,8078.0,14.0,1.5,,0,2,0.0,4187
+5123,existing,1.Platinum,3.Top 30 GDP,,,3,5,1,2,4251.0,83.0,15643.0,806.0,5.9,,0,1,0.0,6977
+5124,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,8,5,6,2,0.0,105.0,0.0,12001.0,1.5,,0,2,0.0,4186
+5125,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,6,6,3,3,50.0,0,8078.0,14.0,1.5,,0,2,1.0,4188
+5126,existing,1.Platinum,3.Top 30 GDP,Full Stack,p0,1,0,1,0,0.0,No Nice have skill,76.0,No Nice have skill,5.9,,0,0,0.0,4683
+5127,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,4,0,4,0,0.0,No Nice have skill,8.0,No Nice have skill,1.5,,0,0,1.0,3767
+5128,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,7,7,5,2,1.0,0,36.0,22.0,1.5,,0,2,0.0,4191
+5129,existing,1.Platinum,3.Top 30 GDP,Fullstack (FE-heavy),,4,3,2,2,1479.0,0,6563.0,127.0,5.9,,0,2,1.0,7604
+5130,existing,1.Platinum,3.Top 30 GDP,,,5,7,3,2,163.0,17.0,4650.0,215.0,5.9,,0,2,0.0,6976
+5131,existing,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),,3,4,2,1,135.0,6922.0,10215.0,14609.0,5.9,,0,0,0.0,8777
+5132,new,1.Platinum,2.Rest of US,Web Frontend,,5,3,2,3,1156.0,0,7630.0,34.0,29.2,,0,2,0.0,6954
+5133,new,1.Platinum,2.Rest of US,Mobile,,2,3,2,0,24.0,No Nice have skill,3565.0,No Nice have skill,29.2,,0,0,0.0,6875
+5134,new,1.Platinum,2.Rest of US,Web Frontend,,3,5,2,1,321.0,2214.0,4523.0,4939.0,29.2,,0,0,0.0,6953
+5135,new,1.Platinum,1.Bay Area,Backend Systems,p1,4,3,4,0,0.0,No Nice have skill,4.0,No Nice have skill,56.6,,0,0,1.0,7080
+5136,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,3,3,3,0,0.0,No Nice have skill,773.0,No Nice have skill,56.6,,0,0,0.0,9169
+5138,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,6,5,3,3,0.0,0,182.0,390.0,29.2,,0,2,0.0,8371
+5139,new,1.Platinum,2.Rest of US,Data Engineering,,5,4,3,2,0.0,127.0,184.0,1376.0,29.2,,0,2,0.0,8370
+5140,new,1.Platinum,2.Rest of US,Data Engineering,p1,9,3,4,5,0.0,0,54.0,8.0,29.2,,0,2,0.0,7401
+5575,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,3,4,3,0,199.0,No Nice have skill,3807.0,No Nice have skill,5.9,40.0,0,0,0.0,6000
+5576,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,3,3,0,247.0,No Nice have skill,1037.0,No Nice have skill,5.9,40.0,0,0,0.0,6001
+5577,existing,1.Platinum,2.Rest of US,Web Backend,p0,5,5,3,2,254.0,0,2166.0,551.0,29.2,40.0,0,2,0.0,6794
+5578,existing,1.Platinum,2.Rest of US,Web Backend,p0,3,3,3,0,247.0,No Nice have skill,1037.0,No Nice have skill,29.2,40.0,0,0,0.0,6938
+5579,new,1.Platinum,2.Rest of US,Embedded Systems,p0,2,2,2,0,177.0,No Nice have skill,495.0,No Nice have skill,7.4,40.0,0,0,0.0,7665
+5633,existing,1.Platinum,1.Bay Area,Web Frontend,,2,2,2,0,0.0,No Nice have skill,369.0,No Nice have skill,56.6,40.0,0,0,1.0,9096
+5634,existing,1.Platinum,1.Bay Area,Web Frontend,,2,4,2,0,105.0,No Nice have skill,12001.0,No Nice have skill,11.7,40.0,0,0,0.0,8601
+5635,existing,1.Platinum,1.Bay Area,Web Frontend,p1,2,2,2,0,0.0,No Nice have skill,369.0,No Nice have skill,56.6,,0,0,1.0,9108
+5636,existing,1.Platinum,3.Top 30 GDP,Full Stack,p0,3,4,3,0,18.0,No Nice have skill,220.0,No Nice have skill,5.9,40.0,0,0,0.0,4183
+5637,existing,1.Platinum,3.Top 30 GDP,Other,p0,5,4,2,3,0.0,0,309.0,824.0,5.9,40.0,0,2,0.0,8723
+5639,existing,1.Platinum,3.Top 30 GDP,,,5,2,2,3,0.0,0,176.0,0,5.9,40.0,0,2,0.0,8722
+5640,existing,1.Platinum,3.Top 30 GDP,Web Frontend,p0,1,1,1,0,1513.0,No Nice have skill,3385.0,No Nice have skill,5.9,40.0,0,0,1.0,3675
+5641,existing,1.Platinum,3.Top 30 GDP,Other,p0,3,4,2,1,75.0,540.0,518.0,3841.0,5.9,40.0,0,0,1.0,6066
+5645,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p0,2,4,2,0,33.0,No Nice have skill,9581.0,No Nice have skill,5.8,40.0,0,0,0.0,5920
+5648,new,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,645.0,No Nice have skill,1443.0,No Nice have skill,29.2,40.0,0,0,1.0,7715
+5649,new,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7713
+5650,new,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7712
+5651,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,40.0,0,1,0.0,8728
+5652,existing,1.Platinum,1.Bay Area,Web Backend,p0,4,4,1,3,752.0,0,1103.0,525.0,11.7,40.0,0,2,0.0,8729
+5653,existing,1.Platinum,1.Bay Area,Web Backend,p1,3,2,1,2,645.0,0,1558.0,717.0,11.7,40.0,0,0,0.0,8730
+5654,new,1.Platinum,1.Bay Area,Web Backend,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7714
+5655,new,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,1.0,7711
+5656,new,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,645.0,No Nice have skill,1443.0,No Nice have skill,56.6,40.0,0,0,1.0,7716
+5657,existing,1.Platinum,1.Bay Area,Full Stack,p1,4,5,2,2,79.0,295.0,1024.0,2059.0,11.7,40.0,0,2,0.0,8733
+5658,new,1.Platinum,1.Bay Area,Web Backend,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7710
+5659,existing,1.Platinum,1.Bay Area,,p1,3,4,3,0,1.0,No Nice have skill,509.0,No Nice have skill,11.7,40.0,0,0,0.0,8734
+5660,existing,1.Platinum,1.Bay Area,Web Backend,p1,3,2,1,2,645.0,0,1558.0,717.0,11.7,40.0,0,0,0.0,8732
+5661,existing,1.Platinum,1.Bay Area,Full Stack,p1,3,4,2,1,79.0,1864.0,1024.0,485.0,11.7,40.0,0,0,0.0,8811
+5666,new,1.Platinum,2.Rest of US,Web Frontend,p0,2,3,2,0,88.0,No Nice have skill,6539.0,No Nice have skill,23.4,40.0,0,0,0.0,5361
+5667,new,1.Platinum,2.Rest of US,Other,p0,1,2,1,0,1.0,No Nice have skill,533.0,No Nice have skill,29.2,40.0,0,0,0.0,5395
+5668,new,1.Platinum,2.Rest of US,Web Frontend,p0,2,3,2,0,88.0,No Nice have skill,4653.0,No Nice have skill,23.4,40.0,0,0,0.0,5360
+5669,new,1.Platinum,2.Rest of US,DevOps,p0,2,2,2,0,93.0,No Nice have skill,1545.0,No Nice have skill,23.4,40.0,0,0,0.0,5362
+5670,new,1.Platinum,2.Rest of US,Backend Systems,p0,2,3,1,1,5048.0,9808.0,15171.0,17893.0,23.4,40.0,0,1,0.0,5359
+5671,new,1.Platinum,2.Rest of US,DevOps,p0,2,2,2,0,93.0,No Nice have skill,1545.0,No Nice have skill,29.2,40.0,0,0,0.0,5363
+5672,new,1.Platinum,2.Rest of US,Mobile,p0,2,3,2,0,19.0,No Nice have skill,690.0,No Nice have skill,29.2,40.0,0,0,0.0,5364
+5673,new,1.Platinum,2.Rest of US,QA,p0,1,1,1,0,793.0,No Nice have skill,2281.0,No Nice have skill,29.2,40.0,0,0,0.0,5366
+5674,new,1.Platinum,2.Rest of US,Other,p0,1,2,1,0,1.0,No Nice have skill,533.0,No Nice have skill,29.2,40.0,0,0,0.0,5394
+5675,new,1.Platinum,2.Rest of US,Mobile,p0,2,3,2,0,19.0,No Nice have skill,690.0,No Nice have skill,29.2,40.0,0,0,0.0,5365
+5676,new,1.Platinum,2.Rest of US,Other,p0,1,2,1,0,1.0,No Nice have skill,533.0,No Nice have skill,29.2,40.0,0,0,0.0,5367
+5697,existing,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,0.0,7994
+5698,existing,1.Platinum,2.Rest of US,Web Frontend,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,0.0,8096
+5699,existing,1.Platinum,2.Rest of US,Mobile,,1,1,1,0,1442.0,No Nice have skill,4615.0,No Nice have skill,29.2,,0,0,0.0,8098
+5700,existing,1.Platinum,2.Rest of US,Web Backend,,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,29.2,,0,1,0.0,8097
+5701,existing,1.Platinum,2.Rest of US,,,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,29.2,,0,1,0.0,7995
+5709,existing,1.Platinum,4.Others,Other,p1,1,0,1,0,0.0,No Nice have skill,566.0,No Nice have skill,2.0,40.0,0,0,1.0,2749
+5711,new,1.Platinum,4.Others,Web Frontend,p1,2,3,2,0,292.0,No Nice have skill,2184.0,No Nice have skill,1.6,40.0,0,0,1.0,2043
+5712,new,1.Platinum,4.Others,Web Backend,p1,2,2,1,1,1864.0,515.0,485.0,1299.0,1.6,40.0,0,0,1.0,2044
+5738,existing,1.Platinum,4.Others,Mobile,p0,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,2.0,40.0,0,0,0.0,4568
+5740,existing,1.Platinum,4.Others,,,2,2,2,0,284.0,No Nice have skill,656.0,No Nice have skill,2.0,,0,0,0.0,3483
+5741,existing,1.Platinum,4.Others,,,2,1,2,0,873.0,No Nice have skill,581.0,No Nice have skill,2.0,,0,0,1.0,3482
+5742,existing,1.Platinum,4.Others,Other,p0,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,2.0,,0,0,1.0,6958
+5743,new,1.Platinum,4.Others,Other,p1,2,3,1,1,4251.0,3188.0,15643.0,8619.0,1.9,,0,1,1.0,2321
+5745,existing,1.Platinum,4.Others,,,2,2,1,1,752.0,148.0,1103.0,11204.0,2.0,,0,0,0.0,3479
+5746,new,1.Platinum,4.Others,Other,p1,5,7,3,2,54.0,3.0,5624.0,48.0,1.9,,0,2,0.0,2320
+5747,existing,1.Platinum,4.Others,,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,2.0,,0,0,1.0,4879
+5748,existing,1.Platinum,4.Others,Other,p1,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,2.0,,0,0,1.0,3484
+5749,existing,1.Platinum,4.Others,Mobile,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,2.0,40.0,0,0,1.0,5195
+5752,existing,1.Platinum,4.Others,Other,p0,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,2.0,,0,0,1.0,6610
+5753,existing,1.Platinum,4.Others,Other,p1,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,2.0,,0,0,1.0,3630
+5754,existing,1.Platinum,4.Others,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,2.0,40.0,0,0,1.0,4567
+5755,existing,1.Platinum,4.Others,Other,p0,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,2.0,,0,0,1.0,6614
+5756,existing,1.Platinum,4.Others,QA,p1,3,4,1,2,793.0,825.0,2281.0,7895.0,2.0,40.0,0,0,1.0,4190
+5757,existing,1.Platinum,4.Others,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,2.0,40.0,0,0,1.0,4566
+5758,existing,1.Platinum,4.Others,,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,2.0,,0,0,1.0,4958
+5788,new,1.Platinum,2.Rest of US,Web Frontend,p1,3,4,2,1,351.0,645.0,1807.0,1558.0,23.4,40.0,0,2,1.0,2727
+5789,new,1.Platinum,2.Rest of US,Web Frontend,p1,3,4,2,1,351.0,645.0,1807.0,1558.0,23.4,40.0,0,2,1.0,3122
+5790,existing,1.Platinum,2.Rest of US,Full Stack,p1,6,6,1,5,0.0,0,511.0,15.0,29.2,40.0,0,2,0.0,9150
+5796,new,1.Platinum,4.Others,Web Frontend,p0,3,4,3,0,18.0,No Nice have skill,1810.0,No Nice have skill,1.9,40.0,0,0,0.0,3055
+5808,new,1.Platinum,1.Bay Area,,,2,3,2,0,292.0,No Nice have skill,2582.0,No Nice have skill,29.2,,0,0,0.0,3419
+5809,existing,1.Platinum,1.Bay Area,Mobile,p0,3,2,1,2,284.0,284.0,7078.0,942.0,56.6,40.0,0,0,0.0,5462
+5810,existing,1.Platinum,1.Bay Area,Mobile,p0,2,1,2,0,873.0,No Nice have skill,581.0,No Nice have skill,56.6,,0,0,1.0,5067
+5811,new,1.Platinum,1.Bay Area,Mobile,p0,4,3,2,2,0.0,128.0,592.0,539.0,29.2,40.0,0,2,1.0,3420
+5812,existing,1.Platinum,1.Bay Area,Mobile,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,56.6,40.0,0,0,1.0,5120
+5813,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,40.0,0,1,1.0,6929
+5814,existing,1.Platinum,1.Bay Area,Web Backend,p0,2,3,2,0,2921.0,No Nice have skill,10631.0,No Nice have skill,56.6,40.0,0,0,0.0,5773
+5815,existing,1.Platinum,1.Bay Area,Web Backend,p1,2,3,1,1,9808.0,752.0,17893.0,1103.0,11.7,40.0,0,1,0.0,9330
+5816,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1877.0,No Nice have skill,11.7,,0,0,0.0,6218
+5817,existing,1.Platinum,1.Bay Area,Full Stack,p0,6,8,3,3,65.0,31.0,2260.0,454.0,56.6,40.0,0,2,1.0,5215
+5818,existing,1.Platinum,1.Bay Area,Mobile,p1,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,40.0,0,0,1.0,8740
+5819,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,40.0,0,0,1.0,7527
+5820,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,6793
+5821,existing,1.Platinum,1.Bay Area,Web Frontend,p0,6,6,1,5,0.0,0,511.0,12.0,11.7,40.0,0,2,0.0,7481
+5822,existing,1.Platinum,1.Bay Area,,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,56.6,40.0,0,0,0.0,5670
+5823,existing,1.Platinum,1.Bay Area,Mobile,p0,2,1,2,0,873.0,No Nice have skill,581.0,No Nice have skill,56.6,,0,0,1.0,5810
+5824,existing,1.Platinum,1.Bay Area,Web Frontend,p0,2,3,1,1,436.0,3188.0,21126.0,8619.0,56.6,40.0,0,1,0.0,5465
+5825,existing,1.Platinum,1.Bay Area,,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,56.6,40.0,0,0,1.0,5703
+5826,existing,1.Platinum,1.Bay Area,Web Frontend,p1,2,3,1,1,4251.0,3188.0,15643.0,8619.0,11.7,40.0,0,1,1.0,7386
+5827,existing,1.Platinum,1.Bay Area,Web Frontend,,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,11.7,,0,0,0.0,6399
+5828,existing,1.Platinum,1.Bay Area,,,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,,0,0,0.0,8814
+5830,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1877.0,No Nice have skill,11.7,40.0,0,0,1.0,6219
+5831,existing,1.Platinum,1.Bay Area,Full Stack,p0,4,6,3,1,65.0,3188.0,2260.0,8619.0,11.7,40.0,0,0,0.0,7158
+5832,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,,0,0,0.0,7479
+5833,existing,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,56.6,,0,0,1.0,5513
+5834,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,40.0,0,0,0.0,8101
+5836,existing,1.Platinum,1.Bay Area,Web Backend,p0,2,3,1,1,9808.0,752.0,17893.0,1103.0,11.7,40.0,0,1,1.0,6834
+5837,existing,1.Platinum,1.Bay Area,Web Frontend,p1,2,3,1,1,4251.0,3188.0,15643.0,8619.0,11.7,40.0,0,1,1.0,7619
+5838,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,0.0,7478
+5840,existing,1.Platinum,1.Bay Area,Mobile,p0,2,1,2,0,873.0,No Nice have skill,581.0,No Nice have skill,11.7,40.0,0,0,1.0,6543
+5841,existing,1.Platinum,1.Bay Area,Web Frontend,p0,2,3,1,1,4251.0,3188.0,15643.0,8619.0,11.7,40.0,0,1,0.0,8103
+5842,existing,1.Platinum,1.Bay Area,,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,40.0,0,0,1.0,6351
+5843,existing,1.Platinum,1.Bay Area,Web Frontend,p1,1,0,1,0,0.0,No Nice have skill,511.0,No Nice have skill,11.7,40.0,0,0,1.0,9244
+5844,existing,1.Platinum,1.Bay Area,Web Frontend,p0,2,3,2,0,110.0,No Nice have skill,2946.0,No Nice have skill,11.7,40.0,0,0,0.0,6565
+5845,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,56.6,40.0,0,0,0.0,5464
+5846,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,56.6,40.0,0,0,0.0,5680
+5847,existing,1.Platinum,1.Bay Area,,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,40.0,0,0,1.0,6959
+5848,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,56.6,40.0,0,0,0.0,5463
+5849,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,40.0,0,0,1.0,8742
+5850,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,11.7,,0,0,1.0,6049
+5851,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,56.6,,0,0,0.0,5702
+5852,existing,1.Platinum,1.Bay Area,Mobile,p0,2,1,2,0,873.0,No Nice have skill,581.0,No Nice have skill,11.7,,0,0,0.0,6187
+5853,existing,1.Platinum,1.Bay Area,,p0,1,2,1,0,284.0,No Nice have skill,7078.0,No Nice have skill,11.7,40.0,0,0,0.0,6220
+5854,new,1.Platinum,1.Bay Area,Full Stack,p1,2,3,2,0,79.0,No Nice have skill,1024.0,No Nice have skill,56.6,40.0,0,0,0.0,3563
+5855,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p1,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,23.4,40.0,0,0,0.0,3782
+5856,new,1.Platinum,1.Bay Area,QA,p0,6,4,4,2,0.0,0,5.0,2850.0,56.6,40.0,0,2,0.0,3903
+5857,new,1.Platinum,1.Bay Area,Backend Systems,p0,6,5,3,3,0.0,60.0,138.0,375.0,56.6,40.0,0,2,0.0,3902
+5858,new,1.Platinum,2.Rest of US,,,5,2,3,2,0.0,0,21.0,8.0,29.2,,0,2,0.0,4101
+5859,existing,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,11.7,,0,1,1.0,5531
+5860,new,1.Platinum,2.Rest of US,Mobile,p0,3,2,2,1,873.0,560.0,581.0,2959.0,29.2,40.0,0,0,0.0,4281
+5861,existing,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,1.0,4520
+5862,new,1.Platinum,2.Rest of US,Backend Systems,,3,2,3,0,0.0,No Nice have skill,50.0,No Nice have skill,29.2,,0,0,0.0,4098
+5863,new,1.Platinum,2.Rest of US,,,5,5,4,1,9.0,0,1190.0,4011.0,29.2,,0,2,0.0,4099
+5864,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,1,1,0,645.0,No Nice have skill,1443.0,No Nice have skill,11.7,40.0,0,0,1.0,5597
+5865,existing,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,5373
+5866,existing,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,5428
+5867,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,1,1,0,645.0,No Nice have skill,1443.0,No Nice have skill,11.7,40.0,0,0,1.0,5277
+5868,new,1.Platinum,2.Rest of US,Web Backend,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,1.0,4414
+5869,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,1,1,0,645.0,No Nice have skill,1443.0,No Nice have skill,11.7,40.0,0,0,1.0,4877
+5870,existing,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,4933
+5871,existing,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,5372
+5872,existing,1.Platinum,2.Rest of US,Web Backend,p0,1,1,1,0,645.0,No Nice have skill,1443.0,No Nice have skill,29.2,40.0,0,0,1.0,4667
+5873,new,1.Platinum,2.Rest of US,,,8,4,3,5,0.0,0,149.0,0,29.2,,0,2,1.0,4100
+5874,new,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,1.0,4438
+5875,existing,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,4934
+5876,new,1.Platinum,2.Rest of US,Web Backend,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,1.0,4413
+5877,new,1.Platinum,2.Rest of US,,,2,2,2,0,0.0,No Nice have skill,692.0,No Nice have skill,29.2,,0,0,0.0,4102
+5878,existing,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,1.0,4539
+5879,existing,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,1.0,4519
+5880,new,1.Platinum,1.Bay Area,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,56.6,,0,1,1.0,4803
+5881,existing,1.Platinum,1.Bay Area,Backend Systems,p0,2,3,2,0,541.0,No Nice have skill,6042.0,No Nice have skill,56.6,40.0,0,0,0.0,5627
+5882,existing,1.Platinum,1.Bay Area,Web Frontend,p0,2,3,2,0,574.0,No Nice have skill,5797.0,No Nice have skill,11.7,40.0,0,0,0.0,8259
+5883,existing,1.Platinum,1.Bay Area,Web Backend,p1,3,4,1,2,4228.0,247.0,13071.0,2590.0,11.7,40.0,0,1,1.0,6127
+5884,new,1.Platinum,1.Bay Area,,,7,7,3,4,96.0,0,3020.0,120.0,56.6,,0,2,1.0,4513
+5885,existing,1.Platinum,1.Bay Area,,,2,3,2,0,574.0,No Nice have skill,5797.0,No Nice have skill,11.7,,0,0,1.0,7086
+5886,existing,1.Platinum,1.Bay Area,,,2,3,2,0,574.0,No Nice have skill,5797.0,No Nice have skill,11.7,,0,0,0.0,8258
+5887,existing,1.Platinum,1.Bay Area,Backend Systems,p0,6,4,2,4,159.0,0,2195.0,13.0,11.7,40.0,0,2,0.0,9109
+5888,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,11.7,40.0,0,1,1.0,7417
+5889,new,1.Platinum,1.Bay Area,,,7,7,3,4,106.0,0,753.0,120.0,56.6,,0,2,1.0,4516
+5890,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,11.7,,0,1,0.0,9400
+5891,existing,1.Platinum,1.Bay Area,,,2,3,2,0,541.0,No Nice have skill,6042.0,No Nice have skill,11.7,,0,0,1.0,9246
+5892,existing,1.Platinum,1.Bay Area,,,2,3,2,0,541.0,No Nice have skill,6042.0,No Nice have skill,56.6,,0,0,1.0,5636
+5893,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,11.7,40.0,0,1,1.0,6535
+5894,new,1.Platinum,1.Bay Area,,,1,2,1,0,0.0,No Nice have skill,5340.0,No Nice have skill,56.6,,0,0,0.0,4797
+5895,existing,1.Platinum,1.Bay Area,Web Backend,p1,3,4,1,2,4228.0,247.0,13071.0,2590.0,11.7,40.0,0,1,1.0,6180
+5896,new,1.Platinum,2.Rest of US,Other,p0,2,2,2,0,0.0,No Nice have skill,2518.0,No Nice have skill,29.2,40.0,0,0,0.0,4637
+5897,new,1.Platinum,1.Bay Area,Machine Learning,p0,2,3,2,0,428.0,No Nice have skill,4925.0,No Nice have skill,56.6,40.0,0,0,0.0,5198
+5898,new,1.Platinum,1.Bay Area,Machine Learning,p0,2,1,2,0,0.0,No Nice have skill,1012.0,No Nice have skill,56.6,40.0,0,0,0.0,5199
+5899,new,1.Platinum,1.Bay Area,Machine Learning,p0,3,3,1,2,1620.0,36.0,6514.0,570.0,56.6,40.0,0,0,0.0,5196
+5900,new,1.Platinum,1.Bay Area,Other,p0,6,7,2,4,216.0,0,99.0,11.0,56.6,40.0,0,2,0.0,5200
+5902,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,3,5,3,0,0.0,No Nice have skill,278.0,No Nice have skill,29.2,40.0,0,0,1.0,5512
+5903,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,3,5,2,1,35.0,4251.0,369.0,15643.0,29.2,40.0,0,2,0.0,7149
+5904,new,1.Platinum,2.Rest of US,,,1,0,1,0,0.0,No Nice have skill,2845.0,No Nice have skill,29.2,,0,0,0.0,5845
+5905,new,1.Platinum,2.Rest of US,,,2,2,2,0,177.0,No Nice have skill,495.0,No Nice have skill,29.2,,0,0,0.0,5847
+5906,new,1.Platinum,2.Rest of US,,,1,1,1,0,351.0,No Nice have skill,686.0,No Nice have skill,29.2,,0,0,0.0,5846
+5907,new,1.Platinum,2.Rest of US,,,1,0,1,0,0.0,No Nice have skill,2845.0,No Nice have skill,29.2,,0,0,0.0,5844
+5909,new,1.Platinum,3.Top 30 GDP,Other,p1,1,1,1,0,296.0,No Nice have skill,756.0,No Nice have skill,5.8,40.0,0,0,0.0,6769
+5911,new,1.Platinum,1.Bay Area,Backend Systems,p0,8,5,4,4,0.0,0,25.0,55.0,56.6,,0,2,0.0,7807
+5912,new,1.Platinum,1.Bay Area,Backend Systems,p0,9,7,5,4,0.0,0,42.0,55.0,56.6,,0,2,0.0,7808
+5913,new,1.Platinum,1.Bay Area,Backend Systems,p0,9,6,4,5,0.0,0,115.0,6.0,56.6,,0,2,0.0,7542
+5914,new,1.Platinum,1.Bay Area,Backend Systems,p0,8,5,4,4,0.0,0,25.0,55.0,56.6,,0,2,0.0,7806
+5915,new,1.Platinum,1.Bay Area,Backend Systems,p0,9,6,4,5,0.0,0,115.0,6.0,56.6,,0,2,0.0,7805
+5946,new,1.Platinum,2.Rest of US,QA,p0,8,5,2,6,65.0,0,1097.0,3.0,29.2,40.0,0,2,0.0,5379
+6161,new,1.Platinum,2.Rest of US,Backend Systems,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,0.0,2380
+6163,new,1.Platinum,1.Bay Area,Data Engineering,,6,5,5,1,0.0,0,28.0,641.0,56.6,,0,2,0.0,8470
+6164,new,1.Platinum,1.Bay Area,Full Stack,p1,7,8,3,4,24.0,1.0,634.0,55.0,56.6,,0,2,1.0,5265
+6165,new,1.Platinum,1.Bay Area,Full Stack,,8,9,5,3,0.0,0,261.0,441.0,56.6,,0,2,1.0,6952
+6166,new,1.Platinum,1.Bay Area,Full Stack,p1,3,4,3,0,24.0,No Nice have skill,634.0,No Nice have skill,56.6,,0,0,1.0,6767
+6167,new,1.Platinum,1.Bay Area,,,6,5,4,2,0.0,0,22.0,275.0,56.6,,0,2,0.0,8525
+6168,new,1.Platinum,1.Bay Area,DevOps,,9,9,9,0,0.0,No Nice have skill,1.0,No Nice have skill,56.6,,0,2,0.0,8469
+6169,new,1.Platinum,1.Bay Area,Full Stack,p1,3,4,3,0,24.0,No Nice have skill,634.0,No Nice have skill,56.6,,0,0,1.0,8088
+6170,existing,1.Platinum,4.Others,Fullstack (BE-heavy),p2,6,4,4,2,0.0,0,3.0,83.0,2.0,40.0,0,2,0.0,8698
+6171,existing,1.Platinum,4.Others,Machine Learning,p1,3,2,3,0,0.0,No Nice have skill,4.0,No Nice have skill,2.0,40.0,0,0,0.0,7513
+6174,new,1.Platinum,2.Rest of US,Data Engineering,,1,0,1,0,0.0,No Nice have skill,2255.0,No Nice have skill,29.2,,0,0,0.0,5916
+6175,existing,1.Platinum,1.Bay Area,Full Stack,p1,3,4,2,1,79.0,3188.0,1024.0,8619.0,22.2,,0,0,1.0,7495
+6176,existing,1.Platinum,1.Bay Area,Full Stack,,4,5,4,0,4.0,No Nice have skill,28.0,No Nice have skill,56.6,,0,0,1.0,8780
+6177,existing,1.Platinum,1.Bay Area,Full Stack,p1,3,4,2,1,79.0,3188.0,1024.0,8619.0,22.2,,0,0,1.0,6964
+6178,existing,1.Platinum,1.Bay Area,Web Frontend,,4,6,4,0,2.0,No Nice have skill,1801.0,No Nice have skill,56.6,,0,0,0.0,8781
+6181,new,1.Platinum,1.Bay Area,,,6,9,4,2,10.0,1525.0,1278.0,461.0,11.5,,0,2,1.0,7674
+6182,new,1.Platinum,1.Bay Area,,,3,5,3,0,54.0,No Nice have skill,5624.0,No Nice have skill,56.6,,0,0,0.0,8393
+6183,new,1.Platinum,1.Bay Area,DevOps,,4,4,4,0,0.0,No Nice have skill,522.0,No Nice have skill,56.6,,0,0,0.0,9263
+6184,new,1.Platinum,2.Rest of US,,,3,2,3,0,0.0,No Nice have skill,0.0,No Nice have skill,29.2,,0,0,0.0,7609
+6185,new,1.Platinum,2.Rest of US,Mobile,p1,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,29.2,40.0,0,0,0.0,4767
+6186,new,1.Platinum,2.Rest of US,Mobile,p1,3,1,3,0,0.0,No Nice have skill,16.0,No Nice have skill,29.2,40.0,0,0,0.0,3417
+6187,new,1.Platinum,4.Others,Mobile,p0,2,3,1,1,284.0,3749.0,7078.0,4285.0,29.2,,0,0,0.0,3510
+6188,new,1.Platinum,4.Others,Mobile,p0,6,6,3,3,30.0,0,831.0,105.0,29.2,,0,2,0.0,3511
+6189,new,1.Platinum,4.Others,Mobile,p0,8,7,3,5,141.0,0,3308.0,5.0,29.2,,0,2,0.0,3512
+6191,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,2,3,2,0,5.0,No Nice have skill,1093.0,No Nice have skill,29.2,,0,0,0.0,4746
+6192,new,1.Platinum,2.Rest of US,Web Frontend,,6,8,4,2,0.0,264.0,106.0,3296.0,29.2,,0,2,0.0,4744
+6193,new,1.Platinum,2.Rest of US,Web Frontend,,3,3,3,0,3.0,No Nice have skill,70.0,No Nice have skill,29.2,,0,0,0.0,4745
+6194,new,1.Platinum,2.Rest of US,Data Engineering,p0,5,5,4,1,0.0,117.0,291.0,1294.0,29.2,,0,2,0.0,4743
+6196,new,1.Platinum,2.Rest of US,Cloud - Data,p1,1,0,1,0,0.0,No Nice have skill,2309.0,No Nice have skill,29.2,40.0,0,0,0.0,8121
+6198,new,1.Platinum,2.Rest of US,Cloud - Data,p1,6,1,4,2,0.0,0,5.0,19.0,29.2,40.0,0,2,0.0,7237
+6201,new,1.Platinum,4.Others,Full Stack,,8,6,8,0,0.0,No Nice have skill,0.0,No Nice have skill,1.9,,0,2,0.0,8105
+6203,new,1.Platinum,2.Rest of US,Other,,8,8,8,0,0.0,No Nice have skill,4.0,No Nice have skill,29.2,,0,2,0.0,9079
+6204,new,1.Platinum,2.Rest of US,,,8,8,8,0,0.0,No Nice have skill,4.0,No Nice have skill,29.2,,0,2,0.0,9080
+6205,new,1.Platinum,2.Rest of US,Data Engineering,,9,9,7,2,0.0,0,7.0,371.0,29.2,,0,2,1.0,8213
+6207,new,1.Platinum,2.Rest of US,,,9,2,7,2,0.0,0,0.0,96.0,29.2,,0,2,0.0,8212
+6211,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),,3,5,3,0,54.0,No Nice have skill,5624.0,No Nice have skill,29.2,,0,0,0.0,8459
+6213,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,5,6,5,0,0.0,No Nice have skill,578.0,No Nice have skill,29.2,,0,0,0.0,8576
+6216,new,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2371.0,No Nice have skill,56.6,,0,0,0.0,9215
+6217,new,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2371.0,No Nice have skill,56.6,,0,0,0.0,9304
+6218,new,1.Platinum,1.Bay Area,Data Engineering,,4,4,4,0,0.0,No Nice have skill,885.0,No Nice have skill,56.6,,0,0,0.0,9225
+6219,new,1.Platinum,1.Bay Area,,,4,2,4,0,0.0,No Nice have skill,3.0,No Nice have skill,56.6,,0,0,0.0,9306
+6221,new,1.Platinum,1.Bay Area,Full Stack,,2,2,2,0,0.0,No Nice have skill,86.0,No Nice have skill,56.6,,0,0,0.0,9301
+6223,existing,1.Platinum,2.Rest of US,Web Frontend,p0,2,4,2,0,105.0,No Nice have skill,12001.0,No Nice have skill,29.2,40.0,0,0,1.0,6365
+6225,new,1.Platinum,1.Bay Area,Full Stack,p0,12,10,6,6,0.0,1.0,34.0,221.0,56.6,40.0,0,2,0.0,2876
+6226,new,1.Platinum,1.Bay Area,Web Frontend,p0,7,8,4,3,29.0,7.0,6025.0,456.0,56.6,40.0,0,2,0.0,3203
+6227,new,1.Platinum,1.Bay Area,Web Backend,p0,5,3,3,2,0.0,8.0,25.0,555.0,29.2,40.0,0,0,0.0,2151
+6228,existing,1.Platinum,2.Rest of US,Web Backend,,4,2,4,0,0.0,No Nice have skill,76.0,No Nice have skill,11.7,40.0,0,0,1.0,6178
+6229,existing,1.Platinum,2.Rest of US,Web Backend,,4,2,4,0,0.0,No Nice have skill,76.0,No Nice have skill,11.7,40.0,0,0,1.0,8443
+6230,existing,1.Platinum,2.Rest of US,Web Frontend,,3,4,2,1,105.0,0,12001.0,2056.0,11.7,,0,2,0.0,9102
+6231,existing,1.Platinum,2.Rest of US,Full Stack,,4,2,4,0,0.0,No Nice have skill,76.0,No Nice have skill,11.7,40.0,0,0,1.0,3410
+6232,existing,1.Platinum,2.Rest of US,Full Stack,,4,3,4,0,0.0,No Nice have skill,840.0,No Nice have skill,11.7,40.0,0,0,1.0,8454
+6233,existing,1.Platinum,2.Rest of US,Full Stack,p0,4,3,3,1,0.0,4251.0,319.0,15643.0,11.7,40.0,0,0,0.0,8165
+6234,new,1.Platinum,2.Rest of US,Web Frontend,,3,2,3,0,178.0,No Nice have skill,2942.0,No Nice have skill,29.2,40.0,0,0,0.0,2543
+6236,existing,1.Platinum,2.Rest of US,Web Backend,,4,2,4,0,0.0,No Nice have skill,76.0,No Nice have skill,11.7,40.0,0,0,1.0,6595
+6237,existing,1.Platinum,2.Rest of US,UI/UX Developer,,3,1,3,0,0.0,No Nice have skill,504.0,No Nice have skill,11.7,40.0,0,0,0.0,9168
+6238,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,4,3,4,0,0.0,No Nice have skill,488.0,No Nice have skill,11.7,40.0,0,0,1.0,8996
+6240,existing,1.Platinum,2.Rest of US,Full Stack,,4,3,4,0,0.0,No Nice have skill,840.0,No Nice have skill,11.7,40.0,0,0,0.0,7339
+6241,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,4,3,4,0,0.0,No Nice have skill,488.0,No Nice have skill,11.7,40.0,0,0,0.0,8771
+6242,existing,1.Platinum,2.Rest of US,Web Frontend,,5,5,4,1,0.0,3188.0,1935.0,8619.0,11.7,40.0,0,0,1.0,6008
+6243,existing,1.Platinum,2.Rest of US,Web Frontend,,5,5,4,1,0.0,3188.0,1935.0,8619.0,11.7,40.0,0,0,1.0,8438
+6245,existing,1.Platinum,2.Rest of US,UI/UX Developer,,3,1,3,0,0.0,No Nice have skill,504.0,No Nice have skill,11.7,40.0,0,0,1.0,8772
+6246,existing,1.Platinum,2.Rest of US,Web Frontend,,4,3,4,0,0.0,No Nice have skill,4306.0,No Nice have skill,11.7,40.0,0,0,0.0,8201
+6247,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,1,4,2,0.0,0,234.0,290.0,11.7,40.0,0,2,0.0,8200
+6248,existing,1.Platinum,2.Rest of US,Web Backend,,5,2,4,1,0.0,0,76.0,2294.0,11.7,40.0,0,2,1.0,8437
+6249,existing,1.Platinum,2.Rest of US,Web Frontend,,6,8,4,2,33.0,439.0,2369.0,7364.0,11.7,40.0,0,2,0.0,6695
+6250,new,1.Platinum,2.Rest of US,Web Frontend,,3,2,3,0,0.0,No Nice have skill,1315.0,No Nice have skill,29.2,40.0,0,0,1.0,2869
+6251,existing,1.Platinum,2.Rest of US,Web Backend,,3,1,3,0,0.0,No Nice have skill,964.0,No Nice have skill,11.7,40.0,0,0,1.0,6144
+6252,existing,1.Platinum,2.Rest of US,Web Frontend,,4,4,4,0,0.0,No Nice have skill,1935.0,No Nice have skill,11.7,40.0,0,0,1.0,6266
+6253,existing,1.Platinum,2.Rest of US,Web Backend,,4,3,2,2,0.0,223.0,794.0,1138.0,11.7,,0,2,0.0,9101
+6254,new,1.Platinum,2.Rest of US,Web Frontend,,4,3,4,0,0.0,No Nice have skill,1268.0,No Nice have skill,29.2,40.0,0,0,1.0,2868
+6255,existing,1.Platinum,2.Rest of US,Web Backend,,4,2,4,0,0.0,No Nice have skill,76.0,No Nice have skill,11.7,40.0,0,0,1.0,6007
+6256,existing,1.Platinum,2.Rest of US,Web Backend,,4,2,4,0,0.0,No Nice have skill,448.0,No Nice have skill,11.7,40.0,0,0,1.0,7125
+6257,existing,1.Platinum,2.Rest of US,UI/UX Developer,,3,1,3,0,0.0,No Nice have skill,504.0,No Nice have skill,11.7,40.0,0,0,1.0,8947
+6260,existing,1.Platinum,2.Rest of US,Full Stack,p0,2,0,2,0,0.0,No Nice have skill,990.0,No Nice have skill,11.7,40.0,0,0,1.0,3615
+6261,existing,1.Platinum,2.Rest of US,Full Stack,p0,10,10,5,5,0.0,0,732.0,128.0,11.7,40.0,0,2,0.0,6697
+6262,existing,1.Platinum,2.Rest of US,Machine Learning,p0,4,1,4,0,0.0,No Nice have skill,4.0,No Nice have skill,11.7,40.0,0,0,0.0,6896
+6263,existing,1.Platinum,2.Rest of US,Web Frontend,,4,4,4,0,33.0,No Nice have skill,3311.0,No Nice have skill,11.7,40.0,0,0,1.0,7425
+6264,new,1.Platinum,2.Rest of US,Full Stack,p0,8,5,2,6,0.0,0,990.0,41.0,29.2,40.0,0,2,1.0,2542
+6265,existing,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,6,6,6,0,0.0,No Nice have skill,66.0,No Nice have skill,11.7,40.0,0,0,0.0,9125
+6266,existing,1.Platinum,2.Rest of US,Full Stack,p0,3,2,3,0,0.0,No Nice have skill,911.0,No Nice have skill,11.7,40.0,0,0,0.0,8166
+6267,new,1.Platinum,2.Rest of US,Full Stack,,7,6,2,5,0.0,0,990.0,208.0,29.2,40.0,0,2,1.0,2881
+6268,new,1.Platinum,2.Rest of US,Cloud - Security,p0,7,4,5,2,0.0,0,64.0,23.0,29.2,40.0,0,2,0.0,6981
+6269,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,4,5,4,0,0.0,No Nice have skill,156.0,No Nice have skill,29.2,40.0,0,0,1.0,6980
+6270,new,1.Platinum,2.Rest of US,Web Frontend,p0,4,5,4,0,0.0,No Nice have skill,1016.0,No Nice have skill,29.2,40.0,0,0,0.0,6979
+6271,existing,1.Platinum,2.Rest of US,Web Frontend,p0,5,6,5,0,0.0,No Nice have skill,605.0,No Nice have skill,29.2,40.0,0,0,1.0,8925
+6272,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,4,5,4,0,0.0,No Nice have skill,156.0,No Nice have skill,29.2,40.0,0,0,0.0,8299
+6273,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,5,6,2,3,79.0,4.0,1024.0,371.0,29.2,40.0,0,2,0.0,2455
+6274,new,1.Platinum,1.Bay Area,Data Engineering,p0,8,6,5,3,0.0,0,86.0,210.0,56.6,40.0,0,2,0.0,2704
+6275,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,9,11,3,6,30.0,0,646.0,4.0,29.2,40.0,0,2,1.0,1770
+6276,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p1,4,5,3,1,22.0,6582.0,970.0,1109.0,29.2,40.0,0,2,1.0,1880
+6277,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p1,6,7,3,3,22.0,49.0,970.0,106.0,29.2,40.0,0,2,1.0,2023
+6278,new,1.Platinum,1.Bay Area,Full Stack,p0,2,4,2,0,33.0,No Nice have skill,9581.0,No Nice have skill,56.6,40.0,0,0,0.0,2450
+6279,new,1.Platinum,1.Bay Area,Backend Systems,p0,4,6,3,1,0.0,4251.0,45.0,15643.0,56.6,40.0,0,2,0.0,2452
+6280,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,5,3,3,2,0.0,0,21.0,59.0,56.6,40.0,0,2,0.0,2451
+6281,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,4,3,2,2,0.0,0,657.0,1681.0,56.6,40.0,0,2,1.0,2448
+6282,new,1.Platinum,1.Bay Area,Full Stack,p0,4,5,3,1,10.0,0,4870.0,160.0,56.6,40.0,0,2,0.0,2021
+6283,new,1.Platinum,1.Bay Area,Backend Systems,p0,5,6,2,3,33.0,93.0,9581.0,146.0,56.6,40.0,0,2,1.0,2226
+6285,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,4,5,2,2,1375.0,92.0,6140.0,1810.0,5.8,40.0,0,2,0.0,2139
+6287,new,1.Platinum,1.Bay Area,Web Frontend,p0,4,4,2,2,0.0,41.0,118.0,3029.0,56.6,40.0,0,2,0.0,2119
+6288,new,1.Platinum,1.Bay Area,Machine Learning,p0,3,3,3,0,0.0,No Nice have skill,67.0,No Nice have skill,56.6,40.0,0,0,0.0,2355
+6289,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,6,6,2,4,226.0,1.0,4110.0,272.0,5.8,40.0,0,2,1.0,2810
+6290,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,3,6,3,0,26.0,No Nice have skill,2437.0,No Nice have skill,5.8,40.0,0,0,1.0,3739
+6291,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,7,8,3,4,26.0,0,2437.0,5.0,5.8,40.0,0,2,1.0,2809
+6292,existing,1.Platinum,3.Top 30 GDP,Web Frontend,p0,3,6,3,0,26.0,No Nice have skill,2437.0,No Nice have skill,5.8,40.0,0,0,1.0,4593
+6294,new,1.Platinum,2.Rest of US,Mobile,p0,3,1,1,2,873.0,0,1070.0,616.0,29.2,40.0,0,0,0.0,2494
+6295,new,1.Platinum,2.Rest of US,Web Frontend,p0,6,6,3,3,54.0,0,5624.0,1990.0,29.2,40.0,0,2,0.0,2495
+6296,new,1.Platinum,2.Rest of US,Web Backend,p0,6,7,3,3,8.0,0,2004.0,39.0,29.2,40.0,0,2,0.0,2496
+6297,new,1.Platinum,4.Others,Web Backend,p0,8,8,3,5,0.0,4.0,157.0,227.0,1.9,40.0,0,2,0.0,2237
+6298,new,1.Platinum,4.Others,DevOps,p0,9,5,5,4,0.0,0,83.0,2.0,1.9,40.0,0,2,0.0,3160
+6299,new,1.Platinum,4.Others,Web Frontend,p0,3,3,3,0,0.0,No Nice have skill,341.0,No Nice have skill,1.9,40.0,0,0,0.0,2238
+6300,new,1.Platinum,4.Others,DevOps,p0,6,5,3,3,0.0,5.0,174.0,16.0,1.9,40.0,0,2,0.0,3180
+6301,new,1.Platinum,4.Others,DevOps,p0,5,6,4,1,0.0,752.0,1135.0,1103.0,1.9,40.0,0,2,0.0,2560
+6302,new,1.Platinum,2.Rest of US,Web Frontend,p0,6,6,3,3,0.0,0,1615.0,270.0,29.2,40.0,0,2,0.0,2248
+6303,new,1.Platinum,2.Rest of US,Mobile,p0,7,7,4,3,0.0,0,5.0,127.0,29.2,40.0,0,2,0.0,2241
+6304,new,1.Platinum,2.Rest of US,Web Backend,p0,9,7,4,5,0.0,0,118.0,23.0,29.2,40.0,0,2,1.0,2250
+6305,existing,1.Platinum,1.Bay Area,Web Backend,p0,2,2,1,1,752.0,645.0,1103.0,1558.0,11.7,40.0,0,0,1.0,9300
+6307,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4232
+6309,existing,1.Platinum,1.Bay Area,Mobile,,2,1,2,0,873.0,No Nice have skill,607.0,No Nice have skill,11.7,40.0,0,0,1.0,5434
+6310,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,3402
+6311,new,1.Platinum,1.Bay Area,Web Backend,p0,6,5,1,5,752.0,3.0,1103.0,131.0,56.6,40.0,0,2,0.0,2268
+6312,new,1.Platinum,1.Bay Area,Web Frontend,p0,5,4,1,4,1442.0,0,4615.0,32.0,56.6,40.0,0,2,0.0,2267
+6313,new,1.Platinum,1.Bay Area,Web Frontend,p0,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,56.6,40.0,0,0,1.0,2973
+6314,new,1.Platinum,1.Bay Area,Web Backend,p0,5,5,1,4,752.0,3.0,1103.0,175.0,56.6,40.0,0,2,1.0,2519
+6315,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4249
+6316,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,5130
+6317,existing,1.Platinum,1.Bay Area,Mobile,p0,2,3,2,0,347.0,No Nice have skill,4202.0,No Nice have skill,11.7,40.0,0,0,1.0,3984
+6318,existing,1.Platinum,1.Bay Area,Web Backend,p0,2,2,1,1,752.0,645.0,1103.0,1558.0,11.7,40.0,0,0,1.0,4085
+6320,existing,1.Platinum,1.Bay Area,Backend Systems,p0,1,1,1,0,645.0,No Nice have skill,1443.0,No Nice have skill,11.7,40.0,0,0,0.0,7135
+6321,existing,1.Platinum,1.Bay Area,Web Backend,p0,2,2,1,1,752.0,645.0,1103.0,1558.0,56.6,40.0,0,0,1.0,3133
+6322,existing,1.Platinum,1.Bay Area,Web Backend,p0,2,2,1,1,752.0,645.0,1103.0,1558.0,11.7,40.0,0,0,1.0,5542
+6323,existing,1.Platinum,1.Bay Area,Mobile,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,11.7,40.0,0,0,1.0,5944
+6324,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4300
+6325,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4327
+6326,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,5792
+6327,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,7517
+6328,new,1.Platinum,1.Bay Area,Web Frontend,p0,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,56.6,40.0,0,0,1.0,2672
+6329,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,56.6,40.0,0,0,1.0,3193
+6330,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,5,2,1,105.0,1442.0,12001.0,4615.0,11.7,40.0,0,0,1.0,3384
+6331,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4819
+6333,new,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,56.6,40.0,0,0,1.0,2657
+6334,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,3682
+6335,existing,1.Platinum,1.Bay Area,Mobile,,1,1,1,0,873.0,No Nice have skill,1501.0,No Nice have skill,11.7,40.0,0,0,1.0,5601
+6337,existing,1.Platinum,1.Bay Area,Web Frontend,p0,2,4,2,0,105.0,No Nice have skill,12001.0,No Nice have skill,11.7,40.0,0,0,1.0,3985
+6339,new,1.Platinum,1.Bay Area,Web Frontend,p0,1,1,1,0,1442.0,No Nice have skill,4615.0,No Nice have skill,56.6,40.0,0,0,1.0,2594
+6340,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,5,3,0,11.0,No Nice have skill,3336.0,No Nice have skill,56.6,40.0,0,0,0.0,3132
+6341,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4196
+6342,existing,1.Platinum,1.Bay Area,Web Frontend,p0,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,11.7,40.0,0,0,1.0,3966
+6343,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4131
+6344,existing,1.Platinum,1.Bay Area,Mobile,p0,1,1,1,0,1442.0,No Nice have skill,4615.0,No Nice have skill,11.7,40.0,0,0,1.0,4480
+6345,new,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,56.6,40.0,0,0,1.0,2584
+6346,existing,1.Platinum,1.Bay Area,Web Frontend,p0,3,5,3,0,54.0,No Nice have skill,5624.0,No Nice have skill,11.7,40.0,0,0,0.0,7076
+6347,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,5501
+6348,existing,1.Platinum,1.Bay Area,Mobile,,2,2,2,0,284.0,No Nice have skill,1874.0,No Nice have skill,11.7,40.0,0,0,0.0,5433
+6350,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4093
+6351,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,0.0,4880
+6352,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,5540
+6353,new,1.Platinum,1.Bay Area,Web Backend,p0,5,5,1,4,752.0,3.0,1103.0,191.0,56.6,40.0,0,2,1.0,2624
+6354,existing,1.Platinum,1.Bay Area,Web Backend,p0,1,1,1,0,752.0,No Nice have skill,1103.0,No Nice have skill,11.7,40.0,0,0,1.0,4206
+6355,new,1.Platinum,3.Top 30 GDP,Web Backend,p0,7,7,3,4,0.0,4.0,1382.0,121.0,5.8,40.0,0,2,0.0,2293
+6356,new,1.Platinum,3.Top 30 GDP,Full Stack,p0,5,3,3,2,0.0,0,151.0,211.0,5.8,40.0,0,2,0.0,2298
+6359,new,1.Platinum,1.Bay Area,Full Stack,p0,5,5,3,2,0.0,178.0,205.0,11545.0,56.6,40.0,0,2,0.0,2477
+6360,new,1.Platinum,2.Rest of US,UI/UX Developer,,3,2,3,0,0.0,No Nice have skill,9.0,No Nice have skill,29.2,40.0,0,0,0.0,2558
+6361,new,1.Platinum,2.Rest of US,Data Engineering,p0,3,1,1,2,0.0,0,200.0,734.0,29.2,40.0,0,0,0.0,2703
+6362,new,1.Platinum,2.Rest of US,Full Stack,p0,1,1,1,0,4315.0,No Nice have skill,8396.0,No Nice have skill,29.2,40.0,0,0,0.0,2712
+6363,new,1.Platinum,2.Rest of US,Backend Systems,,2,0,2,0,0.0,No Nice have skill,2.0,No Nice have skill,29.2,40.0,0,0,0.0,2766
+6364,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,6,6,2,4,72.0,0,298.0,16.0,56.6,40.0,0,2,0.0,3460
+6365,new,1.Platinum,2.Rest of US,Mobile,p0,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,29.2,40.0,0,0,1.0,3990
+6366,new,1.Platinum,2.Rest of US,Data Engineering,p0,6,5,3,3,10.0,0,2944.0,20.0,29.2,40.0,0,2,0.0,3706
+6367,new,1.Platinum,2.Rest of US,Mobile,p0,2,2,2,0,284.0,No Nice have skill,1874.0,No Nice have skill,29.2,40.0,0,0,0.0,3855
+6369,new,1.Platinum,2.Rest of US,DevOps,p0,6,5,4,2,1.0,0,609.0,142.0,29.2,40.0,0,2,0.0,4144
+6370,new,1.Platinum,2.Rest of US,Web Backend,,1,1,1,0,645.0,No Nice have skill,1558.0,No Nice have skill,29.2,,0,0,1.0,4278
+6372,new,1.Platinum,1.Bay Area,DevOps,p0,7,8,3,4,0.0,0,1444.0,12.0,56.6,40.0,0,2,0.0,5058
+6377,existing,1.Platinum,1.Bay Area,,,3,4,3,0,146.0,No Nice have skill,4897.0,No Nice have skill,56.6,,0,0,1.0,3601
+6378,existing,1.Platinum,1.Bay Area,Backend Systems,,8,8,5,3,0.0,0,159.0,1596.0,56.6,,0,2,0.0,3236
+6379,existing,1.Platinum,1.Bay Area,,,2,3,2,0,1410.0,No Nice have skill,10025.0,No Nice have skill,56.6,,0,0,1.0,3602
+6380,existing,1.Platinum,1.Bay Area,,,2,3,2,0,1410.0,No Nice have skill,10025.0,No Nice have skill,56.6,,0,0,1.0,3589
+6381,existing,1.Platinum,1.Bay Area,,,5,5,5,0,0.0,No Nice have skill,192.0,No Nice have skill,56.6,,0,0,1.0,3432
+6382,existing,1.Platinum,1.Bay Area,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,56.6,,0,1,0.0,3516
+6384,existing,1.Platinum,3.Top 30 GDP,,,2,0,2,0,0.0,No Nice have skill,117.0,No Nice have skill,5.9,,0,0,0.0,9114
+6386,new,1.Platinum,3.Top 30 GDP,Web Frontend,p0,3,4,1,2,4251.0,188.0,15643.0,1899.0,5.8,40.0,0,1,0.0,1245
+6387,existing,1.Platinum,3.Top 30 GDP,,,5,5,2,3,0.0,0,615.0,35.0,5.9,,0,2,0.0,9113
+6388,new,1.Platinum,1.Bay Area,,,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,56.6,,0,1,0.0,3379
+6389,new,1.Platinum,1.Bay Area,,,2,3,2,0,374.0,No Nice have skill,6302.0,No Nice have skill,56.6,,0,0,0.0,3380
+6390,new,1.Platinum,1.Bay Area,,,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,56.6,,0,1,0.0,3381
+6391,new,1.Platinum,1.Bay Area,,,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,56.6,,0,1,0.0,7593
+6392,new,1.Platinum,1.Bay Area,Web Frontend,,7,6,6,1,0.0,0,13.0,50.0,56.6,,0,2,0.0,6721
+6393,new,1.Platinum,1.Bay Area,Mobile,,4,3,3,1,81.0,0,608.0,1225.0,56.6,,0,2,0.0,6720
+6394,existing,1.Platinum,1.Bay Area,Web Backend,p1,3,3,1,2,9808.0,0,17893.0,717.0,11.7,,0,1,0.0,2598
+6395,new,1.Platinum,1.Bay Area,,,1,1,1,0,1620.0,No Nice have skill,6514.0,No Nice have skill,56.6,,0,0,0.0,7706
+6396,new,1.Platinum,2.Rest of US,,,4,1,4,0,0.0,No Nice have skill,119.0,No Nice have skill,29.2,,0,0,0.0,3887
+6398,new,1.Platinum,2.Rest of US,PM,,2,1,2,0,0.0,No Nice have skill,1190.0,No Nice have skill,29.2,,0,0,0.0,8787
+6399,new,1.Platinum,2.Rest of US,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,0.0,6898
+6401,new,1.Platinum,2.Rest of US,,,2,3,2,0,374.0,No Nice have skill,6302.0,No Nice have skill,29.2,,0,0,0.0,7581
+6403,new,1.Platinum,2.Rest of US,Full Stack,p0,11,13,9,2,0.0,0,4.0,664.0,29.2,,0,2,0.0,2346
+6408,new,1.Platinum,2.Rest of US,Web Frontend,p0,9,9,2,7,374.0,0,6302.0,1.0,29.2,,0,2,1.0,2554
+6410,new,1.Platinum,2.Rest of US,Full Stack,p0,7,7,3,4,1.0,0,2562.0,77.0,29.2,,0,2,0.0,2344
+6411,new,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,0.0,4007
+6412,new,1.Platinum,2.Rest of US,Web Backend,p0,8,6,2,6,1156.0,0,7198.0,1.0,29.2,,0,2,0.0,2557
+6415,new,1.Platinum,2.Rest of US,Backend Systems,p0,2,3,1,1,5048.0,9808.0,15171.0,17893.0,23.4,40.0,0,1,0.0,5357
+6417,new,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,1.0,2772
+6418,existing,1.Platinum,2.Rest of US,,,1,0,1,0,0.0,No Nice have skill,2255.0,No Nice have skill,29.2,,0,0,0.0,3931
+6419,new,1.Platinum,2.Rest of US,Web Frontend,,2,2,2,0,0.0,No Nice have skill,313.0,No Nice have skill,29.2,,0,0,0.0,2242
+6421,new,1.Platinum,2.Rest of US,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,1.0,2771
+6422,existing,1.Platinum,2.Rest of US,,p0,4,0,4,0,0.0,No Nice have skill,3.0,No Nice have skill,29.2,,0,0,0.0,2912
+6424,new,1.Platinum,4.Others,Web Frontend,p1,10,7,3,7,17.0,0,3655.0,0,29.2,40.0,0,2,0.0,2000
+6427,existing,1.Platinum,1.Bay Area,,,2,3,2,0,428.0,No Nice have skill,4925.0,No Nice have skill,11.7,,0,0,0.0,3352
+6429,existing,1.Platinum,1.Bay Area,,,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,11.7,,0,0,0.0,4038
+6430,existing,1.Platinum,1.Bay Area,Mobile,p0,3,1,2,1,0.0,0,592.0,201.0,11.7,40.0,0,0,0.0,3503
+6431,new,1.Platinum,1.Bay Area,Web Backend,,3,3,1,2,9808.0,0,17893.0,296.0,29.2,40.0,0,1,0.0,2027
+6432,new,1.Platinum,1.Bay Area,Web Frontend,p1,1,1,1,0,8.0,No Nice have skill,109.0,No Nice have skill,29.2,40.0,0,0,0.0,2122
+6433,new,1.Platinum,1.Bay Area,,,4,2,4,0,0.0,No Nice have skill,2.0,No Nice have skill,56.6,,0,0,0.0,8568
+6435,new,1.Platinum,1.Bay Area,DevOps,p0,7,3,3,4,0.0,0,426.0,104.0,56.6,40.0,0,2,0.0,2105
+6436,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,7,5,3,4,0.0,0,78.0,13.0,56.6,40.0,0,2,0.0,2107
+6437,new,1.Platinum,1.Bay Area,Web Frontend,p0,2,4,2,0,105.0,No Nice have skill,12001.0,No Nice have skill,56.6,40.0,0,0,0.0,2112
+6438,new,1.Platinum,2.Rest of US,Machine Learning,p1,8,7,7,1,0.0,645.0,5.0,1558.0,29.2,40.0,0,2,0.0,2123
+6440,new,1.Platinum,1.Bay Area,Full Stack,p0,4,5,2,2,114.0,13.0,7232.0,169.0,56.6,40.0,0,2,1.0,2218
+6442,existing,1.Platinum,1.Bay Area,,,3,5,3,0,65.0,No Nice have skill,2260.0,No Nice have skill,11.7,,0,0,1.0,3092
+6443,new,1.Platinum,1.Bay Area,,,10,13,4,6,18.0,0,3303.0,11.0,56.6,,0,2,1.0,2678
+6444,existing,1.Platinum,1.Bay Area,,,4,4,4,0,42.0,No Nice have skill,1492.0,No Nice have skill,11.7,,0,0,0.0,3043
+6448,new,1.Platinum,1.Bay Area,Other,p0,2,1,2,0,0.0,No Nice have skill,131.0,No Nice have skill,56.6,,0,0,0.0,2640
+6449,new,1.Platinum,1.Bay Area,Full Stack,p0,2,3,2,0,114.0,No Nice have skill,7232.0,No Nice have skill,56.6,40.0,0,0,1.0,2665
+6450,existing,1.Platinum,1.Bay Area,,,4,5,3,1,26.0,533.0,3814.0,2888.0,11.7,,0,0,0.0,3042
+6452,new,1.Platinum,2.Rest of US,Web Frontend,p1,7,3,6,1,0.0,0,27.0,742.0,29.2,,0,2,0.0,2311
+6454,new,1.Platinum,2.Rest of US,Web Frontend,p1,4,4,4,0,42.0,No Nice have skill,128.0,No Nice have skill,29.2,,0,0,1.0,2315
+6456,new,1.Platinum,2.Rest of US,Full Stack,p1,4,2,3,1,0.0,0,19.0,1881.0,29.2,,0,2,0.0,2475
+6458,new,1.Platinum,2.Rest of US,Other,p1,3,2,3,0,0.0,No Nice have skill,210.0,No Nice have skill,29.2,,0,0,0.0,2316
+6461,new,1.Platinum,4.Others,Other,p1,4,4,2,2,0.0,825.0,106.0,7895.0,1.9,,0,0,1.0,2326
+6465,new,1.Platinum,4.Others,Mobile,p1,1,1,1,0,873.0,No Nice have skill,1070.0,No Nice have skill,,,0,0,1.0,2323
+6466,new,1.Platinum,4.Others,,p0,9,8,3,6,92.0,0,922.0,41.0,1.9,,0,2,0.0,2700
+6467,existing,1.Platinum,4.Others,Other,p1,4,4,2,2,0.0,825.0,106.0,7895.0,2.0,,0,0,1.0,3174
+6468,new,1.Platinum,4.Others,DevOps,p1,4,5,3,1,0.0,1656.0,552.0,549.0,1.9,,0,2,1.0,2384
+6469,existing,1.Platinum,4.Others,DevOps,p1,3,3,3,0,0.0,No Nice have skill,274.0,No Nice have skill,2.0,,0,0,1.0,2732
+6471,new,1.Platinum,4.Others,Other,p1,1,1,1,0,1060.0,No Nice have skill,6518.0,No Nice have skill,1.9,40.0,0,0,1.0,2383
+6472,new,1.Platinum,4.Others,,p1,2,3,2,0,347.0,No Nice have skill,4202.0,No Nice have skill,1.9,,0,0,1.0,2382
+6473,existing,1.Platinum,4.Others,Web Backend,,7,7,3,4,0.0,0,45.0,3.0,2.0,,0,2,0.0,2698
+6474,new,1.Platinum,,Other,p1,7,6,5,2,0.0,0,8.0,431.0,29.2,,0,2,0.0,2467
+6475,new,1.Platinum,,Other,,5,5,5,0,0.0,No Nice have skill,8.0,No Nice have skill,29.2,,0,0,0.0,2466
+6476,new,1.Platinum,,Other,p1,4,5,3,1,18.0,1620.0,465.0,6514.0,29.2,,0,2,0.0,2468
+6477,existing,1.Platinum,2.Rest of US,Full Stack,p1,2,4,2,0,439.0,No Nice have skill,7364.0,No Nice have skill,29.2,40.0,0,0,0.0,9153
+6478,existing,1.Platinum,2.Rest of US,DevOps,,2,3,1,1,0.0,1656.0,5340.0,549.0,29.2,40.0,0,0,0.0,9152
+6479,new,1.Platinum,2.Rest of US,Full Stack,,4,7,3,1,65.0,213.0,2260.0,1698.0,29.2,,0,2,1.0,2493
+6480,existing,1.Platinum,2.Rest of US,Web Frontend,p1,2,2,1,1,6582.0,3188.0,1109.0,8619.0,29.2,40.0,0,0,0.0,9151
+6481,existing,1.Platinum,2.Rest of US,Full Stack,,7,11,4,3,3.0,3.0,1895.0,572.0,29.2,,0,2,0.0,3312
+6483,new,1.Platinum,1.Bay Area,QA,,3,3,3,0,0.0,No Nice have skill,8.0,No Nice have skill,56.6,,0,0,0.0,8934
+6485,new,1.Platinum,1.Bay Area,Other,,6,3,4,2,0.0,428.0,4.0,4925.0,56.6,,0,2,0.0,2545
+6486,new,1.Platinum,2.Rest of US,Web Backend,,4,3,2,2,0.0,0,1062.0,35.0,29.2,,0,2,1.0,2597
+6488,new,1.Platinum,2.Rest of US,,,5,5,2,3,525.0,141.0,643.0,3871.0,29.2,,0,2,0.0,2787
+6489,new,1.Platinum,2.Rest of US,,,2,0,1,1,0.0,0,1033.0,2073.0,29.2,,0,0,0.0,2791
+6490,new,1.Platinum,4.Others,Fullstack (BE-heavy),p0,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,1.9,40.0,0,1,0.0,2866
+6491,new,1.Platinum,,,,6,4,4,2,0.0,185.0,4.0,1578.0,29.2,,0,2,0.0,2927
+6492,new,1.Platinum,,,,6,3,4,2,0.0,44.0,3.0,281.0,29.2,,0,2,0.0,2923
+6493,new,1.Platinum,,,,5,3,3,2,0.0,185.0,1.0,1578.0,29.2,,0,2,0.0,2925
+6494,new,1.Platinum,,,,5,4,3,2,0.0,16.0,1.0,153.0,29.2,,0,2,0.0,2924
+6495,new,1.Platinum,,DevOps,,5,5,4,1,0.0,9808.0,197.0,17893.0,29.2,,0,2,0.0,2926
+6496,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p0,5,5,4,1,17.0,645.0,4216.0,1443.0,5.8,40.0,0,2,0.0,3037
+6497,new,1.Platinum,4.Others,,,7,5,3,4,10.0,0,20.0,142.0,1.9,,0,2,0.0,3111
+6499,new,1.Platinum,2.Rest of US,,,5,3,3,2,0.0,0,67.0,102.0,29.2,,0,2,0.0,3232
+6501,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,7,10,4,3,0.0,16.0,2534.0,470.0,29.2,,0,2,0.0,3230
+6502,new,1.Platinum,1.Bay Area,,,5,5,3,2,83.0,0,78.0,596.0,56.6,,0,2,0.0,3306
+6503,new,1.Platinum,1.Bay Area,,,7,6,4,3,0.0,0,4.0,500.0,56.6,,0,2,0.0,3307
+6505,new,1.Platinum,1.Bay Area,,,2,3,2,0,374.0,No Nice have skill,6302.0,No Nice have skill,56.6,,0,0,0.0,3415
+6506,new,1.Platinum,1.Bay Area,,,2,3,2,0,374.0,No Nice have skill,6302.0,No Nice have skill,56.6,,0,0,1.0,3414
+6507,new,1.Platinum,1.Bay Area,,,1,2,1,0,284.0,No Nice have skill,2554.0,No Nice have skill,29.2,,0,0,1.0,3421
+6508,new,1.Platinum,2.Rest of US,Full Stack,p0,7,10,4,3,1.0,0,204.0,87.0,29.2,40.0,0,2,0.0,3550
+6510,existing,1.Platinum,1.Bay Area,,,1,1,1,0,5048.0,No Nice have skill,15171.0,No Nice have skill,11.7,,0,1,0.0,8579
+6512,existing,1.Platinum,1.Bay Area,Web Backend,p0,3,2,3,0,0.0,No Nice have skill,102.0,No Nice have skill,11.7,40.0,0,0,1.0,8580
+6513,new,1.Platinum,2.Rest of US,Full Stack,,7,6,4,3,0.0,0,47.0,82.0,29.2,,0,2,0.0,4599
+6514,new,1.Platinum,1.Bay Area,Full Stack,,4,5,4,0,0.0,No Nice have skill,12.0,No Nice have skill,56.6,,0,0,1.0,5516
+6515,new,1.Platinum,1.Bay Area,Cloud - Data,p1,4,1,4,0,0.0,No Nice have skill,3.0,No Nice have skill,56.6,,0,0,0.0,6403
+6516,existing,1.Platinum,1.Bay Area,,p1,3,0,3,0,0.0,No Nice have skill,9.0,No Nice have skill,56.6,,0,0,0.0,7270
+6517,new,1.Platinum,1.Bay Area,Full Stack,,8,11,6,2,0.0,88.0,209.0,6539.0,56.6,,0,2,0.0,5515
+6518,existing,1.Platinum,1.Bay Area,Cloud - Data,,4,5,4,0,0.0,No Nice have skill,9.0,No Nice have skill,56.6,,0,0,1.0,9205
+6519,existing,1.Platinum,1.Bay Area,Data Engineering,,1,1,1,0,148.0,No Nice have skill,11204.0,No Nice have skill,56.6,,0,0,0.0,8950
+6520,new,1.Platinum,1.Bay Area,,p1,3,0,3,0,0.0,No Nice have skill,65.0,No Nice have skill,56.6,,0,0,1.0,6404
+6521,existing,1.Platinum,2.Rest of US,,p0,4,2,3,1,0.0,0,690.0,2002.0,11.7,,0,2,0.0,9141
+6522,existing,1.Platinum,2.Rest of US,Mobile,p0,4,3,3,1,0.0,3749.0,0.0,4285.0,11.7,,0,0,0.0,7900
+6523,new,1.Platinum,2.Rest of US,,,2,1,2,0,0.0,No Nice have skill,37.0,No Nice have skill,29.2,,0,0,0.0,6800
+6524,new,1.Platinum,2.Rest of US,Full Stack,,3,1,1,2,1480.0,0,1350.0,26.0,29.2,,0,2,0.0,6864
+6526,new,1.Platinum,4.Others,,,2,3,1,1,4251.0,5048.0,15643.0,15171.0,1.9,,0,1,0.0,7271
+6527,new,1.Platinum,4.Others,,,2,3,1,1,5048.0,4251.0,15171.0,15643.0,1.9,,0,1,0.0,7272
+7444,new,1.Platinum,2.Rest of US,Full Stack,p2,3,3,3,0,24.0,No Nice have skill,270.0,No Nice have skill,29.2,,0,0,0.0,6002
+7445,new,1.Platinum,4.Others,Mobile,p1,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,1.9,,0,1,0.0,6397
+7446,new,1.Platinum,4.Others,,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,1.9,,0,1,0.0,3488
+7447,new,1.Platinum,4.Others,,,4,4,2,2,76.0,91.0,428.0,115.0,1.9,,0,2,0.0,6398
+7448,new,1.Platinum,4.Others,Data Engineering,p1,1,0,1,0,0.0,No Nice have skill,365.0,No Nice have skill,1.6,40.0,0,0,1.0,5241
+7450,new,1.Platinum,1.Bay Area,DevOps,p0,5,4,4,1,0.0,0,112.0,2309.0,56.6,,0,2,0.0,5274
+7451,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p0,5,2,2,3,113.0,0,1310.0,22.0,56.6,,0,2,0.0,5273
+7452,new,1.Platinum,1.Bay Area,Data Engineering,p0,5,7,4,1,1.0,148.0,10.0,11204.0,56.6,,0,2,0.0,5466
+7453,new,1.Platinum,1.Bay Area,Full Stack,p0,6,6,5,1,1.0,2728.0,63.0,9668.0,56.6,,0,2,0.0,5271
+7454,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,5,5,5,0,6.0,No Nice have skill,64.0,No Nice have skill,56.6,,0,0,0.0,5272
+7455,new,1.Platinum,1.Bay Area,Web Backend,p1,1,1,1,0,4228.0,No Nice have skill,13071.0,No Nice have skill,56.6,,0,1,0.0,5418
+7456,new,1.Platinum,1.Bay Area,Web Backend,p1,2,2,2,0,103.0,No Nice have skill,624.0,No Nice have skill,56.6,,0,0,1.0,6019
+7457,new,1.Platinum,1.Bay Area,Web Backend,p1,2,3,2,0,1410.0,No Nice have skill,10025.0,No Nice have skill,56.6,,0,0,1.0,6047
+7458,existing,1.Platinum,1.Bay Area,Web Backend,p1,2,3,2,0,1410.0,No Nice have skill,10025.0,No Nice have skill,56.6,,0,0,1.0,6341
+7459,new,1.Platinum,1.Bay Area,Mobile,p1,5,5,2,3,0.0,7.0,35.0,202.0,56.6,,0,2,0.0,6169
+7462,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,3,4,2,1,79.0,3467.0,1024.0,8821.0,29.2,40.0,0,0,0.0,2487
+7463,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,3,4,2,1,79.0,3467.0,1024.0,8821.0,29.2,,0,0,0.0,2485
+7464,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,3,4,2,1,79.0,3467.0,1024.0,8821.0,29.2,,0,0,0.0,2478
+7470,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,6,6,6,0,0.0,No Nice have skill,10.0,No Nice have skill,56.6,40.0,0,2,0.0,2892
+7472,new,1.Platinum,,Fullstack (FE-heavy),p0,2,3,2,0,321.0,No Nice have skill,4523.0,No Nice have skill,29.2,40.0,0,0,0.0,2911
+7478,new,1.Platinum,2.Rest of US,Backend Systems,p0,10,8,8,2,0.0,13.0,2.0,1976.0,29.2,,0,2,0.0,3071
+7481,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,2,2,2,0,698.0,No Nice have skill,1709.0,No Nice have skill,29.2,,0,0,0.0,3335
+7482,new,1.Platinum,2.Rest of US,,,2,1,2,0,0.0,No Nice have skill,6.0,No Nice have skill,56.6,,0,0,0.0,3368
+7483,new,1.Platinum,2.Rest of US,Backend Systems,p0,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,40.0,0,1,0.0,3437
+7484,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,6,8,4,2,11.0,113.0,34.0,1760.0,29.2,,0,2,0.0,3269
+7485,new,1.Platinum,2.Rest of US,Machine Learning,p0,6,4,3,3,0.0,0,438.0,73.0,29.2,,0,2,0.0,3537
+7486,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p0,6,6,3,3,91.0,0,1683.0,222.0,29.2,,0,2,0.0,3447
+7492,new,1.Platinum,2.Rest of US,Full Stack,p0,6,9,5,1,0.0,5048.0,34.0,15171.0,29.2,,0,2,0.0,3654
+7517,new,1.Platinum,2.Rest of US,,,4,4,1,3,645.0,0,1558.0,13.0,29.2,,0,2,0.0,6676
+7518,new,1.Platinum,2.Rest of US,Full Stack,,3,2,2,1,627.0,0,3121.0,7034.0,29.2,,0,0,0.0,6193
+7527,new,1.Platinum,2.Rest of US,Mobile,p0,5,3,2,3,81.0,0,1994.0,171.0,29.2,40.0,0,2,0.0,2553
+7530,existing,1.Platinum,2.Rest of US,UI/UX Developer,,4,3,4,0,0.0,No Nice have skill,1211.0,No Nice have skill,29.2,,0,0,1.0,5886
+7534,new,1.Platinum,2.Rest of US,Web Frontend,p1,8,7,6,2,0.0,0,154.0,10.0,29.2,,0,2,1.0,2576
+7536,existing,1.Platinum,2.Rest of US,,,4,3,3,1,141.0,0,10156.0,7034.0,29.2,,0,0,1.0,3671
+7537,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p0,1,1,1,0,645.0,No Nice have skill,1558.0,No Nice have skill,29.2,40.0,0,0,0.0,2590
+7545,new,1.Platinum,2.Rest of US,Full Stack,,1,0,1,0,0.0,No Nice have skill,164.0,No Nice have skill,29.2,,0,0,0.0,2955
+7546,new,1.Platinum,1.Bay Area,,,1,1,1,1,5048.0,5048.0,15171.0,15171.0,29.2,,0,1,0.0,2977
+7552,new,1.Platinum,3.Top 30 GDP,DevOps,,3,4,3,0,0.0,No Nice have skill,913.0,No Nice have skill,5.8,,0,0,0.0,5280
+7553,new,1.Platinum,2.Rest of US,,,3,4,3,0,8.0,No Nice have skill,2641.0,No Nice have skill,29.2,,0,0,0.0,3978
+7557,new,1.Platinum,2.Rest of US,Full Stack,p0,6,9,5,1,0.0,5048.0,34.0,15171.0,29.2,,0,2,0.0,3699
+7560,new,1.Platinum,2.Rest of US,,,1,1,1,0,873.0,No Nice have skill,1877.0,No Nice have skill,29.2,,0,0,0.0,3800
+7562,new,1.Platinum,2.Rest of US,Other,,4,4,2,2,1525.0,0,6270.0,260.0,29.2,,0,2,1.0,4328
+7564,existing,1.Platinum,2.Rest of US,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,1.0,7200
+7565,new,1.Platinum,2.Rest of US,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,29.2,,0,1,0.0,3841
+7570,new,1.Platinum,2.Rest of US,Web Frontend,,3,3,2,1,178.0,3188.0,11545.0,8619.0,29.2,,0,0,0.0,4119
+7572,new,1.Platinum,2.Rest of US,Mobile,,2,3,1,1,284.0,873.0,2554.0,1501.0,29.2,,0,0,0.0,4374
+7573,new,1.Platinum,2.Rest of US,,,2,1,2,0,873.0,No Nice have skill,1090.0,No Nice have skill,29.2,,0,0,0.0,5505
+7574,new,1.Platinum,1.Bay Area,Web Frontend,,3,4,3,0,0.0,No Nice have skill,1090.0,No Nice have skill,56.6,,0,0,1.0,4403
+7575,existing,1.Platinum,1.Bay Area,DevOps,,2,4,2,0,2.0,No Nice have skill,697.0,No Nice have skill,56.6,,0,0,0.0,8739
+7576,new,1.Platinum,1.Bay Area,,,2,3,2,0,825.0,No Nice have skill,7895.0,No Nice have skill,56.6,,0,0,1.0,5502
+7577,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,2,2,2,0,0.0,No Nice have skill,293.0,No Nice have skill,56.6,,0,0,0.0,8738
+7578,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,2,0,2,0,0.0,No Nice have skill,12.0,No Nice have skill,56.6,,0,0,0.0,8749
+7579,new,1.Platinum,3.Top 30 GDP,Mobile,p0,2,3,2,0,825.0,No Nice have skill,7895.0,No Nice have skill,5.8,,0,0,0.0,5375
+7580,new,1.Platinum,3.Top 30 GDP,Fullstack (FE-heavy),p0,7,6,3,4,106.0,0,753.0,319.0,5.8,,0,2,0.0,4617
+7581,new,1.Platinum,3.Top 30 GDP,Mobile,p0,7,2,3,4,0.0,0,323.0,54.0,5.8,,0,2,0.0,4614
+7582,new,1.Platinum,3.Top 30 GDP,Fullstack (FE-heavy),p0,6,6,3,3,18.0,0,845.0,252.0,5.8,,0,2,0.0,4613
+7583,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p0,10,9,4,6,3.0,0,416.0,17.0,5.8,,0,2,0.0,4618
+7584,new,1.Platinum,3.Top 30 GDP,UI/UX Developer,p0,4,2,3,1,0.0,178.0,19.0,13683.0,5.8,,0,2,0.0,4612
+7585,new,1.Platinum,3.Top 30 GDP,Mobile,p0,7,4,3,4,284.0,0,184.0,93.0,5.8,,0,2,0.0,4615
+7586,new,1.Platinum,2.Rest of US,Mobile,p0,1,1,1,0,1442.0,No Nice have skill,4615.0,No Nice have skill,29.2,,0,0,0.0,4606
+7587,new,1.Platinum,1.Bay Area,Full Stack,,3,5,3,0,4.0,No Nice have skill,3239.0,No Nice have skill,56.6,,0,0,1.0,4622
+7588,existing,1.Platinum,1.Bay Area,Full Stack,,3,4,3,0,0.0,No Nice have skill,2.0,No Nice have skill,56.6,,0,0,1.0,6100
+7589,existing,1.Platinum,1.Bay Area,Backend Systems,,2,1,2,0,1864.0,No Nice have skill,379.0,No Nice have skill,56.6,,0,0,0.0,5711
+7590,existing,1.Platinum,1.Bay Area,Full Stack,,3,5,3,0,4.0,No Nice have skill,3239.0,No Nice have skill,56.6,,0,0,0.0,8696
+7591,new,1.Platinum,1.Bay Area,Full Stack,,4,5,2,2,1410.0,389.0,10025.0,3414.0,56.6,,0,2,0.0,4756
+7593,new,1.Platinum,2.Rest of US,Web Frontend,p0,7,7,6,1,0.0,4228.0,432.0,13071.0,29.2,,0,2,0.0,5282
+7594,new,1.Platinum,2.Rest of US,Web Frontend,p0,4,5,3,1,51.0,6922.0,4426.0,16794.0,29.2,,0,2,1.0,6119
+7595,new,1.Platinum,2.Rest of US,Web Frontend,p0,1,2,1,0,2214.0,No Nice have skill,4939.0,No Nice have skill,29.2,,0,0,0.0,5942
+7596,new,1.Platinum,2.Rest of US,Web Frontend,p0,12,11,7,5,1.0,0,281.0,24.0,29.2,,0,2,1.0,5128
+7597,existing,1.Platinum,2.Rest of US,QA,,4,4,3,1,0.0,1656.0,437.0,549.0,29.2,,0,0,0.0,8741
+7598,existing,1.Platinum,2.Rest of US,Machine Learning,,4,4,2,2,1370.0,0,371.0,23.0,29.2,,0,2,0.0,8747
+7599,existing,1.Platinum,2.Rest of US,,,6,6,5,1,0.0,148.0,266.0,11204.0,29.2,,0,2,0.0,8748
+7600,new,1.Platinum,2.Rest of US,Full Stack,,1,1,1,0,645.0,No Nice have skill,1558.0,No Nice have skill,29.2,,0,0,0.0,5436
+7602,new,1.Platinum,1.Bay Area,Backend Systems,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,0.0,5885
+7604,new,1.Platinum,2.Rest of US,Other,,3,1,3,0,0.0,No Nice have skill,0.0,No Nice have skill,29.2,,0,0,0.0,6792
+7605,new,1.Platinum,2.Rest of US,DevOps,,2,1,2,0,0.0,No Nice have skill,148.0,No Nice have skill,29.2,,0,0,0.0,7001
+7606,new,1.Platinum,2.Rest of US,,,6,8,3,3,9.0,6.0,4807.0,544.0,29.2,,0,2,0.0,6032
+7607,new,1.Platinum,2.Rest of US,,,5,3,2,3,0.0,0,282.0,67.0,29.2,,0,2,0.0,6036
+7608,new,1.Platinum,2.Rest of US,Full Stack,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,1.0,7156
+7609,new,1.Platinum,2.Rest of US,Full Stack,,7,6,4,3,23.0,0,1215.0,0,7.4,,0,2,0.0,6332
+7610,new,1.Platinum,2.Rest of US,Full Stack,,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,,0,1,1.0,7155
+7612,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8479
+7613,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9025
+7614,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9054
+7615,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7027
+7616,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8826
+7617,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9280
+7618,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9203
+7619,existing,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,7869
+7620,existing,1.Platinum,1.Bay Area,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8564
+7621,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9313
+7622,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7414
+7623,existing,1.Platinum,1.Bay Area,PM,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,0.0,8478
+7624,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,0.0,8965
+7625,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8928
+7626,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9290
+7627,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9310
+7628,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9417
+7629,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7336
+7630,existing,1.Platinum,1.Bay Area,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8451
+7631,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8828
+7632,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9023
+7633,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9198
+7634,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9204
+7635,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9202
+7637,new,1.Platinum,1.Bay Area,PM,,2,3,1,1,9808.0,540.0,17893.0,3841.0,56.6,,0,1,1.0,6803
+7638,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9291
+7639,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9278
+7640,existing,1.Platinum,1.Bay Area,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8822
+7641,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,0.0,8981
+7642,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9416
+7643,existing,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,7999
+7644,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9309
+7645,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8492
+7646,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7334
+7647,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8560
+7648,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8923
+7649,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7257
+7650,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8495
+7652,existing,1.Platinum,1.Bay Area,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8452
+7653,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9199
+7654,existing,1.Platinum,1.Bay Area,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,0.0,7889
+7655,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8496
+7656,existing,1.Platinum,1.Bay Area,PM,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8500
+7657,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9279
+7658,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8562
+7659,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8824
+7660,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7256
+7661,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8924
+7662,existing,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8236
+7663,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8493
+7664,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8498
+7665,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7333
+7666,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8494
+7667,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7412
+7668,existing,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8083
+7669,new,1.Platinum,1.Bay Area,Data Engineering,,2,2,2,0,9808.0,No Nice have skill,489.0,No Nice have skill,56.6,,0,1,0.0,6597
+7670,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7254
+7671,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9294
+7672,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9295
+7673,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7255
+7674,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7413
+7675,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7416
+7676,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8561
+7677,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9197
+7678,existing,1.Platinum,1.Bay Area,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8450
+7679,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9019
+7680,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9415
+7681,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7026
+7682,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9277
+7683,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9276
+7684,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7415
+7685,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8827
+7686,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8927
+7687,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9020
+7688,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7328
+7689,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,0.0,8929
+7690,new,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7327
+7691,existing,1.Platinum,1.Bay Area,Data Engineering,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,56.6,,0,1,1.0,7672
+7692,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8499
+7693,existing,1.Platinum,1.Bay Area,,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,9176
+7694,existing,1.Platinum,1.Bay Area,Other,,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8821
+7695,existing,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,1,2,1,0,9808.0,No Nice have skill,17893.0,No Nice have skill,11.7,,0,1,1.0,8825
+7696,new,1.Platinum,2.Rest of US,Backend Systems,,4,4,2,2,1375.0,0,6140.0,242.0,29.2,,0,2,0.0,7393
+7697,new,1.Platinum,2.Rest of US,Full Stack,,6,8,5,1,7.0,1656.0,1129.0,549.0,29.2,,0,2,0.0,7019
+7698,new,1.Platinum,2.Rest of US,,,6,5,3,3,105.0,0,1439.0,3.0,29.2,,0,2,0.0,7340
+7699,new,1.Platinum,2.Rest of US,Other,,1,0,1,0,0.0,No Nice have skill,2845.0,No Nice have skill,29.2,,0,0,0.0,7752
+7700,new,1.Platinum,2.Rest of US,Full Stack,,3,5,3,0,0.0,No Nice have skill,63.0,No Nice have skill,29.2,,0,0,0.0,8977
+7701,new,1.Platinum,2.Rest of US,DevOps,,7,7,5,2,0.0,0,96.0,1396.0,29.2,,0,2,0.0,9135
+7702,new,1.Platinum,2.Rest of US,Data Engineering,,8,6,6,2,0.0,389.0,0.0,3414.0,29.2,,0,2,0.0,9118
+7704,new,1.Platinum,2.Rest of US,Backend Systems,,5,5,5,0,0.0,No Nice have skill,1.0,No Nice have skill,29.2,,0,0,0.0,8974
+7705,new,1.Platinum,2.Rest of US,Cloud - Data,,8,10,7,1,0.0,0,1.0,5340.0,29.2,,0,2,0.0,9177
+7707,new,1.Platinum,1.Bay Area,Full Stack,p1,5,8,3,2,112.0,0,2642.0,7028.0,56.6,40.0,0,2,0.0,2745
+7708,existing,1.Platinum,2.Rest of US,Full Stack,,6,8,5,1,3.0,4251.0,10.0,15643.0,11.7,40.0,0,2,0.0,6278
+7709,existing,1.Platinum,2.Rest of US,Backend Systems,,5,5,5,0,1.0,No Nice have skill,27.0,No Nice have skill,11.7,,0,0,0.0,6505
+7710,existing,1.Platinum,2.Rest of US,,,3,0,3,0,0.0,No Nice have skill,65.0,No Nice have skill,11.7,40.0,0,0,0.0,6742
+7711,existing,1.Platinum,2.Rest of US,,,3,0,3,0,0.0,No Nice have skill,65.0,No Nice have skill,11.7,40.0,0,0,0.0,6741
+7712,new,1.Platinum,1.Bay Area,Web Frontend,p1,2,3,2,0,1479.0,No Nice have skill,6563.0,No Nice have skill,56.6,40.0,0,0,1.0,3150
+7713,existing,1.Platinum,1.Bay Area,Data Engineering,p1,4,4,3,1,0.0,148.0,635.0,11204.0,56.6,40.0,0,2,0.0,3653
+7714,new,1.Platinum,1.Bay Area,Web Frontend,p1,5,6,3,2,50.0,178.0,8078.0,4163.0,56.6,40.0,0,2,1.0,2980
+7715,existing,1.Platinum,1.Bay Area,Data Engineering,p1,5,4,4,1,0.0,148.0,13.0,11204.0,56.6,40.0,0,2,1.0,3374
+7716,existing,1.Platinum,1.Bay Area,Web Frontend,p1,4,6,3,1,50.0,178.0,8078.0,13842.0,56.6,40.0,0,2,0.0,3607
+7717,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,5,5,3,2,0.0,0,411.0,533.0,29.2,40.0,0,2,0.0,3005
+7718,new,1.Platinum,4.Others,Fullstack (BE-heavy),p1,7,7,3,4,59.0,0,358.0,559.0,1.9,40.0,0,2,0.0,3027
+7719,new,1.Platinum,4.Others,Fullstack (BE-heavy),p1,8,7,4,4,11.0,0,237.0,559.0,1.9,40.0,0,2,0.0,3106
+7720,new,1.Platinum,4.Others,Other,p1,6,3,6,0,0.0,No Nice have skill,15.0,No Nice have skill,29.2,40.0,0,0,0.0,3201
+7721,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,5,3,5,0,0.0,No Nice have skill,99.0,No Nice have skill,29.2,,0,0,0.0,8142
+7722,existing,1.Platinum,2.Rest of US,Web Backend,p1,4,5,3,1,2.0,148.0,446.0,11204.0,29.2,40.0,0,2,0.0,4253
+7723,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p1,1,2,1,0,4251.0,No Nice have skill,15643.0,No Nice have skill,29.2,40.0,0,1,1.0,6269
+7724,existing,1.Platinum,2.Rest of US,Fullstack (FE-heavy),p1,4,6,4,0,0.0,No Nice have skill,1201.0,No Nice have skill,29.2,40.0,0,0,1.0,4254
+7725,new,1.Platinum,2.Rest of US,Web Backend,p1,5,6,3,2,2.0,45.0,446.0,5356.0,29.2,40.0,0,2,1.0,3612
+7726,new,1.Platinum,2.Rest of US,Web Backend,p1,3,2,3,0,0.0,No Nice have skill,8.0,No Nice have skill,29.2,40.0,0,0,1.0,3917
+7727,existing,1.Platinum,2.Rest of US,Web Backend,p1,4,5,3,1,2.0,436.0,313.0,21126.0,29.2,40.0,0,2,0.0,5665
+7728,existing,1.Platinum,2.Rest of US,Web Backend,p1,4,5,3,1,2.0,436.0,313.0,21126.0,11.7,40.0,0,2,1.0,5269
+7729,new,1.Platinum,1.Bay Area,Backend Systems,p1,5,4,3,2,0.0,389.0,98.0,3414.0,56.6,40.0,0,2,0.0,3925
+7730,new,1.Platinum,1.Bay Area,Mobile,,6,6,4,2,0.0,19.0,42.0,442.0,56.6,40.0,0,2,0.0,4257
+7731,new,1.Platinum,1.Bay Area,Web Frontend,,6,8,4,2,30.0,2.0,34.0,881.0,56.6,40.0,0,2,0.0,4256
+7732,new,1.Platinum,1.Bay Area,Backend Systems,p1,5,4,3,2,0.0,389.0,30.0,3414.0,56.6,40.0,0,2,0.0,3707
+7733,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,3,2,2,1,0.0,3467.0,67.0,8821.0,29.2,40.0,0,0,0.0,3919
+7734,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,3,2,2,1,0.0,3467.0,67.0,8821.0,29.2,40.0,0,0,0.0,3921
+7735,new,1.Platinum,2.Rest of US,Web Frontend,p1,4,3,3,1,41.0,0,1992.0,66.0,29.2,40.0,0,2,0.0,3952
+7736,new,1.Platinum,1.Bay Area,Mobile,p1,1,1,1,0,1442.0,No Nice have skill,4615.0,No Nice have skill,56.6,40.0,0,0,1.0,4291
+7737,new,1.Platinum,1.Bay Area,Mobile,p1,4,4,2,2,0.0,128.0,348.0,539.0,56.6,40.0,0,2,1.0,4309
+7738,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),p1,3,5,2,1,347.0,9808.0,4202.0,17893.0,56.6,40.0,0,2,0.0,4031
+7739,new,1.Platinum,1.Bay Area,Mobile,p1,4,4,2,2,0.0,128.0,348.0,539.0,56.6,40.0,0,2,1.0,3994
+7740,existing,1.Platinum,1.Bay Area,Other,,5,3,4,1,0.0,9808.0,39.0,514.0,56.6,,0,0,0.0,4680
+7741,existing,1.Platinum,1.Bay Area,Full Stack,,4,5,2,2,264.0,79.0,3296.0,1024.0,56.6,,0,2,0.0,7558
+7742,existing,1.Platinum,1.Bay Area,Full Stack,,2,2,2,0,264.0,No Nice have skill,3296.0,No Nice have skill,56.6,,0,0,1.0,8134
+7743,existing,1.Platinum,1.Bay Area,Data Engineering,,5,6,5,1,0.0,0,3.0,806.0,56.6,40.0,0,2,0.0,4681
+7744,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,6,5,4,2,0.0,105.0,3.0,12001.0,29.2,40.0,0,2,0.0,4204
+7745,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),p1,8,7,6,2,0.0,0,7.0,1669.0,29.2,40.0,0,2,0.0,4181
+7746,new,1.Platinum,2.Rest of US,Data Engineering,,5,7,4,1,0.0,0,198.0,806.0,29.2,40.0,0,2,0.0,4238
+7747,new,1.Platinum,2.Rest of US,Data Engineering,,5,3,4,1,0.0,0,3.0,988.0,29.2,40.0,0,2,0.0,4239
+7748,new,1.Platinum,2.Rest of US,Backend Systems,,4,3,3,1,0.0,752.0,356.0,1103.0,29.2,40.0,0,2,0.0,4324
+7749,new,1.Platinum,2.Rest of US,Backend Systems,,3,4,3,0,0.0,No Nice have skill,4.0,No Nice have skill,29.2,40.0,0,0,0.0,4325
+7752,new,1.Platinum,2.Rest of US,,,4,4,4,0,0.0,No Nice have skill,131.0,No Nice have skill,29.2,,0,0,0.0,6524
+7753,new,1.Platinum,2.Rest of US,QA,,5,2,4,1,0.0,0,38.0,1293.0,29.2,40.0,0,2,0.0,6277
+7754,new,1.Platinum,2.Rest of US,,,1,1,1,0,1480.0,No Nice have skill,2062.0,No Nice have skill,29.2,,0,0,0.0,7025
+7757,new,1.Platinum,2.Rest of US,Cloud - AI/ML,p1,8,8,6,2,0.0,0,8.0,2233.0,29.2,,0,2,0.0,8963
+7758,new,1.Platinum,2.Rest of US,Machine Learning,p1,4,2,4,0,0.0,No Nice have skill,1.0,No Nice have skill,29.2,,0,0,0.0,8984
+8307,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),p0,5,6,1,4,1060.0,3.0,6518.0,65.0,56.6,40.0,0,2,0.0,5778
+8308,new,1.Platinum,1.Bay Area,Data Engineering,p1,8,3,2,6,0.0,0,1785.0,23.0,56.6,40.0,0,2,0.0,4897
+8309,new,1.Platinum,1.Bay Area,Data Engineering,p1,1,0,1,0,0.0,No Nice have skill,2255.0,No Nice have skill,56.6,40.0,0,0,1.0,5117
+8310,new,1.Platinum,1.Bay Area,Full Stack,p0,3,5,3,0,2.0,No Nice have skill,792.0,No Nice have skill,56.6,40.0,0,0,0.0,5455
+8311,new,1.Platinum,1.Bay Area,Data Engineering,p1,8,5,5,3,0.0,0,734.0,143.0,56.6,40.0,0,2,0.0,4898
+8531,new,1.Platinum,4.Others,Mobile,p1,4,5,2,2,292.0,19.0,2291.0,690.0,1.6,40.0,0,2,1.0,5162
+9152,existing,1.Platinum,1.Bay Area,Backend Systems,p1,3,3,1,2,0.0,825.0,429.0,7895.0,56.6,40.0,0,0,0.0,9146
+9153,existing,1.Platinum,1.Bay Area,Mobile,p1,2,2,2,0,284.0,No Nice have skill,942.0,No Nice have skill,56.6,40.0,0,0,0.0,9144
+9154,existing,1.Platinum,1.Bay Area,Other,p1,2,2,1,1,0.0,9808.0,2255.0,514.0,56.6,40.0,0,0,0.0,9145
+9156,existing,1.Platinum,1.Bay Area,Mobile,,3,2,2,1,62.0,0,401.0,1866.0,56.6,,0,2,1.0,8754
+9157,new,1.Platinum,1.Bay Area,,,5,6,5,0,2.0,No Nice have skill,610.0,No Nice have skill,56.6,,0,0,1.0,5514
+9159,new,1.Platinum,1.Bay Area,Web Backend,p0,4,4,3,1,206.0,1656.0,3326.0,549.0,56.6,40.0,0,2,0.0,8895
+9160,new,1.Platinum,1.Bay Area,Web Frontend,p1,4,7,1,3,436.0,16.0,21126.0,289.0,56.6,40.0,0,2,0.0,8896
+9164,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p1,4,4,3,1,0.0,3467.0,144.0,8821.0,5.8,40.0,0,0,1.0,5642
+9165,existing,1.Platinum,3.Top 30 GDP,Cloud - Security,,4,3,3,1,0.0,0,45.0,2845.0,5.9,,0,2,0.0,7033
+9166,existing,1.Platinum,3.Top 30 GDP,Web Frontend,,6,6,4,2,4.0,0,286.0,333.0,5.9,,0,2,0.0,7030
+9167,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p1,2,1,2,0,0.0,No Nice have skill,448.0,No Nice have skill,5.8,40.0,0,0,0.0,5707
+9168,new,1.Platinum,3.Top 30 GDP,Other,,1,1,1,0,369.0,No Nice have skill,4093.0,No Nice have skill,5.8,,0,0,0.0,5443
+9169,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p1,3,4,3,0,40.0,No Nice have skill,619.0,No Nice have skill,5.8,40.0,0,0,1.0,6227
+9170,existing,1.Platinum,3.Top 30 GDP,Full Stack,,10,6,7,3,0.0,0,86.0,9.0,5.9,,0,2,0.0,6907
+9171,existing,1.Platinum,3.Top 30 GDP,Web Frontend,,5,6,4,1,4.0,4228.0,286.0,13071.0,5.9,,0,2,0.0,7028
+9172,existing,1.Platinum,3.Top 30 GDP,DevOps,,7,3,3,4,14.0,0,75.0,0,5.9,,0,2,0.0,7031
+9173,new,1.Platinum,3.Top 30 GDP,Fullstack (BE-heavy),p1,4,3,2,2,0.0,184.0,448.0,129.0,5.8,40.0,0,2,1.0,5706
+9174,existing,1.Platinum,3.Top 30 GDP,QA,,7,1,6,1,0.0,0,2.0,2324.0,5.9,,0,2,0.0,7032
+9175,existing,1.Platinum,3.Top 30 GDP,Web Frontend,,5,6,4,1,4.0,4228.0,286.0,13071.0,5.9,,0,2,0.0,7029
+9176,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,8,8,2,6,103.0,0,621.0,33.0,29.2,,0,2,0.0,6166
+9177,new,1.Platinum,2.Rest of US,Fullstack (BE-heavy),,8,8,2,6,103.0,0,621.0,33.0,29.2,,0,2,0.0,6165
+9178,new,1.Platinum,2.Rest of US,Fullstack (FE-heavy),,7,8,5,2,0.0,336.0,4.0,5193.0,29.2,,0,2,0.0,8071
+9179,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,10,10,4,6,9.0,0,3081.0,152.0,56.6,,0,2,1.0,6154
+9180,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,10,10,4,6,9.0,0,3081.0,152.0,56.6,,0,2,0.0,6159
+9181,existing,1.Platinum,1.Bay Area,Full Stack,,7,10,4,3,2.0,8.0,3236.0,1893.0,56.6,,0,2,0.0,8989
+9182,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,10,10,4,6,9.0,0,3081.0,152.0,56.6,,0,2,1.0,7475
+9183,existing,1.Platinum,1.Bay Area,Web Backend,,6,6,2,4,185.0,0,724.0,15.0,56.6,,0,2,0.0,8785
+9184,existing,1.Platinum,1.Bay Area,Web Backend,,5,6,1,4,9808.0,0,17893.0,207.0,56.6,,0,1,0.0,8990
+9185,existing,1.Platinum,1.Bay Area,Full Stack,,4,6,4,0,14.0,No Nice have skill,147.0,No Nice have skill,56.6,,0,0,1.0,8910
+9186,existing,1.Platinum,1.Bay Area,Mobile,,7,5,5,2,0.0,181.0,102.0,4918.0,56.6,,0,2,0.0,8957
+9187,existing,1.Platinum,1.Bay Area,Mobile,,6,6,3,3,284.0,60.0,890.0,2565.0,56.6,,0,2,0.0,8988
+9188,existing,1.Platinum,1.Bay Area,Web Backend,,6,6,2,4,185.0,0,724.0,15.0,56.6,,0,2,1.0,9221
+9189,new,1.Platinum,1.Bay Area,Web Backend,,9,9,3,6,0.0,0,186.0,43.0,56.6,,0,2,0.0,6636
+9190,new,1.Platinum,1.Bay Area,Web Frontend,,9,7,4,5,0.0,0,12.0,0,56.6,,0,2,0.0,6402
+9191,new,1.Platinum,1.Bay Area,Fullstack (BE-heavy),,5,5,2,3,37.0,0,2289.0,6.0,56.6,,0,2,0.0,6395
+9192,new,1.Platinum,1.Bay Area,Full Stack,,9,10,4,5,0.0,1.0,0.0,242.0,56.6,,0,2,0.0,6633
+9193,new,1.Platinum,1.Bay Area,Full Stack,,7,8,4,3,22.0,29.0,632.0,605.0,56.6,,0,2,0.0,6631
+9194,new,1.Platinum,1.Bay Area,Fullstack (FE-heavy),,7,6,2,5,141.0,0,11615.0,0,56.6,,0,2,0.0,6400
+9195,new,1.Platinum,1.Bay Area,Web Frontend,,8,7,3,5,42.0,0,1691.0,0,56.6,,0,2,0.0,6401
+9196,new,1.Platinum,2.Rest of US,Web Frontend,,7,5,2,5,1479.0,0,6563.0,4.0,29.2,,0,2,0.0,7131
+9197,new,1.Platinum,2.Rest of US,Mobile,,6,4,4,2,0.0,0,1.0,145.0,29.2,,0,2,0.0,7152
+9198,new,1.Platinum,2.Rest of US,Web Backend,,5,6,4,1,0.0,752.0,10.0,1103.0,29.2,,0,2,0.0,7151
+9199,new,1.Platinum,2.Rest of US,Web Backend,,14,7,11,3,0.0,0,0.0,28.0,29.2,,0,2,0.0,7411
+9200,new,1.Platinum,2.Rest of US,QA,,10,3,9,1,0.0,0,0.0,4839.0,29.2,,0,2,0.0,8354
+9201,new,1.Platinum,1.Bay Area,Full Stack,,10,8,8,2,0.0,184.0,0.0,1102.0,56.6,,0,2,0.0,7594
+9203,new,1.Platinum,1.Bay Area,,,5,3,4,1,0.0,184.0,17.0,167.0,56.6,,0,2,1.0,8793
+9204,new,1.Platinum,1.Bay Area,DevOps,,5,4,3,2,0.0,0,20.0,72.0,56.6,,0,2,1.0,8792
+9205,existing,1.Platinum,1.Bay Area,,,3,2,3,0,0.0,No Nice have skill,5.0,No Nice have skill,56.6,,0,0,1.0,9133
+9206,existing,1.Platinum,1.Bay Area,Other,p0,5,2,5,0,0.0,No Nice have skill,40.0,No Nice have skill,56.6,,0,0,0.0,9031
+9207,new,1.Platinum,1.Bay Area,Web Frontend,p0,3,4,1,2,4251.0,674.0,15643.0,6226.0,56.6,40.0,0,1,1.0,5941
+9208,existing,1.Platinum,1.Bay Area,,,4,6,4,0,31.0,No Nice have skill,4519.0,No Nice have skill,56.6,,0,0,0.0,9181
+9209,new,1.Platinum,1.Bay Area,,,3,5,2,1,135.0,4251.0,10215.0,15643.0,56.6,,0,2,1.0,8699
+9210,new,1.Platinum,1.Bay Area,UI/UX Developer,,3,1,3,0,0.0,No Nice have skill,41.0,No Nice have skill,56.6,,0,0,1.0,8428
+9211,new,1.Platinum,4.Others,,p0,2,1,2,0,0.0,No Nice have skill,876.0,No Nice have skill,0.5,40.0,0,0,0.0,8046
+9212,new,1.Platinum,2.Rest of US,Data Engineering,,9,5,2,7,2921.0,0,10631.0,4.0,29.2,,0,2,0.0,8543
+9213,new,1.Platinum,2.Rest of US,Data Engineering,,9,5,2,7,2921.0,0,10631.0,4.0,29.2,,0,2,0.0,8542
+9217,new,1.Platinum,2.Rest of US,Full Stack,p0,7,7,5,2,0.0,389.0,242.0,3414.0,29.2,40.0,0,2,0.0,8809
+9218,new,1.Platinum,2.Rest of US,Other,p0,5,1,3,2,0.0,0,5.0,707.0,29.2,40.0,0,2,1.0,9037
+9219,new,1.Platinum,2.Rest of US,Other,p0,2,1,2,0,1125.0,No Nice have skill,101.0,No Nice have skill,29.2,40.0,0,0,1.0,9242
+9221,new,1.Platinum,2.Rest of US,Other,p0,2,1,2,0,1125.0,No Nice have skill,101.0,No Nice have skill,29.2,40.0,0,0,1.0,9243
