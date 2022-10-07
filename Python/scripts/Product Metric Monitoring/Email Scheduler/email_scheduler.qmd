@@ -23,10 +23,11 @@ def print_anomalies(anomalies, forecasts):
         
         if data['yhat'].iloc[0] != 0:
             precentage_bump = (((data['y'].iloc[0] - data['yhat'].iloc[0]) / data['yhat'].iloc[0]) * 100)
+            precentage_bump = round (precentage_bump, 2)
         else:
             precentage_bump = 'undefined'
         
-        print(anomaly, '( ', round (precentage_bump, 2), '% )', '\n')
+        print(anomaly, '( ', precentage_bump, '% )', '\n')
 
 ```
 
