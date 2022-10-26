@@ -1,0 +1,22 @@
+projects:
+    query_id: 0
+    query_description: "Developer projects details"
+    query: "select developer_id,
+    project_name as dp_project_name,
+    start_year as dp_start_year,
+    start_month as dp_start_month,
+    end_year as dp_end_year,
+    end_month as dp_end_month,
+    details as dp_details,
+    outcome as dp_outcome,
+    contribution as dp_contribution
+from turing-230020.devdb_mirror.developer_project
+where developer_id is not null and details is not null 
+order by developer_id limit 10"
+
+jobs:
+    query_id: 1
+    query_description: "Jobs Data"
+    query: "select * 
+from `turing-230020.salesforce_prod.Opportunity` 
+where additional_requirements__c is not null limit 100"
