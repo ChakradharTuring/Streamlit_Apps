@@ -1,0 +1,1 @@
+Select * from `turing-230020.analytics_views.phase1_dev_level_data` limit %s
