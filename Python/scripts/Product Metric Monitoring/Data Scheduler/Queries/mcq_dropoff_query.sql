@@ -8,7 +8,7 @@ dev_info AS (
       ELSE 'ROW' 
     END AS geography
   , dev_id
-FROM turing-230020.analytics_views.phase1_dev_level_data
+FROM turing-230020.curated.phase1_dev_level_data
 WHERE 
   signup_date IS NOT NULL
 ORDER BY 1, 2
@@ -19,7 +19,7 @@ ORDER BY 1, 2
     user_id
   , challenge_id 
   , MAX (track_challenge_id) AS track_challenge_id
-  FROM turing-230020.devdb_mirror.dv2_track_challenge
+  FROM turing-230020.raw.dv2_track_challenge
   GROUP BY 1, 2
 )
   
@@ -33,8 +33,8 @@ ORDER BY 1, 2
   , (LENGTH (dtc.randomized_problems) - LENGTH (REPLACE (dtc.randomized_problems, ",", "")) + 1) as total_mcqs
   FROM 
     base_data as bd
-    LEFT JOIN turing-230020.devdb_mirror.dv2_track_challenge AS dtc ON dtc.track_challenge_id = bd.track_challenge_id and dtc.user_id = bd.user_id
-    INNER JOIN turing-230020.devdb_mirror.dv2_challenge c on c.challenge_id = bd.challenge_id
+    LEFT JOIN turing-230020.raw.dv2_track_challenge AS dtc ON dtc.track_challenge_id = bd.track_challenge_id and dtc.user_id = bd.user_id
+    INNER JOIN turing-230020.raw.dv2_challenge c on c.challenge_id = bd.challenge_id
 )
 
 , data AS (

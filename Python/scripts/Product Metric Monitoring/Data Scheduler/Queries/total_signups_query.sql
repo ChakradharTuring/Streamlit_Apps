@@ -8,7 +8,7 @@ data AS (
       ELSE 'ROW' 
     END AS geography
   , COUNT(DISTINCT dev_id) AS devs_count
-FROM turing-230020.analytics_views.phase1_dev_level_data
+FROM turing-230020.curated.phase1_dev_level_data
 WHERE 
   DATE (DATE_TRUNC(signup_date, DAY)) < CURRENT_DATE()
 GROUP BY 1, 2

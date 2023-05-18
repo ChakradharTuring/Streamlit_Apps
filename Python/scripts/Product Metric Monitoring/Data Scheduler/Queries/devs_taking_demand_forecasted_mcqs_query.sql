@@ -8,7 +8,7 @@ dev_info AS (
       ELSE 'ROW' 
     END AS geography
   , dev_id
-FROM turing-230020.analytics_views.phase1_dev_level_data
+FROM turing-230020.curated.phase1_dev_level_data
 WHERE 
   signup_date IS NOT NULL
 ORDER BY 1, 2
@@ -21,7 +21,7 @@ ORDER BY 1, 2
   , di.geography
   , MAX (cs.submit_id) AS submit_id
   FROM 
-    turing-230020.devdb_mirror.dv2_challenge_submit cs
+    turing-230020.raw.dv2_challenge_submit cs
     INNER JOIN dev_info di ON di.dev_id = cs.user_id 
   WHERE 
     cs.challenge_id IN (176, 234, 211, 173, 199, 164, 152, 120, 134, 115, 135, 284, 156, 123, 186, 160, 172, 163, 113, 142, 187, 208, 188, 202, 130, 154, 141, 138, 112, 236)
@@ -36,7 +36,7 @@ ORDER BY 1, 2
   , cs.challenge_id
   , bd.geography
   FROM 
-    turing-230020.devdb_mirror.dv2_challenge_submit cs  
+    turing-230020.raw.dv2_challenge_submit cs  
     INNER JOIN base_data bd ON (bd.user_id = cs.user_id AND bd.challenge_id = cs.challenge_id)
   ORDER BY 1 DESC, 2
 )

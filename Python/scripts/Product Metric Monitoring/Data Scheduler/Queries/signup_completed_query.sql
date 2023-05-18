@@ -8,15 +8,15 @@ dev_info AS (
       WHEN country IN ('Antigua and Barbuda', 'Argentina', 'Bahamas', 'Barbados', 'Belize', 'Bolivia', 'Bolivia, Plurinational State of', 'Brazil', 'Chile', 'Colombia', 'Costa Rica', 'Cuba', 'Dominica', 'Dominican Republic', 'Ecuador', 'El Salvador', 'Grenada', 'Guatemala', 'Guyana', 'Haiti', 'Honduras' , 'Jamaica', 'Mexico', 'Nicaragua', 'Panama', 'Paraguay', 'Peru', 'Saint Kitts and Nevis', 'Saint Lucia', 'Saint Vincent and The Grenadines', 'Saint Vincent and the Grenadines', 'Suriname', 'Trinidad and Tobago', 'Uruguay', 'Venezuela', 'Venezuela, Bolivarian Republic of') THEN 'LATAM' 
       ELSE 'ROW' 
     END AS geography
-  FROM turing-230020.analytics_views.phase1_dev_level_data
+  FROM turing-230020.curated.phase1_dev_level_data
 )
 
 , finish_button AS (
   SELECT
     DISTINCT (CAST (value AS int64)) AS developer_id
   , MIN(created_date) AS finish_signup_date
-  FROM turing-230020.devdb_mirror.metrics AS m
-    LEFT JOIN turing-230020.devdb_mirror.identity AS i ON i.metric_id = m.id
+  FROM turing-230020.raw.metrics AS m
+    LEFT JOIN turing-230020.raw.identity AS i ON i.metric_id = m.id
   WHERE
     name = 'ONBOARDING_PAGE_2_SAVE_INFO'
     AND KEY = 'action_user_id'

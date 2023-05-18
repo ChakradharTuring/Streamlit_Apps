@@ -8,7 +8,7 @@ dev_info AS (
       ELSE 'ROW' 
     END AS geography
   , dev_id
-  FROM turing-230020.analytics_views.phase1_dev_level_data
+  FROM turing-230020.curated.phase1_dev_level_data
   WHERE 
     signup_date IS NOT NULL
   ORDER BY 1, 2
@@ -24,8 +24,8 @@ dev_info AS (
     ELSE 'first upload' 
     END AS resume_upload_status
   FROM 
-    turing-230020.devdb_mirror.metrics  m
-    LEFT JOIN turing-230020.devdb_mirror.identity AS i ON i.metric_id = m.id
+    turing-230020.raw.metrics  m
+    LEFT JOIN turing-230020.raw.identity AS i ON i.metric_id = m.id
   WHERE 
     m.category = 'PROFILE_ONBOARDING'
     AND m.name= 'RESUME_UPLOAD' 

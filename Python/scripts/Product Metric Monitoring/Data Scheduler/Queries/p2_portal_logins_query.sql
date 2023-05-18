@@ -9,9 +9,9 @@ data AS (
     ELSE 'ROW' 
     END AS geography
   FROM 
-    turing-230020.analytics_views.dev_session_visit_data dsv
-    INNER JOIN turing-230020.analytics_views.phase2_dev_level_data p2 ON p2.dev_id = dsv.dev_id
-    LEFT JOIN turing-230020.analytics_views.phase1_dev_level_data p1 ON p1.dev_id = dsv.dev_id
+    turing-230020.curated.dev_session_visit_data dsv
+    INNER JOIN turing-230020.curated.phase2_dev_level_data p2 ON p2.dev_id = dsv.dev_id
+    LEFT JOIN turing-230020.curated.phase1_dev_level_data p1 ON p1.dev_id = dsv.dev_id
 )
 
 SELECT 	

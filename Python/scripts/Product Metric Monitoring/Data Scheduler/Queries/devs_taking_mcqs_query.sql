@@ -8,7 +8,7 @@ dev_info AS (
       ELSE 'ROW' 
     END AS geography
   , dev_id
-FROM turing-230020.analytics_views.phase1_dev_level_data
+FROM turing-230020.curated.phase1_dev_level_data
 WHERE 
   signup_date IS NOT NULL
 ORDER BY 1, 2
@@ -28,15 +28,15 @@ ORDER BY 1, 2
     END AS challenge_type
   , dcs.passed
   FROM
-    turing-230020.devdb_mirror.dv2_challenge dc
-    JOIN turing-230020.devdb_mirror.dv2_challenge_submit dcs ON dc.challenge_id = dcs.challenge_id
+    turing-230020.raw.dv2_challenge dc
+    JOIN turing-230020.raw.dv2_challenge_submit dcs ON dc.challenge_id = dcs.challenge_id
   WHERE
     dcs.challenge_id NOT IN (1, 2, 3, 4, 5, 6, 22, 23, 27, 100)
     AND dcs.challenge_id NOT IN (
       SELECT
         DISTINCT challenge_id
       FROM
-        turing-230020.devdb_mirror.dv2_challenge
+        turing-230020.raw.dv2_challenge
       WHERE
         challenge_name LIKE '%ACC%'
    ) 

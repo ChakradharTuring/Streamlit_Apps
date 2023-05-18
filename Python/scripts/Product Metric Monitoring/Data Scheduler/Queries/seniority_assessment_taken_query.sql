@@ -8,7 +8,7 @@ data AS (
       ELSE 'ROW' 
     END AS geography
   , COUNT(DISTINCT dev_id) AS devs_count
-FROM turing-230020.analytics_views.phase1_dev_level_data
+FROM turing-230020.curated.phase1_dev_level_data
 WHERE 
   DATE (DATE_TRUNC(seniority_mcq_first_taken, DAY)) < CURRENT_DATE()
   AND seniority_mcq_first_taken IS NOT NULL
