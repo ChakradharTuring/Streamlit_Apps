@@ -46,9 +46,9 @@ load_dotenv()
 
 board = pins.board_rsconnect(server_url='https://rstudio-connect.turing.com/', api_key=os.getenv("API_KEY"), allow_pickle_read=True)
 
-supply_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_supply_forecasts'))
-matching_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_matching_forecasts'))
-selfserv_forecasts = change_dict_df(board.pin_read('bhanu_mittal/janus_selfserv_forecasts'))
+supply_forecasts = change_dict_df(board.pin_read('bhanu.mittal@turing.com/janus_supply_forecasts'))
+matching_forecasts = change_dict_df(board.pin_read('bhanu.mittal@turing.com/janus_matching_forecasts'))
+selfserv_forecasts = change_dict_df(board.pin_read('bhanu.mittal@turing.com/janus_selfserv_forecasts'))
 
 anomalies = get_anomalous_metrics(supply_forecasts)
 if len(anomalies) == 0:
