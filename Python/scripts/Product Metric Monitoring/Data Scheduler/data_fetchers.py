@@ -45,15 +45,15 @@ def get_glossary():
       , 'ss_interview_requests': 'No. of interview requests from the SS Pool. This is aggregated based on interview scheduled date.'
       , 'ss_interviews_happened': 'No. of interview happened from the SS Pool. This is aggregated based on interview happened date.'
       , 'ss_devs_chosen': 'No. of devs chosen from the SS Pool. This is aggregated based on dev chosen date.'
-      , 'ss_searches': 'No. of SS Query searches. This is aggregated based on search query created date.'
+      # , 'ss_searches': 'No. of SS Query searches. This is aggregated based on search query created date.'
       , 'ss_profile_viewed': 'No. of SS Profile Viewed. This is aggregated based on dev profile viewed date.'
-      , 'ss_signin_failure': 'Percentage of SS Sign-in Failures. This is aggregated based on sign-in attempts and sign-in failure dates on a daily level.'
+      # , 'ss_signin_failure': 'Percentage of SS Sign-in Failures. This is aggregated based on sign-in attempts and sign-in failure dates on a daily level.'
       , 'devs_shortlisted': 'No. of devs shortlisted from Matching. This is aggregated based on dev shorlisted date.'
       , 'packets_sent': 'No. of packets sent from Matching. This is aggregated based on packet sent date.'
       , 'ms_interview_requests': 'No. of interview request from Matching. This is aggregated based on interview scheduled date.'
       , 'ms_interviews_happened': 'No. of interview happened from Matching. This is aggregated based on interview happened date.'
       , 'ms_devs_chosen': 'No. of devs chosen from Matching. This is aggregated based on dev chosen date.'
-      , 'ms_client_latency_perc50': 'MS Client Latency Percentile 50. This is simply the median value of all the latencies on daily level.'
+      # , 'ms_client_latency_perc50': 'MS Client Latency Percentile 50. This is simply the median value of all the latencies on daily level.'
       # , 'ss_client_latency_perc50': 'SS Client Latency Percentile 50. This is simply the median value of all the latencies on daily level.. '
     }
     
@@ -71,9 +71,9 @@ def get_selfserv_data():
     ss_interview_requests_fss_existing, ss_interview_requests_fss_new, ss_interview_requests_enterprise_existing, ss_interview_requests_enterprise_new = get_ss_interview_requests()
     ss_interviews_happened_fss_existing, ss_interviews_happened_fss_new, ss_interviews_happened_enterprise_existing, ss_interviews_happened_enterprise_new = get_ss_interviews_happened()
     ss_devs_chosen_fss_existing, ss_devs_chosen_fss_new, ss_devs_chosen_enterprise_existing, ss_devs_chosen_enterprise_new = get_ss_devs_chosen()
-    ss_searches_fss, ss_searches_enterprise = get_ss_searches()
+    # ss_searches_fss, ss_searches_enterprise = get_ss_searches()
     ss_profile_viewed_fss, ss_profile_viewed_enterprise = get_ss_profile_viewed()
-    ss_signin_failure = get_ss_signin_failure()
+    # ss_signin_failure = get_ss_signin_failure()
     #ss_client_latency_perc50 = get_ss_client_latency()
 
     selfserv_data = {
@@ -92,13 +92,13 @@ def get_selfserv_data():
       , 'ss_devs_chosen_enterprise_existing': ss_devs_chosen_enterprise_existing
       , 'ss_devs_chosen_enterprise_new': ss_devs_chosen_enterprise_new
       , 'ss_devs_chosen_overall': sum_data(ss_devs_chosen_fss_existing, ss_devs_chosen_fss_new, ss_devs_chosen_enterprise_existing, ss_devs_chosen_enterprise_new)
-      , 'ss_searches_fss': ss_searches_fss
-      , 'ss_searches_enterprise': ss_searches_enterprise
-      , 'ss_searches_overall': sum_data(ss_searches_fss, ss_searches_enterprise)
+      # , 'ss_searches_fss': ss_searches_fss
+      # , 'ss_searches_enterprise': ss_searches_enterprise
+      # , 'ss_searches_overall': sum_data(ss_searches_fss, ss_searches_enterprise)
       , 'ss_profile_viewed_fss': ss_profile_viewed_fss
       , 'ss_profile_viewed_enterprise': ss_profile_viewed_enterprise
       , 'ss_profile_viewed_overall': sum_data(ss_profile_viewed_fss, ss_profile_viewed_enterprise)
-      , 'ss_signin_failure': ss_signin_failure
+      # , 'ss_signin_failure': ss_signin_failure
       #, 'ss_client_latency_perc50': ss_client_latency_perc50
     }
     
@@ -118,7 +118,7 @@ def get_matching_data():
     ms_interview_requests_fss_existing, ms_interview_requests_fss_new, ms_interview_requests_enterprise_existing, ms_interview_requests_enterprise_new = get_ms_interview_requests()
     ms_interviews_happened_fss_existing, ms_interviews_happened_fss_new, ms_interviews_happened_enterprise_existing, ms_interviews_happened_enterprise_new = get_ms_interviews_happened()
     ms_devs_chosen_fss_existing, ms_devs_chosen_fss_new, ms_devs_chosen_enterprise_existing, ms_devs_chosen_enterprise_new = get_ms_devs_chosen()
-    ms_client_latency_perc50 = get_ms_client_latency()
+    # ms_client_latency_perc50 = get_ms_client_latency()
 
     matching_data = {
         'devs_shortlisted_fss_existing': devs_shortlisted_fss_existing
@@ -146,7 +146,7 @@ def get_matching_data():
       , 'ms_devs_chosen_enterprise_existing': ms_devs_chosen_enterprise_existing
       , 'ms_devs_chosen_enterprise_new': ms_devs_chosen_enterprise_new
       , 'ms_devs_chosen_overall': sum_data(ms_devs_chosen_fss_existing, ms_devs_chosen_fss_new, ms_devs_chosen_enterprise_existing, ms_devs_chosen_enterprise_new)
-      , 'ms_client_latency_perc50': ms_client_latency_perc50
+      # , 'ms_client_latency_perc50': ms_client_latency_perc50
     }
     
     return matching_data

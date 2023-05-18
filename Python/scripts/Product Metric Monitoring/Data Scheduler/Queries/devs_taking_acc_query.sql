@@ -8,7 +8,7 @@ dev_info AS (
       ELSE 'ROW' 
     END AS geography
   , dev_id
-FROM turing-230020.analytics_views.phase1_dev_level_data
+FROM turing-230020.curated.phase1_dev_level_data
 WHERE 
   signup_date IS NOT NULL
 ORDER BY 1, 2
@@ -29,10 +29,10 @@ ORDER BY 1, 2
   , LEAD(submit_time) OVER (PARTITION BY user_id, challenge_id ORDER BY submit_time, submit_id) AS lead_submit_time
   , DENSE_RANK() OVER (PARTITION BY user_id, challenge_id, bypass ORDER BY submit_time desc) AS bypass_flag_rank
   FROM 
-    turing-230020.devdb_mirror.dv2_challenge_submit AS dcs 
-    INNER JOIN analytics_views.phase1_dev_level_data ON user_id = dev_id
+    turing-230020.raw.dv2_challenge_submit AS dcs 
+    INNER JOIN curated.phase1_dev_level_data ON user_id = dev_id
   WHERE 
-    submit_id IN (SELECT DISTINCT (submit_id) FROM turing-230020.devdb_mirror.dv2_problem_submit)  
+    submit_id IN (SELECT DISTINCT (submit_id) FROM turing-230020.raw.dv2_problem_submit)  
     AND challenge_id = 220
 )
 

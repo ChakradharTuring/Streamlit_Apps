@@ -2,17 +2,21 @@ WITH
 
 data AS (
   SELECT 
-    dim_date AS date
-  , dim_client_type AS client_type
-  , dim_client_category AS client_category
-  , SUM(metrics_num_packets) AS devs_count
-  FROM turing-230020.matchingmetrics.product_metrics_throughput_cube_1
+    DATE (packet_sent_time) AS date
+  , client_type
+  , CASE 
+      WHEN client_category IN ('Unknown', 'Gold', 'Silver', 'Bronze') THEN 'FSS'
+      WHEN client_category = 'Enterprise' THEN 'Platinum'
+      ELSE client_category
+    END AS client_category
+  , COUNT(packet_sent_time) AS devs_count
+  FROM turing-230020.curated.job_dev_journey
   WHERE 
-    dim_date IS NOT NULL 
-    AND metrics_num_packets IS NOT NULL
-    AND dim_date < CURRENT_DATE()
-    AND dim_client_type IS NOT NULL 
-    AND dim_client_category IS NOT NULL
+    packet_sent_time IS NOT NULL
+    AND DATE (packet_sent_time) < CURRENT_DATE()
+    AND client_type IS NOT NULL 
+    AND client_category IS NOT NULL
+    AND is_si_selfserve = 0
   GROUP BY 1, 2, 3
   ORDER BY 1, 2, 3
 )

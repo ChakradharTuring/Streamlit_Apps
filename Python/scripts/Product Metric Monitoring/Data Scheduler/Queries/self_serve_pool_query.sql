@@ -20,11 +20,11 @@ table1 AS (
       ELSE 'ROW' 
     END AS geography
   FROM 
-    turing-230020.devdb_mirror.developer_detail AS dd 
+    turing-230020.raw.developer_detail AS dd 
     LEFT JOIN turing-230020.curated.dev_availability_all AS dda ON dd.user_id = dda.user_id 
-    LEFT JOIN turing-230020.devdb_mirror.user_list_v4 AS v4 ON dd.user_id = v4.id
-    LEFT JOIN turing-230020.devdb_mirror.tpm_developer_flags AS tdf ON dd.user_id = tdf.developer_id
-    LEFT JOIN turing-230020.analytics_views.country_information AS ci ON ci.country_id = dd.country_id
+    LEFT JOIN turing-230020.raw.user_list_v4 AS v4 ON dd.user_id = v4.id
+    LEFT JOIN turing-230020.raw.tpm_developer_flags AS tdf ON dd.user_id = tdf.developer_id
+    LEFT JOIN turing-230020.curated.country_information AS ci ON ci.country_id = dd.country_id
 )
 
 , dev_info AS (
@@ -35,7 +35,7 @@ table1 AS (
       ELSE 'ROW' 
     END AS geography
   , dev_id
-  FROM turing-230020.analytics_views.phase1_dev_level_data
+  FROM turing-230020.curated.phase1_dev_level_data
   WHERE 
     signup_date IS NOT NULL
   ORDER BY 1, 2

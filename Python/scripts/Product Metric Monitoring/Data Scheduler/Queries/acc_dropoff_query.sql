@@ -8,7 +8,7 @@ dev_info AS (
       ELSE 'ROW' 
     END AS geography
   , dev_id
-FROM turing-230020.analytics_views.phase1_dev_level_data
+FROM turing-230020.curated.phase1_dev_level_data
 WHERE 
   signup_date IS NOT NULL
 ORDER BY 1, 2
@@ -18,7 +18,7 @@ ORDER BY 1, 2
   SELECT 
     user_id
   , MAX (submit_id) AS submit_id
-  FROM turing-230020.devdb_mirror.dv2_challenge_submit
+  FROM turing-230020.raw.dv2_challenge_submit
   WHERE challenge_id = 220
   GROUP BY 1
 )
@@ -27,8 +27,8 @@ SELECT
   DATE (DATE_TRUNC (cs.submit_time, DAY)) AS date
 , ((COUNT (DISTINCT IF (auto_submit = 'user_quit', cs.user_id, NULL))) / (COUNT (DISTINCT cs.user_id))) * 100 AS devs_count
 FROM 
-  turing-230020.devdb_mirror.dv2_challenge_submit cs
-  INNER JOIN turing-230020.devdb_mirror.dv2_problem_submit ps ON ps.submit_id = cs.submit_id
+  turing-230020.raw.dv2_challenge_submit cs
+  INNER JOIN turing-230020.raw.dv2_problem_submit ps ON ps.submit_id = cs.submit_id
   INNER JOIN dev_info di on di.dev_id = cs.user_id 
 WHERE 
   cs.submit_id IN (SELECT DISTINCT submit_id FROM base_data)

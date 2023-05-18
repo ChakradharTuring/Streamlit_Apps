@@ -1,18 +1,24 @@
-WITH
+WITH 
 
 data AS (
   SELECT 
-    dim_date AS date
-  , dim_client_category AS client_category
-  , COUNT (DISTINCT profile_viewed) AS devs_count
-  FROM turing-230020.matchingmetrics.product_metrics_pre_throughput_cube_2
+    DATE (vp_date) AS date
+  , client_type
+  , CASE 
+      WHEN client_category IN ('Unknown', 'Gold', 'Silver', 'Bronze') THEN 'FSS'
+      WHEN client_category = 'Enterprise' THEN 'Platinum'
+      ELSE client_category
+    END AS client_category
+  , COUNT(vp_date) AS devs_count
+  FROM turing-230020.curated.job_dev_journey
   WHERE 
-    dim_date IS NOT NULL 
-    AND profile_viewed IS NOT NULL
-    AND dim_date < CURRENT_DATE()
-    AND dim_client_category IS NOT NULL
-  GROUP BY 1, 2
-  ORDER BY 1, 2
+    vp_date IS NOT NULL
+    AND DATE (vp_date) < CURRENT_DATE()
+    AND client_type IS NOT NULL 
+    AND client_category IS NOT NULL
+    AND is_si_selfserve = 1
+  GROUP BY 1, 2, 3
+  ORDER BY 1, 2, 3
 )
 
 SELECT 
@@ -21,4 +27,5 @@ SELECT
 FROM data 
 WHERE 
   client_category = '{}'
+  AND client_type = '{}'
 ORDER BY 1
