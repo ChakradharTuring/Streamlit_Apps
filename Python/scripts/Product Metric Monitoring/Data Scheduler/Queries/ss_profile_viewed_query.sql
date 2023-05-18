@@ -3,7 +3,6 @@ WITH
 data AS (
   SELECT 
     DATE (vp_date) AS date
-  , client_type
   , CASE 
       WHEN client_category IN ('Unknown', 'Gold', 'Silver', 'Bronze') THEN 'FSS'
       WHEN client_category = 'Enterprise' THEN 'Platinum'
@@ -17,8 +16,8 @@ data AS (
     AND client_type IS NOT NULL 
     AND client_category IS NOT NULL
     AND is_si_selfserve = 1
-  GROUP BY 1, 2, 3
-  ORDER BY 1, 2, 3
+  GROUP BY 1, 2
+  ORDER BY 1, 2
 )
 
 SELECT 
