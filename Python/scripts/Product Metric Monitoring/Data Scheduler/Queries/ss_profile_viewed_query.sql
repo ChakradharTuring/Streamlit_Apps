@@ -27,5 +27,4 @@ SELECT
 FROM data 
 WHERE 
   client_category = '{}'
-  AND client_type = '{}'
 ORDER BY 1
