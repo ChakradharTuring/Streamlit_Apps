@@ -728,6 +728,7 @@ def get_ms_client_latency():
 
 # To test the python file
 if __name__=='__main__':
-    ss_interview_requests_fss_existing, ss_interview_requests_fss_new, ss_interview_requests_enterprise_existing, ss_interview_requests_enterprise_new = get_ss_interview_requests()
-    ss_interview_requests_overall = sum_data(ss_interview_requests_enterprise_existing, ss_interview_requests_enterprise_new)
-    print(ss_interview_requests_overall)
+    # ss_profile_viewed_fss, ss_profile_viewed_enterprise = get_ss_profile_viewed()
+    # print(ss_profile_viewed_fss)
+    # print(sum_data(ss_profile_viewed_fss, ss_profile_viewed_enterprise))
+    get_all_data()
