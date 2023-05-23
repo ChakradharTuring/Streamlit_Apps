@@ -7,6 +7,8 @@ jupyter: python3
 
 This document has all the overall metrics listed which showed anomalous behavior yesterday. The percentage value written in the bracket depicts by how much has the metric value increased / decreased from the expected value, just for yesterday.
 
+If you want to look at deeper cuts, such as RoW or LATAM for Supply, FSS / Enterprise or New / Existing for Matching, please refer to the app. 
+
 ```{python}
 #| echo: false
 
