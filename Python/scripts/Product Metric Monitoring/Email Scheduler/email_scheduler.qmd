@@ -5,7 +5,7 @@ editor: visual
 jupyter: python3
 ---
 
-This document has all the metrics listed which showed anomalous behavior yesterday. The percentage value written in the bracket depicts by how much has the metric value increased / decreased from the expected value, just for yesterday.
+This document has all the overall metrics listed which showed anomalous behavior yesterday. The percentage value written in the bracket depicts by how much has the metric value increased / decreased from the expected value, just for yesterday.
 
 ```{python}
 #| echo: false
@@ -26,8 +26,9 @@ def print_anomalies(anomalies, forecasts):
             precentage_bump = round (precentage_bump, 2)
         else:
             precentage_bump = 'undefined'
-        
-        print(anomaly, '( ', precentage_bump, '% )', '\n')
+
+        if 'overall' in anomaly:
+            print(anomaly, '( ', precentage_bump, '% )', '\n')
 
 ```
 
