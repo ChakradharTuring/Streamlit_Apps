@@ -84,8 +84,8 @@ def sk_predict(original, data):
     # print(mean_squared_error(y_true = data_test['y'], y_pred = predictions, squared=False))
     predictions = predictions.reset_index().rename(columns={'index': 'ds', 'pred': 'yhat', 'lower_bound': 'yhat_lower', 'upper_bound': 'yhat_upper'})
     predictions = original.merge(predictions, how='inner', on='ds')
-    predictions['yhat_lower'] = predictions['yhat_lower'].clip(0)
-    predictions['yhat_upper'] = predictions['yhat_upper'].clip(0)
+    predictions['yhat_lower'] = predictions['yhat_lower'].clip(0).round()
+    predictions['yhat_upper'] = predictions['yhat_upper'].clip(0).round()
     predictions['anomaly'] = predictions.apply(lambda x: 1 if ((x['y'] < x['yhat_lower']) | (x['y'] > x['yhat_upper'])) else 0, axis = 1)
     predictions['day_name'] = (predictions['ds'].dt.day_name()).values
 
