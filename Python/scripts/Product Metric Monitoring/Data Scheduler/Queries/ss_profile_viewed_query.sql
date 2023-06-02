@@ -14,13 +14,15 @@ opp_data AS (
  FROM
    curated.opportunity_value ov
    LEFT JOIN salesforce_prod.Opportunity O on ov.opportunityid = O.id
+  WHERE
+   job_id NOT IN (SELECT DISTINCT job_id FROM curated.test_jobs_master_table WHERE job_id IS NOT NULL)
 )
 
 , data AS (
   SELECT
     DATE (ssua.created_at) AS date
     , CASE 
-      WHEN ((od.client_category IN ('Unknown', 'Gold', 'Silver', 'Bronze')) OR (od.client_category IS NULL)) THEN 'FSS'
+      WHEN ((od.client_category IN ('Unknown', 'Gold', 'Silver', 'Bronze')) OR (ssu.customer_category IN ('Unknown', 'Gold', 'Silver', 'Bronze'))) THEN 'FSS'
       WHEN od.client_category = 'Enterprise' THEN 'Platinum'
       ELSE od.client_category
     END AS client_category
@@ -45,5 +47,5 @@ SELECT
 , devs_count
 FROM data 
 WHERE 
-  client_category = 'FSS'
+  client_category = {}
 ORDER BY 1 DESC
