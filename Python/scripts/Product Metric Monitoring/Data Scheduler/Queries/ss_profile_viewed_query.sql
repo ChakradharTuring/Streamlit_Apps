@@ -47,5 +47,5 @@ SELECT
 , devs_count
 FROM data 
 WHERE 
-  client_category = {}
+  client_category = '{}'
 ORDER BY 1 DESC
