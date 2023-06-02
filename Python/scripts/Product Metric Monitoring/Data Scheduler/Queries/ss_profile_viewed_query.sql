@@ -38,6 +38,7 @@ opp_data AS (
       AND REPLACE(JSON_EXTRACT(payload, '$.email'), '"', '') NOT LIKE '%turing.com'
     ))
     AND ACTION = 'DEVELOPER_PROFILE_VIEW'
+    AND JSON_EXTRACT_SCALAR(ssua.payload,'$.source') <> 'HANDPICKED_LIST'
     AND internal_user = 0
   GROUP BY 1, 2
 )
@@ -47,5 +48,5 @@ SELECT
 , devs_count
 FROM data 
 WHERE 
-  client_category = '{}'
+  client_category = 'FSS'
 ORDER BY 1 DESC
