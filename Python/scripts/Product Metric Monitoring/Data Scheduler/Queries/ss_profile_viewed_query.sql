@@ -1,23 +1,43 @@
 WITH 
 
-data AS (
-  SELECT 
-    DATE (vp_date) AS date
-  , CASE 
-      WHEN client_category IN ('Unknown', 'Gold', 'Silver', 'Bronze') THEN 'FSS'
-      WHEN client_category = 'Enterprise' THEN 'Platinum'
-      ELSE client_category
+opp_data AS (
+ SELECT DISTINCT
+   ov.account
+ , CASE
+     WHEN ((O.service_customer__c IS TRUE) OR (O.teams__c is True)) THEN 'Services'
+     WHEN ov.client_category='1.Platinum' THEN 'Enterprise'
+     WHEN ov.client_category='2.Gold' THEN 'Gold'
+     WHEN ov.client_category='3.Silver' THEN 'Silver'
+     WHEN ov.client_category='4.Bronze' THEN 'Bronze'
+     ELSE 'Unknown'
+   END AS client_category
+ FROM
+   curated.opportunity_value ov
+   LEFT JOIN salesforce_prod.Opportunity O on ov.opportunityid = O.id
+)
+
+, data AS (
+  SELECT
+    DATE (ssua.created_at) AS date
+    , CASE 
+      WHEN ((od.client_category IN ('Unknown', 'Gold', 'Silver', 'Bronze')) OR (od.client_category IS NULL)) THEN 'FSS'
+      WHEN od.client_category = 'Enterprise' THEN 'Platinum'
+      ELSE od.client_category
     END AS client_category
-  , COUNT(vp_date) AS devs_count
-  FROM turing-230020.curated.job_dev_journey
-  WHERE 
-    vp_date IS NOT NULL
-    AND DATE (vp_date) < CURRENT_DATE()
-    AND client_type IS NOT NULL 
-    AND client_category IS NOT NULL
-    AND is_si_selfserve = 1
+    , COUNT (ssua.user_id) AS devs_count
+  FROM
+    raw.self_serve_user_activity ssua 
+    LEFT JOIN raw.self_serve_user ssu ON ssua.user_id = ssu.id
+    LEFT JOIN opp_data od ON ssu.company_name = od.account
+  WHERE
+    (ssu.email NOT LIKE '%turing.com'
+    OR (
+      ssua.action = 'SIGN_IN_FAILED'
+      AND REPLACE(JSON_EXTRACT(payload, '$.email'), '"', '') NOT LIKE '%turing.com'
+    ))
+    AND ACTION = 'DEVELOPER_PROFILE_VIEW'
+    AND internal_user = 0
   GROUP BY 1, 2
-  ORDER BY 1, 2
 )
 
 SELECT 
@@ -25,5 +45,5 @@ SELECT
 , devs_count
 FROM data 
 WHERE 
-  client_category = '{}'
-ORDER BY 1
+  client_category = 'FSS'
+ORDER BY 1 DESC
